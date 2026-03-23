@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-23T16:10:02+00:00",
+    "updated_at": "2026-03-23T16:32:05+00:00",
     "update_frequency": "daily",
     "description": "Vessel counts in critical maritime chokepoints from AIS data. Snapshot-based (not full-day traffic).",
     "caveat": "Instantaneous count from AIS receivers, not daily throughput. Military vessels often turn off AIS transponders."

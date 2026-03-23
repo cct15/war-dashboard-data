@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-23T16:10:02+00:00",
+    "updated_at": "2026-03-23T16:32:05+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -14,21 +14,21 @@
     {
       "event_summary": "Slovenian Parliamentary Election Winner",
       "category": "political",
-      "probability": 0.9805,
+      "probability": 0.9815,
       "deadline": null,
       "market_confidence": "high"
     },
     {
       "event_summary": "Next Prime Minister of Slovenia",
       "category": "political",
-      "probability": 0.695,
+      "probability": 0.715,
       "deadline": null,
       "market_confidence": "high"
     },
     {
       "event_summary": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.63,
+      "probability": 0.615,
       "deadline": "2026-12-31",
       "market_confidence": "high"
     },

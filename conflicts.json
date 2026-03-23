@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-23T16:10:02+00:00",
+    "updated_at": "2026-03-23T16:32:05+00:00",
     "update_frequency": "daily",
-    "description": "Geopolitical conflict risk probabilities derived from prediction market data and statistical modeling.",
+    "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
       "russia_ukraine",
       "iran_israel_us",

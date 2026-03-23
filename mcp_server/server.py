@@ -85,7 +85,7 @@ TOOLS = [
             "Russia-Ukraine, Iran-Israel/US, Israel-Palestine, China-Taiwan, India-Pakistan, US-Latin America. "
             "Each conflict includes probability of escalation, ceasefire, regime change, and other events "
             "within 1-day, 7-day, and 30-day horizons. "
-            "Probabilities are derived from prediction market data and statistical modeling. "
+            "Probabilities are derived from proprietary multi-source modeling. "
             "Updated daily. Use this to assess geopolitical risk exposure for trading or risk management."
         ),
         "inputSchema": {
