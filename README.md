@@ -67,7 +67,7 @@ Vessel counts in 6 critical chokepoints, broken down by type (tanker, cargo, mil
 
 ### political_events.json
 
-High-impact events with probability, deadline, category, and market confidence level.
+High-impact events with probability, deadline, category, and data confidence level.
 
 ## Use Cases
 
