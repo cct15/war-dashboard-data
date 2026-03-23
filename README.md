@@ -80,7 +80,7 @@ High-impact events with probability, deadline, category, and market confidence l
 ## Technical Details
 
 - **Zero dependencies**: MCP server uses only Python stdlib (works with Python 3.9+)
-- **Data source**: Prediction market data + Poisson statistical modeling
+- **Data source**: Proprietary multi-source modeling
 - **Update frequency**: Daily
 - **Latency**: Public data has ~24h delay
 
