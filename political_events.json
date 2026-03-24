@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-23T16:35:22+00:00",
+    "updated_at": "2026-03-24T02:23:09+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -12,24 +12,17 @@
   },
   "events": [
     {
-      "event_summary": "Slovenian Parliamentary Election Winner",
+      "event_summary": "Next Prime Minister of Vietnam",
       "category": "political",
-      "probability": 0.98,
+      "probability": 0.9555,
       "deadline": null,
       "data_confidence": "high"
     },
     {
-      "event_summary": "Next Prime Minister of Slovenia",
+      "event_summary": "Brazil Presidential Election First Round: 2nd Place",
       "category": "political",
-      "probability": 0.72,
+      "probability": 0.585,
       "deadline": null,
-      "data_confidence": "high"
-    },
-    {
-      "event_summary": "California Governor Election Winner",
-      "category": "political",
-      "probability": 0.615,
-      "deadline": "2026-12-31",
       "data_confidence": "high"
     },
     {
@@ -47,30 +40,37 @@
       "data_confidence": "high"
     },
     {
+      "event_summary": "Brazil Presidential Election",
+      "category": "political",
+      "probability": 0.415,
+      "deadline": null,
+      "data_confidence": "high"
+    },
+    {
       "event_summary": "Next French Presidential Election",
       "category": "political",
-      "probability": 0.255,
+      "probability": 0.245,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.243,
+      "probability": 0.2425,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.196,
+      "probability": 0.1965,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "US recession by end of 2026",
       "category": "economic",
-      "probability": 0.325,
+      "probability": 0.345,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     }
