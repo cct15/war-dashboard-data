@@ -1,4 +1,10 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "maintainers": ["cct15"]
+  "maintainers": ["cct15"],
+  "relatedServers": [
+    "anjor/coinmarket-mcp-server",
+    "Codex-Data/codex-mcp",
+    "coinpaprika/dexpaprika-mcp",
+    "ahnlabio/bicscan-mcp"
+  ]
 }
