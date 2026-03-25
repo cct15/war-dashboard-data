@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-24T02:23:09+00:00",
+    "updated_at": "2026-03-25T02:22:08+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -12,23 +12,23 @@
   },
   "events": [
     {
-      "event_summary": "Next Prime Minister of Vietnam",
+      "event_summary": "Next Prime Minister of Denmark",
       "category": "political",
-      "probability": 0.9555,
+      "probability": 0.845,
       "deadline": null,
       "data_confidence": "high"
     },
     {
-      "event_summary": "Brazil Presidential Election First Round: 2nd Place",
+      "event_summary": "Hungary Parliamentary Election Winner",
       "category": "political",
-      "probability": 0.585,
+      "probability": 0.655,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Netanyahu out by...",
       "category": "political",
-      "probability": 0.505,
+      "probability": 0.525,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
@@ -42,7 +42,7 @@
     {
       "event_summary": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.415,
+      "probability": 0.425,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -56,14 +56,14 @@
     {
       "event_summary": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2425,
+      "probability": 0.2445,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1965,
+      "probability": 0.1855,
       "deadline": null,
       "data_confidence": "high"
     },
