@@ -5,6 +5,7 @@
 Geopolitical conflict risk data for AI agents via [Model Context Protocol (MCP)](https://modelcontextprotocol.io/). Updated daily.
 
 [![PyPI](https://img.shields.io/pypi/v/war-dashboard-data)](https://pypi.org/project/war-dashboard-data/)
+[![war-dashboard-data MCP server](https://glama.ai/mcp/servers/cct15/war-dashboard-data/badges/card.svg)](https://glama.ai/mcp/servers/cct15/war-dashboard-data)
 
 ## MCP Tools
 
