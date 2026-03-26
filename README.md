@@ -1,6 +1,10 @@
 # Futuristic Risk Intelligence — MCP Server & Data Feed
 
+<!-- mcp-name: io.github.cct15/war-dashboard-data -->
+
 Geopolitical conflict risk data for AI agents via [Model Context Protocol (MCP)](https://modelcontextprotocol.io/). Updated daily.
+
+[![PyPI](https://img.shields.io/pypi/v/war-dashboard-data)](https://pypi.org/project/war-dashboard-data/)
 
 ## MCP Tools
 
@@ -9,6 +13,12 @@ Geopolitical conflict risk data for AI agents via [Model Context Protocol (MCP)]
 | `get_conflict_risks` | Risk probabilities for 6 major geopolitical conflicts (escalation, ceasefire, regime change) with 1d/7d/30d horizons |
 | `get_political_events` | High-impact political, economic, and natural disaster events with probability estimates |
 | `get_maritime_traffic` | Vessel counts in critical maritime chokepoints (Strait of Hormuz, Taiwan Strait, etc.) |
+
+## Install
+
+```bash
+pip install war-dashboard-data
+```
 
 ## Quick Start
 
@@ -20,8 +30,7 @@ Add to your `claude_desktop_config.json`:
 {
   "mcpServers": {
     "futuristic-risk": {
-      "command": "python3",
-      "args": ["path/to/mcp_server/server.py"]
+      "command": "war-dashboard-data"
     }
   }
 }
