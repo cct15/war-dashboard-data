@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-25T02:22:08+00:00",
+    "updated_at": "2026-03-26T02:58:31+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -21,14 +21,21 @@
     {
       "event_summary": "Hungary Parliamentary Election Winner",
       "category": "political",
-      "probability": 0.655,
+      "probability": 0.645,
       "deadline": null,
+      "data_confidence": "high"
+    },
+    {
+      "event_summary": "California Governor Election Winner",
+      "category": "political",
+      "probability": 0.63,
+      "deadline": "2026-12-31",
       "data_confidence": "high"
     },
     {
       "event_summary": "Netanyahu out by...",
       "category": "political",
-      "probability": 0.525,
+      "probability": 0.495,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
@@ -42,37 +49,37 @@
     {
       "event_summary": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.425,
-      "deadline": null,
-      "data_confidence": "high"
-    },
-    {
-      "event_summary": "Next French Presidential Election",
-      "category": "political",
-      "probability": 0.245,
+      "probability": 0.423,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2445,
+      "probability": 0.2415,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1855,
+      "probability": 0.1785,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "US recession by end of 2026",
       "category": "economic",
-      "probability": 0.345,
+      "probability": 0.355,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
+    },
+    {
+      "event_summary": "9.0 or above earthquake before 2027",
+      "category": "natural_disaster",
+      "probability": 0.13,
+      "deadline": "2026-12-31",
+      "data_confidence": "low"
     }
   ]
 }

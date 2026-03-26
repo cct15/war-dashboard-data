@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-25T02:22:08+00:00",
+    "updated_at": "2026-03-26T02:58:31+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -41,56 +41,56 @@
       "conflict_id": "iran_israel_us",
       "label": "Iran-Israel/US",
       "risk_level": "low",
-      "probability_30d": 0.0614,
-      "probability_7d": 0.0147,
-      "probability_1d": 0.0021,
+      "probability_30d": 0.079,
+      "probability_7d": 0.019,
+      "probability_1d": 0.0027,
       "data_points": 3,
-      "composite_risk_score": 0.1603,
+      "composite_risk_score": 0.1688,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0614,
-          "probability_7d": 0.0081,
-          "probability_1d": 0.0012,
+          "probability_30d": 0.079,
+          "probability_7d": 0.0098,
+          "probability_1d": 0.0014,
           "data_points": 3,
-          "change_vs_yesterday": 0.0074,
-          "change_vs_7d_ago": 0.0011
+          "change_vs_yesterday": 0.0176,
+          "change_vs_7d_ago": 0.0137
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "direction": "risk_increase",
-          "probability_30d": 0.0619,
-          "probability_7d": 0.0148,
-          "probability_1d": 0.0021,
+          "probability_30d": 0.0669,
+          "probability_7d": 0.0159,
+          "probability_1d": 0.0023,
           "data_points": 4,
-          "change_vs_yesterday": 0.003,
-          "change_vs_7d_ago": -0.0245
+          "change_vs_yesterday": 0.005,
+          "change_vs_7d_ago": -0.0148
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "direction": "neutral",
-          "probability_30d": 0.1197,
+          "probability_30d": 0.1208,
           "probability_7d": 0.0268,
           "probability_1d": 0.0039,
           "data_points": 2,
-          "change_vs_yesterday": 0.0289,
-          "change_vs_7d_ago": 0.0638
+          "change_vs_yesterday": 0.0011,
+          "change_vs_7d_ago": 0.066
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.4192,
-          "probability_7d": 0.0964,
-          "probability_1d": 0.0145,
+          "probability_30d": 0.3934,
+          "probability_7d": 0.0896,
+          "probability_1d": 0.0134,
           "data_points": 10,
-          "change_vs_yesterday": 0.0525,
-          "change_vs_7d_ago": 0.137
+          "change_vs_yesterday": -0.0258,
+          "change_vs_7d_ago": 0.1653
         }
       ]
     },
@@ -98,23 +98,23 @@
       "conflict_id": "india_pakistan",
       "label": "India-Pakistan",
       "risk_level": "low",
-      "probability_30d": 0.0366,
-      "probability_7d": 0.0087,
+      "probability_30d": 0.0353,
+      "probability_7d": 0.0084,
       "probability_1d": 0.0012,
       "data_points": 2,
-      "composite_risk_score": 0.1332,
+      "composite_risk_score": 0.1305,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0366,
-          "probability_7d": 0.0043,
+          "probability_30d": 0.0353,
+          "probability_7d": 0.0042,
           "probability_1d": 0.0006,
           "data_points": 2,
-          "change_vs_yesterday": 0.003,
-          "change_vs_7d_ago": 0.0022
+          "change_vs_yesterday": -0.0013,
+          "change_vs_7d_ago": 0.0036
         }
       ]
     },
@@ -122,33 +122,33 @@
       "conflict_id": "us_latam",
       "label": "US-Latin America",
       "risk_level": "low",
-      "probability_30d": 0.0266,
-      "probability_7d": 0.0063,
+      "probability_30d": 0.027,
+      "probability_7d": 0.0064,
       "probability_1d": 0.0009,
       "data_points": 5,
-      "composite_risk_score": 0.1217,
+      "composite_risk_score": 0.1142,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0266,
-          "probability_7d": 0.0055,
+          "probability_30d": 0.027,
+          "probability_7d": 0.0056,
           "probability_1d": 0.0008,
           "data_points": 5,
-          "change_vs_yesterday": -0.0008,
-          "change_vs_7d_ago": -0.0038
+          "change_vs_yesterday": 0.0004,
+          "change_vs_7d_ago": -0.003
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "direction": "risk_increase",
-          "probability_30d": 0.0523,
-          "probability_7d": 0.0124,
+          "probability_30d": 0.0524,
+          "probability_7d": 0.0125,
           "probability_1d": 0.0018,
           "data_points": 1,
-          "change_vs_yesterday": 0.0002,
+          "change_vs_yesterday": 0.0001,
           "change_vs_7d_ago": null
         }
       ]
@@ -157,34 +157,34 @@
       "conflict_id": "russia_ukraine",
       "label": "Russia-Ukraine",
       "risk_level": "low",
-      "probability_30d": 0.0169,
-      "probability_7d": 0.004,
-      "probability_1d": 0.0006,
+      "probability_30d": 0.0164,
+      "probability_7d": 0.0038,
+      "probability_1d": 0.0005,
       "data_points": 6,
-      "composite_risk_score": 0.1084,
+      "composite_risk_score": 0.1125,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0169,
+          "probability_30d": 0.0164,
           "probability_7d": 0.0015,
           "probability_1d": 0.0002,
           "data_points": 6,
-          "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": -0.0012
+          "change_vs_yesterday": -0.0005,
+          "change_vs_7d_ago": 0.0007
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.0434,
-          "probability_7d": 0.0072,
+          "probability_30d": 0.0433,
+          "probability_7d": 0.0069,
           "probability_1d": 0.001,
           "data_points": 6,
-          "change_vs_yesterday": -0.001,
-          "change_vs_7d_ago": -0.0017
+          "change_vs_yesterday": -0.0001,
+          "change_vs_7d_ago": -0.0018
         }
       ]
     },
@@ -192,23 +192,23 @@
       "conflict_id": "china_taiwan",
       "label": "China-Taiwan",
       "risk_level": "low",
-      "probability_30d": 0.0133,
-      "probability_7d": 0.0031,
+      "probability_30d": 0.0129,
+      "probability_7d": 0.003,
       "probability_1d": 0.0004,
       "data_points": 8,
-      "composite_risk_score": 0.1006,
+      "composite_risk_score": 0.1031,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0133,
-          "probability_7d": 0.0043,
+          "probability_30d": 0.0129,
+          "probability_7d": 0.004,
           "probability_1d": 0.0006,
           "data_points": 8,
-          "change_vs_yesterday": -0.0005,
-          "change_vs_7d_ago": -0.0008
+          "change_vs_yesterday": -0.0004,
+          "change_vs_7d_ago": 0.0003
         }
       ]
     },
@@ -220,7 +220,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.0941,
+      "composite_risk_score": 0.0953,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -238,12 +238,12 @@
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.0759,
-          "probability_7d": 0.0046,
-          "probability_1d": 0.0007,
+          "probability_30d": 0.0748,
+          "probability_7d": 0.0045,
+          "probability_1d": 0.0006,
           "data_points": 4,
-          "change_vs_yesterday": 0.0026,
-          "change_vs_7d_ago": 0.0412
+          "change_vs_yesterday": -0.0011,
+          "change_vs_7d_ago": 0.0365
         }
       ]
     }
