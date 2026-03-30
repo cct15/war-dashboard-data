@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-30T01:58:20+00:00",
+    "updated_at": "2026-03-30T02:10:38+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -41,23 +41,23 @@
       "conflict_id": "iran_israel_us",
       "label": "Iran-Israel/US",
       "risk_level": "low",
-      "probability_30d": 0.0897,
+      "probability_30d": 0.0896,
       "probability_7d": 0.0217,
       "probability_1d": 0.0031,
       "data_points": 4,
-      "composite_risk_score": 0.1813,
+      "composite_risk_score": 0.1812,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0897,
+          "probability_30d": 0.0896,
           "probability_7d": 0.0096,
           "probability_1d": 0.0014,
           "data_points": 4,
           "change_vs_yesterday": null,
-          "change_vs_7d_ago": 0.0115
+          "change_vs_7d_ago": 0.0114
         },
         {
           "event_type": "regime_change",
@@ -85,12 +85,12 @@
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.2778,
-          "probability_7d": 0.0633,
+          "probability_30d": 0.2801,
+          "probability_7d": 0.0635,
           "probability_1d": 0.0093,
           "data_points": 10,
           "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.031
+          "change_vs_7d_ago": -0.0287
         }
       ]
     },
@@ -102,7 +102,7 @@
       "probability_7d": 0.009,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1266,
+      "composite_risk_score": 0.1255,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -126,7 +126,7 @@
       "probability_7d": 0.0073,
       "probability_1d": 0.001,
       "data_points": 5,
-      "composite_risk_score": 0.1206,
+      "composite_risk_score": 0.1182,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -161,7 +161,7 @@
       "probability_7d": 0.0039,
       "probability_1d": 0.0006,
       "data_points": 6,
-      "composite_risk_score": 0.1175,
+      "composite_risk_score": 0.1166,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -196,7 +196,7 @@
       "probability_7d": 0.003,
       "probability_1d": 0.0004,
       "data_points": 9,
-      "composite_risk_score": 0.1002,
+      "composite_risk_score": 0.1016,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -220,7 +220,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.0989,
+      "composite_risk_score": 0.0977,
       "anomaly_detected": false,
       "risk_events": [
         {

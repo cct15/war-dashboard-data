@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-30T01:58:20+00:00",
+    "updated_at": "2026-03-30T02:10:38+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -14,14 +14,14 @@
     {
       "event_summary": "Slovenian Parliamentary Election Winner",
       "category": "political",
-      "probability": 0.983,
+      "probability": 0.982,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "U.S. tariff rate on China on March 31",
       "category": "economic",
-      "probability": 0.975,
+      "probability": 0.9765,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -49,7 +49,7 @@
     {
       "event_summary": "Hungary Parliamentary Election Winner",
       "category": "political",
-      "probability": 0.655,
+      "probability": 0.665,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -126,14 +126,14 @@
     {
       "event_summary": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.242,
+      "probability": 0.2425,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1775,
+      "probability": 0.176,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -168,7 +168,7 @@
     {
       "event_summary": "Named storm forms before hurricane season",
       "category": "natural_disaster",
-      "probability": 0.115,
+      "probability": 0.12,
       "deadline": null,
       "data_confidence": "medium"
     },
