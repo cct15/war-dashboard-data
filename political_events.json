@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-03-30T02:10:38+00:00",
+    "updated_at": "2026-03-31T03:11:52+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -12,37 +12,30 @@
   },
   "events": [
     {
-      "event_summary": "Slovenian Parliamentary Election Winner",
-      "category": "political",
-      "probability": 0.982,
-      "deadline": null,
-      "data_confidence": "high"
-    },
-    {
       "event_summary": "U.S. tariff rate on China on March 31",
       "category": "economic",
-      "probability": 0.9765,
+      "probability": 0.9865,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next Prime Minister of Vietnam",
       "category": "political",
-      "probability": 0.963,
+      "probability": 0.954,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next Prime Minister of Denmark",
       "category": "political",
-      "probability": 0.905,
+      "probability": 0.875,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "2026 Seoul Mayoral Election Winner",
       "category": "political",
-      "probability": 0.815,
+      "probability": 0.795,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -56,21 +49,14 @@
     {
       "event_summary": "Next Prime Minister of Hungary",
       "category": "political",
-      "probability": 0.655,
+      "probability": 0.645,
       "deadline": null,
-      "data_confidence": "high"
-    },
-    {
-      "event_summary": "Starmer out by...",
-      "category": "political",
-      "probability": 0.655,
-      "deadline": "2026-12-31",
       "data_confidence": "high"
     },
     {
       "event_summary": "Fed rate cut by...",
       "category": "economic",
-      "probability": 0.62,
+      "probability": 0.635,
       "deadline": "2026-12-20",
       "data_confidence": "high"
     },
@@ -78,6 +64,13 @@
       "event_summary": "California Governor Election Winner",
       "category": "political",
       "probability": 0.615,
+      "deadline": "2026-12-31",
+      "data_confidence": "high"
+    },
+    {
+      "event_summary": "Starmer out by...",
+      "category": "political",
+      "probability": 0.58,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
@@ -98,28 +91,35 @@
     {
       "event_summary": "Netanyahu out by...",
       "category": "political",
-      "probability": 0.455,
+      "probability": 0.415,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
     {
       "event_summary": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.419,
+      "probability": 0.415,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "How many Fed rate cuts in 2026",
       "category": "economic",
-      "probability": 0.3805,
+      "probability": 0.3715,
       "deadline": "2026-12-31",
+      "data_confidence": "high"
+    },
+    {
+      "event_summary": "Peru Presidential Election Winner",
+      "category": "political",
+      "probability": 0.345,
+      "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next French Presidential Election",
       "category": "political",
-      "probability": 0.245,
+      "probability": 0.295,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -133,49 +133,49 @@
     {
       "event_summary": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.176,
+      "probability": 0.172,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "the Court Force Trump to Refund Tariffs",
       "category": "economic",
-      "probability": 0.45,
+      "probability": 0.495,
       "deadline": null,
-      "data_confidence": "medium"
-    },
-    {
-      "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
-      "category": "natural_disaster",
-      "probability": 0.39,
-      "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
       "event_summary": "US recession by end of 2026",
       "category": "economic",
-      "probability": 0.365,
+      "probability": 0.375,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
-      "event_summary": "Fed rate hike in 2026",
-      "category": "economic",
-      "probability": 0.235,
+      "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
+      "category": "natural_disaster",
+      "probability": 0.31,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
       "event_summary": "Named storm forms before hurricane season",
       "category": "natural_disaster",
-      "probability": 0.12,
+      "probability": 0.255,
       "deadline": null,
+      "data_confidence": "medium"
+    },
+    {
+      "event_summary": "Fed rate hike in 2026",
+      "category": "economic",
+      "probability": 0.18,
+      "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
       "event_summary": "10.0 or above earthquake before 2027",
       "category": "natural_disaster",
-      "probability": 0.055,
+      "probability": 0.0565,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     }
