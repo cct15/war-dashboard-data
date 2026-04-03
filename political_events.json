@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-02T04:20:55+00:00",
+    "updated_at": "2026-04-03T02:31:27+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -14,35 +14,35 @@
     {
       "event_summary": "Next Prime Minister of Vietnam",
       "category": "political",
-      "probability": 0.9575,
+      "probability": 0.9465,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next Prime Minister of Denmark",
       "category": "political",
-      "probability": 0.87,
+      "probability": 0.88,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "2026 Seoul Mayoral Election Winner",
       "category": "political",
-      "probability": 0.785,
+      "probability": 0.8,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Hungary Parliamentary Election Winner",
       "category": "political",
-      "probability": 0.685,
+      "probability": 0.695,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next Prime Minister of Hungary",
       "category": "political",
-      "probability": 0.645,
+      "probability": 0.665,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -63,7 +63,7 @@
     {
       "event_summary": "Starmer out by...",
       "category": "political",
-      "probability": 0.59,
+      "probability": 0.575,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
@@ -84,7 +84,7 @@
     {
       "event_summary": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.425,
+      "probability": 0.435,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -96,51 +96,51 @@
       "data_confidence": "high"
     },
     {
-      "event_summary": "Peru Presidential Election Winner",
-      "category": "political",
-      "probability": 0.325,
-      "deadline": null,
-      "data_confidence": "high"
-    },
-    {
       "event_summary": "US recession by end of 2026",
       "category": "economic",
-      "probability": 0.325,
+      "probability": 0.315,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
     {
       "event_summary": "How many Fed rate cuts in 2026",
       "category": "economic",
-      "probability": 0.3105,
+      "probability": 0.3075,
       "deadline": "2026-12-31",
+      "data_confidence": "high"
+    },
+    {
+      "event_summary": "Peru Presidential Election Winner",
+      "category": "political",
+      "probability": 0.305,
+      "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next French Presidential Election",
       "category": "political",
-      "probability": 0.3,
+      "probability": 0.285,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2475,
+      "probability": 0.2455,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1755,
+      "probability": 0.1765,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Another US government shutdown & House Winner 2026",
       "category": "economic",
-      "probability": 0.839,
+      "probability": 0.8405,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
@@ -154,28 +154,28 @@
     {
       "event_summary": "Named storm forms before hurricane season",
       "category": "natural_disaster",
-      "probability": 0.405,
+      "probability": 0.435,
       "deadline": null,
       "data_confidence": "medium"
     },
     {
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "category": "natural_disaster",
-      "probability": 0.33,
+      "probability": 0.34,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
       "event_summary": "Fed rate hike in 2026",
       "category": "economic",
-      "probability": 0.145,
+      "probability": 0.155,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
       "event_summary": "10.0 or above earthquake before 2027",
       "category": "natural_disaster",
-      "probability": 0.058,
+      "probability": 0.0565,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     }
