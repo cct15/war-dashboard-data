@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-03T02:31:26+00:00",
+    "updated_at": "2026-04-06T02:14:16+00:00",
     "update_frequency": "daily",
     "description": "Vessel counts in critical maritime chokepoints from AIS data. Snapshot-based (not full-day traffic).",
     "caveat": "Instantaneous count from AIS receivers, not daily throughput. Military vessels often turn off AIS transponders."
@@ -21,21 +21,21 @@
       "zone_id": "russia_ukraine",
       "zone_name": "Western Black Sea",
       "related_conflict": "",
-      "vessels_total": 2,
+      "vessels_total": 3,
       "vessels_tanker": 0,
       "vessels_cargo": 0,
       "vessels_military": 0,
-      "vessels_other": 2
+      "vessels_other": 3
     },
     {
       "zone_id": "china_taiwan",
       "zone_name": "Taiwan Strait",
       "related_conflict": "",
-      "vessels_total": 61,
-      "vessels_tanker": 2,
-      "vessels_cargo": 3,
+      "vessels_total": 0,
+      "vessels_tanker": 0,
+      "vessels_cargo": 0,
       "vessels_military": 0,
-      "vessels_other": 56
+      "vessels_other": 0
     },
     {
       "zone_id": "india_pakistan",
@@ -51,21 +51,21 @@
       "zone_id": "israel_palestine",
       "zone_name": "Eastern Mediterranean",
       "related_conflict": "",
-      "vessels_total": 22,
-      "vessels_tanker": 3,
-      "vessels_cargo": 3,
+      "vessels_total": 24,
+      "vessels_tanker": 4,
+      "vessels_cargo": 2,
       "vessels_military": 0,
-      "vessels_other": 16
+      "vessels_other": 18
     },
     {
       "zone_id": "us_latam",
       "zone_name": "Western Caribbean",
       "related_conflict": "",
-      "vessels_total": 1,
+      "vessels_total": 3,
       "vessels_tanker": 0,
       "vessels_cargo": 0,
       "vessels_military": 0,
-      "vessels_other": 1
+      "vessels_other": 3
     }
   ]
 }

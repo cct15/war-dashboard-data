@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-03T02:31:27+00:00",
+    "updated_at": "2026-04-06T02:14:16+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -14,35 +14,35 @@
     {
       "event_summary": "Next Prime Minister of Vietnam",
       "category": "political",
-      "probability": 0.9465,
+      "probability": 0.967,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next Prime Minister of Denmark",
       "category": "political",
-      "probability": 0.88,
+      "probability": 0.895,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "2026 Seoul Mayoral Election Winner",
       "category": "political",
-      "probability": 0.8,
+      "probability": 0.785,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Hungary Parliamentary Election Winner",
       "category": "political",
-      "probability": 0.695,
+      "probability": 0.685,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next Prime Minister of Hungary",
       "category": "political",
-      "probability": 0.665,
+      "probability": 0.655,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -56,14 +56,14 @@
     {
       "event_summary": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.6,
+      "probability": 0.615,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
     {
       "event_summary": "Starmer out by...",
       "category": "political",
-      "probability": 0.575,
+      "probability": 0.565,
       "deadline": "2026-12-31",
       "data_confidence": "high"
     },
@@ -84,7 +84,7 @@
     {
       "event_summary": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.435,
+      "probability": 0.415,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -96,6 +96,13 @@
       "data_confidence": "high"
     },
     {
+      "event_summary": "How many Fed rate cuts in 2026",
+      "category": "economic",
+      "probability": 0.379,
+      "deadline": "2026-12-31",
+      "data_confidence": "high"
+    },
+    {
       "event_summary": "US recession by end of 2026",
       "category": "economic",
       "probability": 0.315,
@@ -103,30 +110,23 @@
       "data_confidence": "high"
     },
     {
-      "event_summary": "How many Fed rate cuts in 2026",
-      "category": "economic",
-      "probability": 0.3075,
-      "deadline": "2026-12-31",
-      "data_confidence": "high"
-    },
-    {
       "event_summary": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.305,
+      "probability": 0.274,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Next French Presidential Election",
       "category": "political",
-      "probability": 0.285,
+      "probability": 0.265,
       "deadline": null,
       "data_confidence": "high"
     },
     {
       "event_summary": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2455,
+      "probability": 0.241,
       "deadline": null,
       "data_confidence": "high"
     },
@@ -140,21 +140,21 @@
     {
       "event_summary": "Another US government shutdown & House Winner 2026",
       "category": "economic",
-      "probability": 0.8405,
+      "probability": 0.834,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
       "event_summary": "the Court Force Trump to Refund Tariffs",
       "category": "economic",
-      "probability": 0.475,
+      "probability": 0.48,
       "deadline": null,
       "data_confidence": "medium"
     },
     {
       "event_summary": "Named storm forms before hurricane season",
       "category": "natural_disaster",
-      "probability": 0.435,
+      "probability": 0.36,
       "deadline": null,
       "data_confidence": "medium"
     },
@@ -168,14 +168,14 @@
     {
       "event_summary": "Fed rate hike in 2026",
       "category": "economic",
-      "probability": 0.155,
+      "probability": 0.195,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     },
     {
       "event_summary": "10.0 or above earthquake before 2027",
       "category": "natural_disaster",
-      "probability": 0.0565,
+      "probability": 0.0495,
       "deadline": "2026-12-31",
       "data_confidence": "medium"
     }
