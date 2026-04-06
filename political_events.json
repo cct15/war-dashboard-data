@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-06T14:26:33+00:00",
+    "updated_at": "2026-04-06T14:36:14+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -78,7 +78,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.515,
+      "probability": 0.51,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -114,7 +114,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.396,
+      "probability": 0.3965,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high"
@@ -177,7 +177,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.8355,
+      "probability": 0.8345,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -195,7 +195,7 @@
       "event_summary": "飓风/热带风暴风险",
       "event_summary_en": "Named storm forms before hurricane season?",
       "category": "natural_disaster",
-      "probability": 0.355,
+      "probability": 0.36,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high"
