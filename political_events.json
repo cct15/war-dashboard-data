@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-06T14:36:14+00:00",
+    "updated_at": "2026-04-06T14:45:30+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -78,7 +78,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.51,
+      "probability": 0.515,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -132,7 +132,7 @@
       "event_summary": "美国2026年底前陷入衰退",
       "event_summary_en": "US recession by end of 2026?",
       "category": "economic",
-      "probability": 0.32,
+      "probability": 0.305,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high"
@@ -150,7 +150,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.2545,
+      "probability": 0.255,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -177,7 +177,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.8345,
+      "probability": 0.836,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
