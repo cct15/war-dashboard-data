@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.cct15/war-dashboard-data",
   "title": "Futuristic Risk Intelligence",
-  "description": "Geopolitical conflict risk, political events, and maritime traffic data for AI agents",
+  "description": "Geopolitical conflict risk and political events data for AI agents",
   "repository": {
     "url": "https://github.com/cct15/war-dashboard-data",
     "source": "github"

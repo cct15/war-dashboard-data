@@ -131,21 +131,13 @@ TOOLS = [
     {
         "name": "get_maritime_traffic",
         "description": (
-            "Get vessel counts in critical maritime chokepoints: Strait of Hormuz, "
-            "Black Sea, Taiwan Strait, Arabian Sea, Eastern Mediterranean, Caribbean. "
-            "Includes breakdown by vessel type (tanker, cargo, military, other). "
-            "Data is a snapshot from AIS receivers (not full-day throughput). "
-            "Military vessels often turn off AIS transponders so counts may underestimate. "
-            "Updated daily. Use this to monitor supply chain disruption risks."
+            "SUSPENDED: Maritime chokepoint monitoring is temporarily unavailable. "
+            "AIS snapshot data does not meet reliability standards for API distribution. "
+            "Returns status: unavailable with empty zones array."
         ),
         "inputSchema": {
             "type": "object",
-            "properties": {
-                "zone_id": {
-                    "type": "string",
-                    "description": "Optional: filter to a single maritime zone.",
-                },
-            },
+            "properties": {},
             "required": [],
         },
     },

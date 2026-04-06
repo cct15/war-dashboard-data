@@ -13,7 +13,7 @@ Geopolitical conflict risk data for AI agents via [Model Context Protocol (MCP)]
 |------|-------------|
 | `get_conflict_risks` | Risk probabilities for 6 major geopolitical conflicts (escalation, ceasefire, regime change) with 1d/7d/30d horizons |
 | `get_political_events` | High-impact political, economic, and natural disaster events with probability estimates |
-| `get_maritime_traffic` | Vessel counts in critical maritime chokepoints (Strait of Hormuz, Taiwan Strait, etc.) |
+| `get_maritime_traffic` | ⚠️ **Suspended** — AIS snapshot data does not meet reliability standards. Returns `status: unavailable`. |
 
 ## Install
 
@@ -73,7 +73,7 @@ Each conflict includes:
 
 ### maritime.json
 
-Vessel counts in 6 critical chokepoints, broken down by type (tanker, cargo, military, other). Snapshot-based from AIS data.
+⚠️ **Suspended**: Maritime chokepoint monitoring is temporarily unavailable. Free AIS data (45-second WebSocket snapshots) produces sporadic zero-vessel readings in busy straits, which could mislead agents into inferring blockades. Returns `{"status": "unavailable", "zones": []}`. Maritime data is still collected internally for the daily HTML report's narrative context.
 
 ### political_events.json
 
