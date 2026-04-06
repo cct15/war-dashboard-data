@@ -64,20 +64,44 @@ curl https://raw.githubusercontent.com/cct15/war-dashboard-data/main/conflicts.j
 ### conflicts.json
 
 Each conflict includes:
-- **probability_30d / 7d / 1d**: P(event occurs within time horizon)
-- **risk_events**: Breakdown by event type
-- **direction**: `risk_increase` (higher probability = more danger) or `risk_decrease` (higher probability = less danger)
-- **change_vs_yesterday / change_vs_7d_ago**: Probability deltas
-- **risk_level**: `high` / `medium` / `low`
-- **anomaly_detected**: Whether probability diverges from news intensity
 
-### maritime.json
-
-⚠️ **Suspended**: Maritime chokepoint monitoring is temporarily unavailable. Free AIS data (45-second WebSocket snapshots) produces sporadic zero-vessel readings in busy straits, which could mislead agents into inferring blockades. Returns `{"status": "unavailable", "zones": []}`. Maritime data is still collected internally for the daily HTML report's narrative context.
+| Field | Description |
+|-------|-------------|
+| `conflict_id` | Region identifier (e.g. `russia_ukraine`, `iran_israel_us`) |
+| `importance` | Editorial priority: `high` (active/major conflict, recommended for display) or `low` (low probability, included for data completeness) |
+| `risk_level` | Overall risk: `high` / `medium` / `low` |
+| `probability_30d / 7d / 1d` | P(event occurs within time horizon) |
+| `situation_briefing` | Daily situation summary in Chinese, based on latest news |
+| `risk_impact` | Structured impact analysis: `industries[]`, `assets[]`, `channels[]` (transmission paths) |
+| `risk_events[]` | Breakdown by event type with per-type probabilities |
+| `risk_events[].direction` | `risk_increase` (higher prob = more danger) or `risk_decrease` (higher prob = less danger) |
+| `risk_events[].change_vs_7d_ago` | Probability delta vs. 7 days ago |
+| `data_points` | Number of data sources (for confidence assessment) |
+| `anomaly_detected` | Whether probability diverges from news intensity |
 
 ### political_events.json
 
-High-impact events with probability, deadline, category, and data confidence level.
+Political, economic, and natural disaster events with probability estimates.
+
+| Field | Description |
+|-------|-------------|
+| `event_summary` | Event description (Chinese) |
+| `event_summary_en` | Event description (English) |
+| `category` | `political` / `economic` / `natural_disaster` |
+| `probability` | Estimated probability of occurrence |
+| `importance` | Editorial priority: `high` (recommended for display) or `low` (data completeness) |
+| `deadline` | Event deadline (YYYY-MM-DD), if applicable |
+| `data_confidence` | `high` / `medium` / `low` (based on trading volume) |
+
+### `importance` field
+
+Both `conflicts.json` and `political_events.json` include an `importance` field:
+- **`high`** — Editorially recommended. Active conflicts, high-probability events, or events with significant recent changes. Matches the daily intelligence report's display filter.
+- **`low`** — Included for data completeness. Low probability, no active events, or not a current focus area. Agents may still find these useful for comprehensive monitoring.
+
+### maritime.json
+
+⚠️ **Suspended**: Free AIS data (45-second snapshots) produces sporadic zero-vessel readings in busy straits, which could mislead agents into inferring blockades. Returns `{"status": "unavailable", "zones": []}`. Will resume when a reliable AIS source is found.
 
 ## Use Cases
 
