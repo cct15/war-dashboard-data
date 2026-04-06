@@ -98,4 +98,13 @@ High-impact events with probability, deadline, category, and data confidence lev
 
 Data is free for non-commercial use. Contact for commercial licensing.
 
-Built by [Futuristic Risk Intelligence](https://github.com/cct15).
+## Website & Research
+
+**[futuristicrisks.com](https://futuristicrisks.com)** — Live risk dashboard, cascade impact analysis, daily verified intelligence, and API documentation.
+
+**Research articles**:
+- [2026年全球地缘政治风险全景分析](https://futuristicrisks.com/blog/geopolitical-risk-2026.html)
+- [伊朗局势对油价和供应链的影响分析](https://futuristicrisks.com/blog/iran-oil-impact.html)
+- [台海冲突对全球半导体供应链的风险评估](https://futuristicrisks.com/blog/taiwan-semiconductor-risk.html)
+
+Built by [Futuristic Risk Intelligence](https://futuristicrisks.com).
