@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-07T03:20:36+00:00",
+    "updated_at": "2026-04-07T06:13:54+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -11,6 +11,15 @@
     ]
   },
   "events": [
+    {
+      "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
+      "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
+      "category": "political",
+      "probability": 0.9585,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
     {
       "event_summary": "Next Prime Minister of Denmark",
       "event_summary_en": "Next Prime Minister of Denmark?",
@@ -36,16 +45,21 @@
       "probability": 0.685,
       "deadline": null,
       "data_confidence": "high",
-      "importance": "high"
-    },
-    {
-      "event_summary": "Which party will gain most seats in Russian Parliamentary Election",
-      "event_summary_en": "Which party will gain most seats in Russian Parliamentary Election?",
-      "category": "political",
-      "probability": 0.675,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "欧盟政策",
+          "汽车制造"
+        ],
+        "assets": [
+          "匈牙利福林",
+          "欧元"
+        ],
+        "channels": [
+          "反对派胜出可能改变欧盟对俄制裁立场",
+          "匈牙利获得欧盟资金解冻，提振东欧市场"
+        ]
+      }
     },
     {
       "event_summary": "Next Prime Minister of Hungary",
@@ -54,13 +68,27 @@
       "probability": 0.655,
       "deadline": null,
       "data_confidence": "high",
-      "importance": "low"
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "欧盟政策",
+          "汽车制造"
+        ],
+        "assets": [
+          "匈牙利福林",
+          "欧元"
+        ],
+        "channels": [
+          "反对派胜出可能改变欧盟对俄制裁立场",
+          "匈牙利获得欧盟资金解冻，提振东欧市场"
+        ]
+      }
     },
     {
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.615,
+      "probability": 0.585,
       "deadline": "2026-12-20",
       "data_confidence": "high",
       "importance": "low"
@@ -72,7 +100,22 @@
       "probability": 0.565,
       "deadline": "2026-12-31",
       "data_confidence": "high",
-      "importance": "high"
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "能源",
+          "国防"
+        ],
+        "assets": [
+          "英镑",
+          "英国国债",
+          "FTSE100"
+        ],
+        "channels": [
+          "新首相对俄/伊政策可能转向，影响欧洲军援格局"
+        ]
+      }
     },
     {
       "event_summary": "Colombia Presidential Election",
@@ -96,10 +139,19 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.46,
+      "probability": 0.465,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
+    },
+    {
+      "event_summary": "美联储2026年全年不降息",
+      "event_summary_en": "How many Fed rate cuts in 2026?",
+      "category": "economic",
+      "probability": 0.4245,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "high"
     },
     {
       "event_summary": "Brazil Presidential Election",
@@ -108,16 +160,23 @@
       "probability": 0.415,
       "deadline": null,
       "data_confidence": "high",
-      "importance": "low"
-    },
-    {
-      "event_summary": "美联储2026年全年不降息",
-      "event_summary_en": "How many Fed rate cuts in 2026?",
-      "category": "economic",
-      "probability": 0.414,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "high"
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "矿业",
+          "农业",
+          "金融"
+        ],
+        "assets": [
+          "巴西雷亚尔",
+          "淡水河谷",
+          "巴西ETF(EWZ)"
+        ],
+        "channels": [
+          "左翼/右翼路线之争影响外资准入和国企政策",
+          "亚马逊环保政策变化影响全球大宗商品供应"
+        ]
+      }
     },
     {
       "event_summary": "内塔尼亚胡年内下台",
@@ -126,7 +185,22 @@
       "probability": 0.395,
       "deadline": "2026-12-31",
       "data_confidence": "high",
-      "importance": "high"
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "军工",
+          "科技",
+          "旅游"
+        ],
+        "assets": [
+          "以色列谢克尔",
+          "特拉维夫科技股"
+        ],
+        "channels": [
+          "以色列对伊朗政策可能转向（鹰派→和谈）",
+          "中东战事持续性和停战节奏受影响"
+        ]
+      }
     },
     {
       "event_summary": "美国2026年底前陷入衰退",
@@ -135,13 +209,31 @@
       "probability": 0.315,
       "deadline": "2026-12-31",
       "data_confidence": "high",
-      "importance": "high"
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "消费",
+          "科技"
+        ],
+        "assets": [
+          "美股(SPX)",
+          "美债(10Y)",
+          "美元指数",
+          "高收益债"
+        ],
+        "channels": [
+          "油价飙升+关税叠加推高通胀，消费需求萎缩",
+          "非农就业连续下滑，失业率升至4.4%"
+        ]
+      }
     },
     {
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.271,
+      "probability": 0.275,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -153,7 +245,23 @@
       "probability": 0.265,
       "deadline": null,
       "data_confidence": "high",
-      "importance": "low"
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "欧盟治理",
+          "金融",
+          "能源"
+        ],
+        "assets": [
+          "欧元",
+          "法国OAT国债"
+        ],
+        "channels": [
+          "极右翼上台可能导致欧盟一体化倒退",
+          "法国财政政策转向紧缩冲击国债市场",
+          "对华/对俄外交路线根本性改变"
+        ]
+      }
     },
     {
       "event_summary": "Democratic Presidential Nominee 2028",
@@ -177,7 +285,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.8355,
+      "probability": 0.836,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -186,10 +294,28 @@
       "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.495,
+      "probability": 0.49,
       "deadline": null,
       "data_confidence": "medium",
-      "importance": "high"
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "制造业",
+          "汽车",
+          "农业",
+          "零售"
+        ],
+        "assets": [
+          "美股(SPX)",
+          "人民币",
+          "欧元",
+          "铜"
+        ],
+        "channels": [
+          "法院若判违宪须退还已征关税，政策不确定性激增",
+          "10%全面关税为1943年以来最高有效税率，Section 301调查16国"
+        ]
+      }
     },
     {
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
@@ -204,7 +330,7 @@
       "event_summary": "飓风/热带风暴风险",
       "event_summary_en": "Named storm forms before hurricane season?",
       "category": "natural_disaster",
-      "probability": 0.335,
+      "probability": 0.325,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high"
@@ -213,10 +339,27 @@
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.185,
+      "probability": 0.19,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
-      "importance": "low"
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "科技"
+        ],
+        "assets": [
+          "美债(10Y)",
+          "美股(SPX)",
+          "黄金",
+          "美元指数"
+        ],
+        "channels": [
+          "油价通胀冲击逆转降息预期，加息概率从6%升至24%",
+          "债市'叛变'——长端利率飙升冲击估值"
+        ]
+      }
     },
     {
       "event_summary": "10.0 or above earthquake before 2027",
@@ -225,7 +368,22 @@
       "probability": 0.0495,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
-      "importance": "low"
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "保险",
+          "建筑",
+          "基础设施"
+        ],
+        "assets": [
+          "再保险股",
+          "大宗商品"
+        ],
+        "channels": [
+          "大型地震可能造成局部供应链中断",
+          "灾后重建推动建材和基础设施需求"
+        ]
+      }
     }
   ]
 }
