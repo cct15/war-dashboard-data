@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-06T14:45:30+00:00",
+    "updated_at": "2026-04-07T03:20:36+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,70 +43,70 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0789,
+      "probability_30d": 0.079,
       "probability_7d": 0.019,
       "probability_1d": 0.0027,
       "data_points": 5,
-      "composite_risk_score": 0.1737,
+      "composite_risk_score": 0.1681,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0789,
-          "probability_7d": 0.0229,
-          "probability_1d": 0.0033,
+          "probability_30d": 0.079,
+          "probability_7d": 0.022,
+          "probability_1d": 0.0032,
           "data_points": 5,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0107
+          "change_vs_yesterday": 0.0001,
+          "change_vs_7d_ago": 0.0039
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "direction": "risk_increase",
-          "probability_30d": 0.0444,
-          "probability_7d": 0.0102,
-          "probability_1d": 0.0015,
+          "probability_30d": 0.0429,
+          "probability_7d": 0.0099,
+          "probability_1d": 0.0014,
           "data_points": 5,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0153
+          "change_vs_yesterday": -0.0015,
+          "change_vs_7d_ago": -0.0134
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "direction": "neutral",
-          "probability_30d": 0.0722,
-          "probability_7d": 0.0152,
-          "probability_1d": 0.0022,
+          "probability_30d": 0.0808,
+          "probability_7d": 0.0184,
+          "probability_1d": 0.0027,
           "data_points": 3,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0364
+          "change_vs_yesterday": 0.0086,
+          "change_vs_7d_ago": -0.0265
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.3092,
-          "probability_7d": 0.0666,
-          "probability_1d": 0.0099,
+          "probability_30d": 0.3418,
+          "probability_7d": 0.0745,
+          "probability_1d": 0.0111,
           "data_points": 11,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": 0.0291
+          "change_vs_yesterday": 0.0326,
+          "change_vs_7d_ago": 0.0327
         },
         {
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.3378,
-          "probability_7d": 0.0917,
-          "probability_1d": 0.0136,
+          "probability_30d": 0.3383,
+          "probability_7d": 0.0919,
+          "probability_1d": 0.0137,
           "data_points": 1,
-          "change_vs_yesterday": null,
+          "change_vs_yesterday": 0.0005,
           "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "美以对伊战争第38天。今日是特朗普设定的霍尔木兹海峡最后通牒截止日（4月6日晚8点东部时间）。特朗普威胁：\"周二将是电厂日和桥梁日\"，如伊朗不开放海峡，将摧毁\"每一座电厂\"。美军F-15E战机被伊朗击落，两名飞行员均已获救（上校重伤，从伊朗山区深处救出）。伊朗拒绝最后通牒：称海峡需在战争损害赔偿后才全面开放。德黑兰攻击科威特石油总部。俄罗斯开始撤离布什尔核电站198名工作人员（该区域第4次遭打击）。油价自开战以来飙升60%+，IEA称为1970年代以来最大能源供应中断（日缺1000万桶）。General License U 4月19日到期。",
+      "situation_briefing": "美以对伊战争第39天。特朗普最后通牒倒计时：4月8日（周二）晚8点ET前伊朗须达成协议开放霍尔木兹海峡。特朗普威胁：\"午夜前伊朗每座桥梁将被摧毁，每座电厂将停运、燃烧、爆炸\"。伊朗拒绝美方临时停火方案，通过巴基斯坦提出10条款永久停战反提案：含解除制裁、结束地区战争、海峡安全通行协议。特朗普评价伊方提案\"不够好，但是非常重大的进展\"，称伊朗\"在真诚谈判\"。以色列与美军联合打击伊朗石化工业和钢铁厂。以军轰炸伊朗最大石化设施。巴基斯坦、埃及、土耳其协调斡旋，巴方提议45天停火+重开海峡方案。油价自开战飙升60%+，IEA称1970年代以来最大能源中断（日缺1000万桶）。General License U 4月19日到期。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -123,10 +123,10 @@
           "航运指数"
         ],
         "channels": [
-          "4月6日霍尔木兹最后通牒到期，特朗普威胁周二起摧毁伊朗全部电厂和桥梁",
-          "油价自开战飙升60%+，IEA称1970年代以来最大能源中断（日缺1000万桶）",
-          "F-15E被击落后两飞行员获救，伊朗攻击科威特石油总部，冲突向海湾扩散",
-          "俄罗斯撤离布什尔核电站人员（第4次遭打击），General License U 4月19日到期"
+          "4月8日霍尔木兹最后通牒到期（<24h），特朗普威胁摧毁伊朗全部电厂和桥梁",
+          "伊朗拒绝临时停火，提10条款永久停战反提案，巴/埃/土三国斡旋45天停火",
+          "美以联合打击伊朗石化工业和钢铁厂，以军轰炸伊朗最大石化设施",
+          "油价飙升60%+，IEA称1970年代以来最大能源中断（日缺1000万桶），GL-U 4月19日到期"
         ]
       }
     },
@@ -136,37 +136,37 @@
       "label_cn": "印度 - 巴基斯坦",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0382,
-      "probability_7d": 0.0091,
+      "probability_30d": 0.0369,
+      "probability_7d": 0.0087,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1245,
+      "composite_risk_score": 0.1258,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0382,
-          "probability_7d": 0.0045,
+          "probability_30d": 0.0369,
+          "probability_7d": 0.0044,
           "probability_1d": 0.0006,
           "data_points": 2,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": 0.0002
+          "change_vs_yesterday": -0.0013,
+          "change_vs_7d_ago": -0.0156
         },
         {
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.0406,
-          "probability_7d": 0.0096,
-          "probability_1d": 0.0014,
+          "probability_30d": 0.0593,
+          "probability_7d": 0.0142,
+          "probability_1d": 0.002,
           "data_points": 1,
-          "change_vs_yesterday": null,
+          "change_vs_yesterday": 0.0187,
           "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "巴基斯坦面临\"三线困境\"：同时应对阿富汗、伊朗（海峡危机波及）、印度三个方向。帕哈尔加姆袭击一周年（4月22日）临近，印巴紧张持续升温。巴阿战争持续：巴方累计摧毁249个哨所、空袭70个地点。Lowy Institute称其为\"世界忽视的另一场战争\"。Chatham House呼吁巴阿双方降级。沙普尔坎迪大坝截断拉维河水，夏季水危机迫在眉睫。2025年5月印巴停火仍维持，核冲突风险评估未变。",
+      "situation_briefing": "口水战急剧升级：巴防长Khawaja Asif（4月4日）威胁\"下次冲突不会止于边境，将打到加尔各答\"。印度国防部长Rajnath Singh回应：任何挑衅将招致\"前所未有的决定性回击\"。帕哈尔加姆袭击一周年（4月22日）临近，印巴紧张持续升温。巴基斯坦三线困境：巴阿战争持续（249哨所+70地点空袭）+伊朗海峡危机波及+印度方向升温。沙普尔坎迪大坝截断拉维河水，夏季水危机迫在眉睫。2025年5月停火仍名义维持。",
       "risk_impact": {
         "industries": [
           "纺织",
@@ -181,9 +181,9 @@
           "棉花"
         ],
         "channels": [
-          "巴基斯坦三线困境：阿富汗战争+伊朗海峡危机+印度紧张，多线承压",
+          "巴防长威胁\"打到加尔各答\"，印方警告\"前所未有的回击\"，口水战急剧升级",
           "帕哈尔加姆袭击一周年（4/22）临近，印巴紧张持续升温",
-          "巴阿战争累计摧毁249个哨所、空袭70地点，Chatham House呼吁降级",
+          "巴基斯坦三线困境：巴阿战争+伊朗海峡危机+印度方向同时承压",
           "沙普尔坎迪大坝截断拉维河水，夏季水危机迫在眉睫"
         ]
       }
@@ -194,48 +194,48 @@
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0149,
-      "probability_7d": 0.0035,
+      "probability_30d": 0.0146,
+      "probability_7d": 0.0034,
       "probability_1d": 0.0005,
       "data_points": 6,
-      "composite_risk_score": 0.1104,
+      "composite_risk_score": 0.1142,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0149,
+          "probability_30d": 0.0146,
           "probability_7d": 0.0016,
           "probability_1d": 0.0002,
           "data_points": 6,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0018
+          "change_vs_yesterday": -0.0003,
+          "change_vs_7d_ago": -0.004
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.034,
-          "probability_7d": 0.0055,
-          "probability_1d": 0.0008,
+          "probability_30d": 0.0281,
+          "probability_7d": 0.005,
+          "probability_1d": 0.0007,
           "data_points": 6,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0032
+          "change_vs_yesterday": -0.0059,
+          "change_vs_7d_ago": -0.0089
         },
         {
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.012,
+          "probability_30d": 0.0119,
           "probability_7d": 0.0028,
           "probability_1d": 0.0004,
           "data_points": 1,
-          "change_vs_yesterday": null,
+          "change_vs_yesterday": -0.0001,
           "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "克里姆林宫拒绝泽连斯基的东正教复活节停火提案。佩斯科夫要求乌方\"昨天就该\"从顿涅茨克撤军。俄方威胁：若乌军两个月内不撤出顿巴斯，将强化谈判条件。泽连斯基警告：长期中东战争可能分流西方对乌支持。前线：俄军春季攻势获势（+17平方英里/周），但乌军南部反攻收复约400km²为近一年最大进展。俄罗斯声称已控制卢甘斯克全境（CNN核实：实际乌军仍控制约19.5%顿涅茨克）。俄军累计损失约130万人。和平协议目标仍为6月前签署。",
+      "situation_briefing": "克里姆林宫仍拒绝泽连斯基东正教复活节停火提案。佩斯科夫要求乌方从顿涅茨克撤军。俄方威胁：若乌军两个月内不撤出顿巴斯，将强化谈判条件。前线：俄军春季攻势获势（+17平方英里/周），乌军南部反攻收复约400km²为近一年最大进展。和谈暂停：日内瓦US调停因伊朗战事搁置，市场预期2026年底前停火概率仅约24%。泽连斯基警告中东长期战争分流西方对乌支持。俄军累计损失约130万人。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -251,10 +251,10 @@
           "铝/镍"
         ],
         "channels": [
-          "克里姆林宫拒绝复活节停火，要求乌军两月内撤出顿巴斯否则强化条件",
+          "克里姆林宫仍拒绝复活节停火，要求乌军两月内撤出顿巴斯否则强化条件",
           "俄军春季攻势获势（+17平方英里/周），乌军南部反攻400km²为近一年最大进展",
-          "泽连斯基警告中东长期战争分流西方对乌支持，和平协议目标仍为6月",
-          "俄军累计损失约130万人，双方维持高强度消耗战"
+          "和谈因伊朗战事暂停，市场预期年底前停火概率仅约24%",
+          "泽连斯基警告中东战争分流对乌支持，俄军累计损失约130万人"
         ]
       }
     },
@@ -268,7 +268,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.103,
+      "composite_risk_score": 0.1058,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -286,15 +286,15 @@
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.0538,
-          "probability_7d": 0.0032,
-          "probability_1d": 0.0005,
+          "probability_30d": 0.0914,
+          "probability_7d": 0.0055,
+          "probability_1d": 0.0008,
           "data_points": 4,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0164
+          "change_vs_yesterday": 0.0376,
+          "change_vs_7d_ago": 0.0204
         }
       ],
-      "situation_briefing": "黎巴嫩战事第36天。战事大幅升级：4月5日真主党向以色列发射200枚火箭弹（80枚未入境，另400枚被阻止发射）。以军击毙伊玛目侯赛因师指挥官及拉德万部队南黎分部指挥官。以色列战略目标转变：从\"解除真主党武装\"转向重建\"南黎安全区\"（FDD分析）。以军持续摧毁黎南部医疗基础设施。《外交事务》警告\"黎巴嫩即将崩溃\"。超120万人流离失所。加沙Phase II谈判因伊朗战事暂停。",
+      "situation_briefing": "黎巴嫩战事第37天。真主党、胡塞武装与伊朗联合对以色列发动巡航导弹+无人机协同打击。4月5日以军空袭黎巴嫩全境致至少14人死亡，含贝鲁特南郊4人、南部一家六口。以色列战略目标转变：从\"解除真主党武装\"转向重建\"南黎安全区\"（蓝线2-3公里缓冲带）。超100万人流离失所（占黎人口20%）。《外交事务》警告\"黎巴嫩即将崩溃\"。加沙Phase II谈判因伊朗战事暂停。",
       "risk_impact": {
         "industries": [
           "科技",
@@ -309,10 +309,10 @@
           "原油"
         ],
         "channels": [
-          "真主党4/5向以色列发射200枚火箭弹，以军阻止另400枚发射，战事大幅升级",
-          "以军击毙伊玛目侯赛因师+拉德万部队南部指挥官，战略转向重建南黎安全区",
-          "以军系统性摧毁黎南部医疗基础设施，《外交事务》警告黎巴嫩即将崩溃",
-          "超120万人流离失所，加沙Phase II谈判因伊朗战事暂停"
+          "真主党+胡塞+伊朗联合对以发动巡航导弹+无人机协同打击",
+          "4/5以军空袭黎全境致14人死，以色列战略转向重建南黎安全区（蓝线2-3km缓冲带）",
+          "超100万人流离失所（占黎人口20%），《外交事务》警告黎巴嫩即将崩溃",
+          "加沙Phase II谈判因伊朗战事暂停"
         ]
       }
     },
@@ -322,26 +322,26 @@
       "label_cn": "中国 - 台海",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.0125,
-      "probability_7d": 0.0029,
+      "probability_30d": 0.0127,
+      "probability_7d": 0.003,
       "probability_1d": 0.0004,
       "data_points": 9,
-      "composite_risk_score": 0.0987,
+      "composite_risk_score": 0.1002,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0125,
+          "probability_30d": 0.0127,
           "probability_7d": 0.0035,
           "probability_1d": 0.0005,
           "data_points": 9,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0002
+          "change_vs_yesterday": 0.0002,
+          "change_vs_7d_ago": 0.0001
         }
       ],
-      "situation_briefing": "解放军空军自2月27日起几乎完全停止绕台活动（13天中11天零活动），为2021年以来最长间歇。台湾推动400亿美元国防预算：采购20万套无人系统+综合防空反导网络。中国2026年国防预算增长7%至约2780亿美元。分析人士评估2026年武力攻台可能性低，北京以管控关系为优先。",
+      "situation_briefing": "解放军4月初举行两日军演，模拟三阶段对台作战计划，含高超音速导弹部署和海警新角色。台湾军购延期：HIMARS、M109A7等美制武器付款推迟至2026年5月。中国2026年国防预算增长7%至约2780亿美元。AI无人机蜂群技术可能用于压制台湾防空。分析人士评估2026年武力攻台可能性低，北京以管控关系和渐进施压为优先。",
       "risk_impact": {
         "industries": [
           "半导体",
@@ -357,10 +357,10 @@
           "BDI航运指数"
         ],
         "channels": [
-          "全球芯片供应链面临断裂风险（台积电占先进制程90%+）",
-          "台海航运封锁将中断全球贸易主航道",
-          "中美科技制裁可能急剧升级",
-          "外资大规模撤离中国市场"
+          "解放军4月初军演模拟三阶段对台作战，含高超音速导弹和海警新角色",
+          "台湾军购（HIMARS/M109A7）付款延至5月，短期防御能力受限",
+          "AI无人机蜂群技术可能压制台湾防空，全球芯片供应链面临风险",
+          "2026年攻台可能性低，北京以渐进施压为优先"
         ]
       }
     },
@@ -370,37 +370,37 @@
       "label_cn": "美国 - 拉丁美洲",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.025,
-      "probability_7d": 0.0059,
+      "probability_30d": 0.0242,
+      "probability_7d": 0.0057,
       "probability_1d": 0.0008,
       "data_points": 5,
-      "composite_risk_score": 0.0866,
+      "composite_risk_score": 0.1001,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.025,
+          "probability_30d": 0.0242,
           "probability_7d": 0.0049,
           "probability_1d": 0.0007,
           "data_points": 5,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.006
+          "change_vs_yesterday": -0.0008,
+          "change_vs_7d_ago": -0.0052
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "direction": "risk_increase",
-          "probability_30d": 0.0352,
-          "probability_7d": 0.0083,
+          "probability_30d": 0.0354,
+          "probability_7d": 0.0084,
           "probability_1d": 0.0012,
           "data_points": 1,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": -0.0082
+          "change_vs_yesterday": 0.0002,
+          "change_vs_7d_ago": -0.0089
         }
       ],
-      "situation_briefing": "古巴燃油危机加深：美方封锁委内瑞拉对古巴石油供应，3月30日一艘俄罗斯油轮抵古巴缓解燃眉之急。古巴政府宣布释放51名政治犯（教廷斡旋），以示善意。委内瑞拉过渡进程长期化，美方重点从军事转向政治重建。拉美多国（巴西、西班牙、智利、哥伦比亚、墨西哥、乌拉圭）联合声明谴责美方对委单边军事行动。",
+      "situation_briefing": "古巴人道危机加深：3月两次全岛大停电，哈瓦那每日断电15+小时，农村超24小时。古巴4月3日释放2000+名囚犯。联合国秘书长古特雷斯\"极度关切\"：如石油需求不满足，古巴将\"恶化甚至崩溃\"。联合国专家谴责美方对古巴燃油封锁为\"严重违反国际法\"。委内瑞拉过渡进程长期化：代理总统Delcy Rodríguez执政，未宣布自由选举。790万人流亡海外。",
       "risk_impact": {
         "industries": [
           "石油",
@@ -415,10 +415,10 @@
           "糖/咖啡"
         ],
         "channels": [
-          "拉美石油供应中断推高美洲油价",
-          "美国制裁扩大化冻结区域投资",
-          "大规模难民潮冲击美国劳动力市场",
-          "拉美国家投资环境全面恶化"
+          "古巴3月两次全岛停电，哈瓦那日断电15h+，联合国警告人道崩溃",
+          "联合国谴责美方燃油封锁为严重违反国际法",
+          "委内瑞拉790万人流亡海外，代理政府未宣布选举，过渡长期化",
+          "拉美石油供应中断+制裁扩大化冻结区域投资"
         ]
       }
     }
