@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:55:16+00:00",
+    "updated_at": "2026-04-08T05:56:55+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -140,7 +140,7 @@
       "probability_7d": 0.0093,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1305,
+      "composite_risk_score": 0.1315,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -268,7 +268,7 @@
       "probability_7d": 0.0063,
       "probability_1d": 0.0009,
       "data_points": 5,
-      "composite_risk_score": 0.1038,
+      "composite_risk_score": 0.102,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -374,7 +374,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.0966,
+      "composite_risk_score": 0.0989,
       "anomaly_detected": false,
       "risk_events": [
         {
