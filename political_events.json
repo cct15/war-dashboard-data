@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:56:56+00:00",
+    "updated_at": "2026-04-08T06:01:22+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
       "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
       "category": "political",
-      "probability": 0.9605,
+      "probability": 0.9595,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -242,7 +242,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2665,
+      "probability": 0.2675,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"

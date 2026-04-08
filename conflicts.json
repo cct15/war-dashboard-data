@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:56:55+00:00",
+    "updated_at": "2026-04-08T06:01:22+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -53,6 +53,7 @@
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "地面入侵/正式宣战/核试验",
           "direction": "risk_increase",
           "probability_30d": 0.0303,
           "probability_7d": 0.1488,
@@ -64,6 +65,7 @@
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
+          "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0288,
           "probability_7d": 0.007,
@@ -75,6 +77,7 @@
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
+          "event_note": "美伊核协议",
           "direction": "neutral",
           "probability_30d": 0.1961,
           "probability_7d": 0.0498,
@@ -86,6 +89,7 @@
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "美伊停火协议达成",
           "direction": "risk_decrease",
           "probability_30d": 0.9197,
           "probability_7d": 0.7291,
@@ -97,6 +101,7 @@
         {
           "event_type": "other",
           "event_description": "other",
+          "event_note": "",
           "direction": "neutral",
           "probability_30d": 0.0818,
           "probability_7d": 0.0197,
@@ -146,6 +151,7 @@
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0393,
           "probability_7d": 0.0047,
@@ -157,6 +163,7 @@
         {
           "event_type": "other",
           "event_description": "other",
+          "event_note": "",
           "direction": "neutral",
           "probability_30d": 0.0473,
           "probability_7d": 0.0112,
@@ -204,6 +211,7 @@
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "北约与俄罗斯直接军事冲突",
           "direction": "risk_increase",
           "probability_30d": 0.0173,
           "probability_7d": 0.0017,
@@ -215,6 +223,7 @@
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "",
           "direction": "risk_decrease",
           "probability_30d": 0.0321,
           "probability_7d": 0.006,
@@ -226,6 +235,7 @@
         {
           "event_type": "other",
           "event_description": "other",
+          "event_note": "",
           "direction": "neutral",
           "probability_30d": 0.0102,
           "probability_7d": 0.0024,
@@ -274,6 +284,7 @@
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0269,
           "probability_7d": 0.0052,
@@ -285,6 +296,7 @@
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
+          "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0363,
           "probability_7d": 0.0086,
@@ -332,6 +344,7 @@
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0125,
           "probability_7d": 0.0036,
@@ -380,6 +393,7 @@
         {
           "event_type": "ceasefire_cancel",
           "event_description": "Existing ceasefire breaks down or is cancelled",
+          "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0,
           "probability_7d": 0.0,
@@ -391,6 +405,7 @@
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "加沙停火Phase II（不含黎巴嫩）",
           "direction": "risk_decrease",
           "probability_30d": 0.1818,
           "probability_7d": 0.0114,
@@ -402,6 +417,7 @@
         {
           "event_type": "other",
           "event_description": "other",
+          "event_note": "",
           "direction": "neutral",
           "probability_30d": 0.6049,
           "probability_7d": 0.5974,

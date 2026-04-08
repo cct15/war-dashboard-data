@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:56:56+00:00",
+    "updated_at": "2026-04-08T06:01:22+00:00",
     "update_frequency": "daily",
     "status": "unavailable",
     "description": "Maritime chokepoint monitoring is temporarily unavailable. AIS snapshot data does not meet reliability standards for API distribution."
