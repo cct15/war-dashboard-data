@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T03:22:02+00:00",
+    "updated_at": "2026-04-08T03:59:37+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
       "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
       "category": "political",
-      "probability": 0.9595,
+      "probability": 0.954,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -42,7 +42,7 @@
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.741,
+      "probability": 0.7395,
       "deadline": "2026-10-20",
       "data_confidence": "high",
       "importance": "low"
@@ -97,7 +97,7 @@
       "event_summary": "英国首相斯塔默年内下台",
       "event_summary_en": "Starmer out by...?",
       "category": "political",
-      "probability": 0.53,
+      "probability": 0.555,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -139,7 +139,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.445,
+      "probability": 0.435,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -170,33 +170,6 @@
       }
     },
     {
-      "event_summary": "美国2026年底前陷入衰退",
-      "event_summary_en": "US recession by end of 2026?",
-      "category": "economic",
-      "probability": 0.405,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "high",
-      "risk_impact": {
-        "industries": [
-          "金融",
-          "房地产",
-          "消费",
-          "科技"
-        ],
-        "assets": [
-          "美股(SPX)",
-          "美债(10Y)",
-          "美元指数",
-          "高收益债"
-        ],
-        "channels": [
-          "油价飙升+关税叠加推高通胀，消费需求萎缩",
-          "非农就业连续下滑，失业率升至4.4%"
-        ]
-      }
-    },
-    {
       "event_summary": "内塔尼亚胡年内下台",
       "event_summary_en": "Netanyahu out by...?",
       "category": "political",
@@ -221,10 +194,37 @@
       }
     },
     {
+      "event_summary": "美国2026年底前陷入衰退",
+      "event_summary_en": "US recession by end of 2026?",
+      "category": "economic",
+      "probability": 0.345,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "消费",
+          "科技"
+        ],
+        "assets": [
+          "美股(SPX)",
+          "美债(10Y)",
+          "美元指数",
+          "高收益债"
+        ],
+        "channels": [
+          "油价飙升+关税叠加推高通胀，消费需求萎缩",
+          "非农就业连续下滑，失业率升至4.4%"
+        ]
+      }
+    },
+    {
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.3255,
+      "probability": 0.324,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high"
@@ -233,7 +233,16 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.285,
+      "probability": 0.295,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
+      "event_summary": "Democratic Presidential Nominee 2028",
+      "event_summary_en": "Democratic Presidential Nominee 2028",
+      "category": "political",
+      "probability": 0.2675,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -264,19 +273,10 @@
       }
     },
     {
-      "event_summary": "Democratic Presidential Nominee 2028",
-      "event_summary_en": "Democratic Presidential Nominee 2028",
-      "category": "political",
-      "probability": 0.2635,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1845,
+      "probability": 0.1815,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -291,6 +291,42 @@
       "importance": "low"
     },
     {
+      "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
+      "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
+      "category": "economic",
+      "probability": 0.495,
+      "deadline": null,
+      "data_confidence": "medium",
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "制造业",
+          "汽车",
+          "农业",
+          "零售"
+        ],
+        "assets": [
+          "美股(SPX)",
+          "人民币",
+          "欧元",
+          "铜"
+        ],
+        "channels": [
+          "法院若判违宪须退还已征关税，政策不确定性激增",
+          "10%全面关税为1943年以来最高有效税率，Section 301调查16国"
+        ]
+      }
+    },
+    {
+      "event_summary": "飓风/热带风暴风险",
+      "event_summary_en": "Named storm forms before hurricane season?",
+      "category": "natural_disaster",
+      "probability": 0.39,
+      "deadline": null,
+      "data_confidence": "medium",
+      "importance": "high"
+    },
+    {
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "event_summary_en": "Will any Category 4 hurricane make landfall in the US in before 2027?",
       "category": "natural_disaster",
@@ -300,19 +336,10 @@
       "importance": "low"
     },
     {
-      "event_summary": "飓风/热带风暴风险",
-      "event_summary_en": "Named storm forms before hurricane season?",
-      "category": "natural_disaster",
-      "probability": 0.325,
-      "deadline": null,
-      "data_confidence": "medium",
-      "importance": "high"
-    },
-    {
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.17,
+      "probability": 0.165,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
@@ -338,7 +365,7 @@
       "event_summary": "10.0 or above earthquake before 2027",
       "event_summary_en": "10.0 or above earthquake before 2027?",
       "category": "natural_disaster",
-      "probability": 0.0495,
+      "probability": 0.0515,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",

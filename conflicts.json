@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T03:22:01+00:00",
+    "updated_at": "2026-04-08T03:59:36+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,66 +43,66 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0281,
-      "probability_7d": 0.0066,
+      "probability_30d": 0.029,
+      "probability_7d": 0.0068,
       "probability_1d": 0.001,
       "data_points": 5,
-      "composite_risk_score": 0.1364,
+      "composite_risk_score": 0.137,
       "anomaly_detected": true,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0281,
-          "probability_7d": 0.0173,
+          "probability_30d": 0.029,
+          "probability_7d": 0.0168,
           "probability_1d": 0.0025,
           "data_points": 5,
-          "change_vs_yesterday": -0.0509,
-          "change_vs_7d_ago": -0.0317
+          "change_vs_yesterday": -0.05,
+          "change_vs_7d_ago": -0.0308
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "direction": "risk_increase",
-          "probability_30d": 0.0308,
-          "probability_7d": 0.0072,
+          "probability_30d": 0.0298,
+          "probability_7d": 0.0071,
           "probability_1d": 0.001,
           "data_points": 5,
-          "change_vs_yesterday": -0.0121,
-          "change_vs_7d_ago": -0.0045
+          "change_vs_yesterday": -0.0131,
+          "change_vs_7d_ago": -0.0055
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "direction": "neutral",
-          "probability_30d": 0.2214,
-          "probability_7d": 0.0577,
-          "probability_1d": 0.0085,
+          "probability_30d": 0.2179,
+          "probability_7d": 0.0566,
+          "probability_1d": 0.0084,
           "data_points": 3,
-          "change_vs_yesterday": 0.1406,
-          "change_vs_7d_ago": 0.1227
+          "change_vs_yesterday": 0.1371,
+          "change_vs_7d_ago": 0.1192
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.4568,
-          "probability_7d": 0.1295,
-          "probability_1d": 0.0203,
-          "data_points": 11,
-          "change_vs_yesterday": 0.115,
-          "change_vs_7d_ago": 0.1214
+          "probability_30d": 0.5833,
+          "probability_7d": 0.1327,
+          "probability_1d": 0.0209,
+          "data_points": 6,
+          "change_vs_yesterday": 0.2415,
+          "change_vs_7d_ago": 0.2479
         },
         {
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.0948,
+          "probability_30d": 0.0949,
           "probability_7d": 0.023,
           "probability_1d": 0.0033,
           "data_points": 1,
-          "change_vs_yesterday": -0.2435,
+          "change_vs_yesterday": -0.2434,
           "change_vs_7d_ago": null
         }
       ],
@@ -140,7 +140,7 @@
       "probability_7d": 0.0093,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1324,
+      "composite_risk_score": 0.1305,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -158,11 +158,11 @@
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.0491,
-          "probability_7d": 0.0117,
+          "probability_30d": 0.0498,
+          "probability_7d": 0.0118,
           "probability_1d": 0.0017,
           "data_points": 1,
-          "change_vs_yesterday": -0.0102,
+          "change_vs_yesterday": -0.0095,
           "change_vs_7d_ago": null
         }
       ],
@@ -194,34 +194,34 @@
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0177,
-      "probability_7d": 0.0041,
+      "probability_30d": 0.018,
+      "probability_7d": 0.0042,
       "probability_1d": 0.0006,
-      "data_points": 6,
-      "composite_risk_score": 0.1134,
+      "data_points": 5,
+      "composite_risk_score": 0.1136,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0177,
+          "probability_30d": 0.018,
           "probability_7d": 0.0017,
           "probability_1d": 0.0002,
-          "data_points": 6,
-          "change_vs_yesterday": 0.0031,
-          "change_vs_7d_ago": 0.0001
+          "data_points": 5,
+          "change_vs_yesterday": 0.0034,
+          "change_vs_7d_ago": 0.0004
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.0342,
-          "probability_7d": 0.0066,
+          "probability_30d": 0.0327,
+          "probability_7d": 0.0063,
           "probability_1d": 0.0009,
           "data_points": 6,
-          "change_vs_yesterday": 0.0061,
-          "change_vs_7d_ago": -0.0016
+          "change_vs_yesterday": 0.0046,
+          "change_vs_7d_ago": -0.0031
         },
         {
           "event_type": "other",
@@ -264,34 +264,34 @@
       "label_cn": "美国 - 拉丁美洲",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.0251,
-      "probability_7d": 0.0059,
-      "probability_1d": 0.0008,
+      "probability_30d": 0.0274,
+      "probability_7d": 0.0065,
+      "probability_1d": 0.0009,
       "data_points": 5,
-      "composite_risk_score": 0.1043,
+      "composite_risk_score": 0.1023,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0251,
-          "probability_7d": 0.0049,
-          "probability_1d": 0.0007,
+          "probability_30d": 0.0274,
+          "probability_7d": 0.0053,
+          "probability_1d": 0.0008,
           "data_points": 5,
-          "change_vs_yesterday": 0.0009,
-          "change_vs_7d_ago": -0.0044
+          "change_vs_yesterday": 0.0032,
+          "change_vs_7d_ago": -0.0021
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "direction": "risk_increase",
-          "probability_30d": 0.0355,
-          "probability_7d": 0.0084,
-          "probability_1d": 0.0012,
+          "probability_30d": 0.037,
+          "probability_7d": 0.0088,
+          "probability_1d": 0.0013,
           "data_points": 1,
-          "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": -0.0114
+          "change_vs_yesterday": 0.0016,
+          "change_vs_7d_ago": -0.0099
         }
       ],
       "situation_briefing": "古巴能源危机持续恶化：联合国4月7日紧急呼吁国际援助，称人道局势\"不断恶化\"。卫生系统积压逾9.6万台手术（含1.1万儿童手术），国家免疫计划推迟，约100万人依赖水车供水。数百名古巴妇女4月7日在哈瓦那游行抗议美方燃油封锁，打出\"Tumba el bloqueo\"标语。美国国会议员访古巴后谴责能源封锁为\"经济轰炸\"。联合国专家称封锁\"严重违反国际法\"。委内瑞拉过渡进程长期化：马杜罗被推翻后美方封锁委对古石油供应，古巴失去主要燃料来源。",
@@ -322,23 +322,23 @@
       "label_cn": "中国 - 台海",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.0126,
-      "probability_7d": 0.003,
+      "probability_30d": 0.0125,
+      "probability_7d": 0.0029,
       "probability_1d": 0.0004,
       "data_points": 9,
-      "composite_risk_score": 0.1042,
+      "composite_risk_score": 0.1015,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0126,
+          "probability_30d": 0.0125,
           "probability_7d": 0.0036,
           "probability_1d": 0.0005,
           "data_points": 9,
-          "change_vs_yesterday": -0.0001,
-          "change_vs_7d_ago": -0.0
+          "change_vs_yesterday": -0.0002,
+          "change_vs_7d_ago": -0.0001
         }
       ],
       "situation_briefing": "台湾在野党领袖郑丽文4月7日访华，称\"和平使命\"旨在缓和台海紧张，但加剧岛内政治分裂。解放军4月初两日军演模拟三阶段对台作战计划，含高超音速导弹部署和海警新角色。中国海军多点部署台岛周边：东海岸、北部、西北和西南方向均有军舰驻位，持续施压态势。台湾军购延期：HIMARS、M109A7等美制武器付款推迟至2026年5月，短期防御能力受限。分析人士评估2026年武力攻台可能性低，北京以渐进施压和管控关系为优先。",
@@ -392,20 +392,20 @@
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.1946,
-          "probability_7d": 0.0123,
-          "probability_1d": 0.0018,
+          "probability_30d": 0.2305,
+          "probability_7d": 0.0148,
+          "probability_1d": 0.0022,
           "data_points": 4,
-          "change_vs_yesterday": 0.1032,
-          "change_vs_7d_ago": 0.1247
+          "change_vs_yesterday": 0.1391,
+          "change_vs_7d_ago": 0.1606
         },
         {
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.6657,
-          "probability_7d": 0.2256,
-          "probability_1d": 0.0359,
+          "probability_30d": 0.6814,
+          "probability_7d": 0.2342,
+          "probability_1d": 0.0374,
           "data_points": 1,
           "change_vs_yesterday": null,
           "change_vs_7d_ago": null
