@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T06:01:22+00:00",
+    "updated_at": "2026-04-08T06:10:14+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -53,7 +53,7 @@
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "地面入侵/正式宣战/核试验",
+          "event_note": "局部冲突已发生，全面升级风险仍存",
           "direction": "risk_increase",
           "probability_30d": 0.0303,
           "probability_7d": 0.1488,
@@ -89,7 +89,7 @@
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "美伊停火协议达成",
+          "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
           "probability_30d": 0.9197,
           "probability_7d": 0.7291,
@@ -417,7 +417,7 @@
         {
           "event_type": "other",
           "event_description": "other",
-          "event_note": "",
+          "event_note": "部分事件已确认",
           "direction": "neutral",
           "probability_30d": 0.6049,
           "probability_7d": 0.5974,
