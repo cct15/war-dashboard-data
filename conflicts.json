@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:51:31+00:00",
+    "updated_at": "2026-04-08T05:54:24+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -76,23 +76,23 @@
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "direction": "neutral",
-          "probability_30d": 0.1955,
-          "probability_7d": 0.0497,
+          "probability_30d": 0.1961,
+          "probability_7d": 0.0498,
           "probability_1d": 0.0073,
           "data_points": 3,
-          "change_vs_yesterday": 0.1147,
-          "change_vs_7d_ago": 0.0968
+          "change_vs_yesterday": 0.1153,
+          "change_vs_7d_ago": 0.0974
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.9191,
-          "probability_7d": 0.7292,
+          "probability_30d": 0.9196,
+          "probability_7d": 0.7291,
           "probability_1d": 0.6367,
           "data_points": 13,
-          "change_vs_yesterday": 0.5773,
-          "change_vs_7d_ago": 0.5837
+          "change_vs_yesterday": 0.5778,
+          "change_vs_7d_ago": 0.5842
         },
         {
           "event_type": "other",
@@ -198,7 +198,7 @@
       "probability_7d": 0.0041,
       "probability_1d": 0.0006,
       "data_points": 5,
-      "composite_risk_score": 0.111,
+      "composite_risk_score": 0.1099,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -227,11 +227,11 @@
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.0104,
+          "probability_30d": 0.0102,
           "probability_7d": 0.0024,
           "probability_1d": 0.0003,
           "data_points": 1,
-          "change_vs_yesterday": -0.0015,
+          "change_vs_yesterday": -0.0017,
           "change_vs_7d_ago": null
         }
       ],
@@ -268,7 +268,7 @@
       "probability_7d": 0.0063,
       "probability_1d": 0.0009,
       "data_points": 5,
-      "composite_risk_score": 0.102,
+      "composite_risk_score": 0.1038,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -374,7 +374,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.0989,
+      "composite_risk_score": 0.0966,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -403,9 +403,9 @@
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.6208,
-          "probability_7d": 0.6012,
-          "probability_1d": 0.5159,
+          "probability_30d": 0.6049,
+          "probability_7d": 0.5974,
+          "probability_1d": 0.5152,
           "data_points": 2,
           "change_vs_yesterday": null,
           "change_vs_7d_ago": null
