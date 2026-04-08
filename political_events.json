@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:16:47+00:00",
+    "updated_at": "2026-04-08T05:24:53+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -42,7 +42,7 @@
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.736,
+      "probability": 0.7365,
       "deadline": "2026-10-20",
       "data_confidence": "high",
       "importance": "low"
@@ -276,7 +276,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.183,
+      "probability": 0.1835,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -339,7 +339,7 @@
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.165,
+      "probability": 0.155,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
