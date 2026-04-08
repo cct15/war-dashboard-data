@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:24:52+00:00",
+    "updated_at": "2026-04-08T05:45:37+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,8 +43,8 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0302,
-      "probability_7d": 0.0071,
+      "probability_30d": 0.0303,
+      "probability_7d": 0.0072,
       "probability_1d": 0.001,
       "data_points": 5,
       "composite_risk_score": 0.1373,
@@ -54,12 +54,12 @@
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0302,
-          "probability_7d": 0.1484,
+          "probability_30d": 0.0303,
+          "probability_7d": 0.1488,
           "probability_1d": 0.1437,
           "data_points": 5,
-          "change_vs_yesterday": -0.0488,
-          "change_vs_7d_ago": -0.0296
+          "change_vs_yesterday": -0.0487,
+          "change_vs_7d_ago": -0.0295
         },
         {
           "event_type": "regime_change",
@@ -76,33 +76,33 @@
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "direction": "neutral",
-          "probability_30d": 0.1936,
-          "probability_7d": 0.0491,
-          "probability_1d": 0.0072,
+          "probability_30d": 0.1955,
+          "probability_7d": 0.0497,
+          "probability_1d": 0.0073,
           "data_points": 3,
-          "change_vs_yesterday": 0.1128,
-          "change_vs_7d_ago": 0.0949
+          "change_vs_yesterday": 0.1147,
+          "change_vs_7d_ago": 0.0968
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 1.0,
-          "probability_7d": 0.725,
-          "probability_1d": 0.6353,
+          "probability_30d": 0.9146,
+          "probability_7d": 0.7283,
+          "probability_1d": 0.6364,
           "data_points": 13,
-          "change_vs_yesterday": 0.6582,
-          "change_vs_7d_ago": 0.6646
+          "change_vs_yesterday": 0.5728,
+          "change_vs_7d_ago": 0.5792
         },
         {
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.0951,
-          "probability_7d": 0.0231,
-          "probability_1d": 0.0033,
+          "probability_30d": 0.0818,
+          "probability_7d": 0.0197,
+          "probability_1d": 0.0028,
           "data_points": 1,
-          "change_vs_yesterday": -0.2432,
+          "change_vs_yesterday": -0.2565,
           "change_vs_7d_ago": null
         }
       ],
@@ -140,7 +140,7 @@
       "probability_7d": 0.0093,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1315,
+      "composite_risk_score": 0.1324,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -158,11 +158,11 @@
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.0472,
+          "probability_30d": 0.0473,
           "probability_7d": 0.0112,
           "probability_1d": 0.0016,
           "data_points": 1,
-          "change_vs_yesterday": -0.0121,
+          "change_vs_yesterday": -0.012,
           "change_vs_7d_ago": null
         }
       ],
@@ -194,23 +194,23 @@
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0177,
-      "probability_7d": 0.0042,
+      "probability_30d": 0.0173,
+      "probability_7d": 0.0041,
       "probability_1d": 0.0006,
       "data_points": 5,
-      "composite_risk_score": 0.1112,
+      "composite_risk_score": 0.111,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0177,
+          "probability_30d": 0.0173,
           "probability_7d": 0.0017,
           "probability_1d": 0.0002,
           "data_points": 5,
-          "change_vs_yesterday": 0.0031,
-          "change_vs_7d_ago": 0.0001
+          "change_vs_yesterday": 0.0027,
+          "change_vs_7d_ago": -0.0003
         },
         {
           "event_type": "ceasefire",
@@ -227,11 +227,11 @@
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.0102,
+          "probability_30d": 0.0104,
           "probability_7d": 0.0024,
           "probability_1d": 0.0003,
           "data_points": 1,
-          "change_vs_yesterday": -0.0017,
+          "change_vs_yesterday": -0.0015,
           "change_vs_7d_ago": null
         }
       ],
@@ -268,7 +268,7 @@
       "probability_7d": 0.0063,
       "probability_1d": 0.0009,
       "data_points": 5,
-      "composite_risk_score": 0.1072,
+      "composite_risk_score": 0.1038,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -322,23 +322,23 @@
       "label_cn": "中国 - 台海",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.0126,
-      "probability_7d": 0.003,
+      "probability_30d": 0.0125,
+      "probability_7d": 0.0029,
       "probability_1d": 0.0004,
       "data_points": 9,
-      "composite_risk_score": 0.1015,
+      "composite_risk_score": 0.1001,
       "anomaly_detected": false,
       "risk_events": [
         {
           "event_type": "escalation",
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "direction": "risk_increase",
-          "probability_30d": 0.0126,
+          "probability_30d": 0.0125,
           "probability_7d": 0.0036,
           "probability_1d": 0.0005,
           "data_points": 9,
-          "change_vs_yesterday": -0.0001,
-          "change_vs_7d_ago": -0.0
+          "change_vs_yesterday": -0.0002,
+          "change_vs_7d_ago": -0.0001
         }
       ],
       "situation_briefing": "台湾在野党领袖郑丽文4月7日访华，称\"和平使命\"旨在缓和台海紧张，但加剧岛内政治分裂。解放军4月初两日军演模拟三阶段对台作战计划，含高超音速导弹部署和海警新角色。中国海军多点部署台岛周边：东海岸、北部、西北和西南方向均有军舰驻位，持续施压态势。台湾军购延期：HIMARS、M109A7等美制武器付款推迟至2026年5月，短期防御能力受限。分析人士评估2026年武力攻台可能性低，北京以渐进施压和管控关系为优先。",
@@ -374,7 +374,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.0977,
+      "composite_risk_score": 0.0966,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -392,20 +392,20 @@
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.2453,
-          "probability_7d": 0.0159,
-          "probability_1d": 0.0023,
+          "probability_30d": 0.1818,
+          "probability_7d": 0.0114,
+          "probability_1d": 0.0017,
           "data_points": 4,
-          "change_vs_yesterday": 0.1539,
-          "change_vs_7d_ago": 0.1754
+          "change_vs_yesterday": 0.0904,
+          "change_vs_7d_ago": 0.1119
         },
         {
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 1.0,
-          "probability_7d": 0.5986,
-          "probability_1d": 0.5154,
+          "probability_30d": 0.6207,
+          "probability_7d": 0.6012,
+          "probability_1d": 0.5159,
           "data_points": 2,
           "change_vs_yesterday": null,
           "change_vs_7d_ago": null

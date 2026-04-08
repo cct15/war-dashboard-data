@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:24:53+00:00",
+    "updated_at": "2026-04-08T05:45:38+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
       "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
       "category": "political",
-      "probability": 0.9615,
+      "probability": 0.9605,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -42,7 +42,7 @@
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.7365,
+      "probability": 0.736,
       "deadline": "2026-10-20",
       "data_confidence": "high",
       "importance": "low"
@@ -164,7 +164,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.41,
+      "probability": 0.405,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -233,7 +233,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.285,
+      "probability": 0.28,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -242,7 +242,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2665,
+      "probability": 0.2675,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -276,7 +276,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1835,
+      "probability": 0.1845,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -321,7 +321,7 @@
       "event_summary": "飓风/热带风暴风险",
       "event_summary_en": "Named storm forms before hurricane season?",
       "category": "natural_disaster",
-      "probability": 0.38,
+      "probability": 0.385,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high"
