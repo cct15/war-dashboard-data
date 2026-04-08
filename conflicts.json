@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:45:37+00:00",
+    "updated_at": "2026-04-08T05:51:31+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -47,7 +47,7 @@
       "probability_7d": 0.0072,
       "probability_1d": 0.001,
       "data_points": 5,
-      "composite_risk_score": 0.1373,
+      "composite_risk_score": 0.1367,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -87,12 +87,12 @@
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.9146,
-          "probability_7d": 0.7283,
-          "probability_1d": 0.6364,
+          "probability_30d": 0.9191,
+          "probability_7d": 0.7292,
+          "probability_1d": 0.6367,
           "data_points": 13,
-          "change_vs_yesterday": 0.5728,
-          "change_vs_7d_ago": 0.5792
+          "change_vs_yesterday": 0.5773,
+          "change_vs_7d_ago": 0.5837
         },
         {
           "event_type": "other",
@@ -140,7 +140,7 @@
       "probability_7d": 0.0093,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1324,
+      "composite_risk_score": 0.1305,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -268,7 +268,7 @@
       "probability_7d": 0.0063,
       "probability_1d": 0.0009,
       "data_points": 5,
-      "composite_risk_score": 0.1038,
+      "composite_risk_score": 0.102,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -374,7 +374,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.0966,
+      "composite_risk_score": 0.0989,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -403,7 +403,7 @@
           "event_type": "other",
           "event_description": "other",
           "direction": "neutral",
-          "probability_30d": 0.6207,
+          "probability_30d": 0.6208,
           "probability_7d": 0.6012,
           "probability_1d": 0.5159,
           "data_points": 2,

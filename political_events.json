@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:45:38+00:00",
+    "updated_at": "2026-04-08T05:51:32+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -233,7 +233,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.28,
+      "probability": 0.275,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
