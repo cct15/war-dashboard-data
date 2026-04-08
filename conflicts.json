@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-08T05:54:24+00:00",
+    "updated_at": "2026-04-08T05:55:16+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -87,12 +87,12 @@
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "direction": "risk_decrease",
-          "probability_30d": 0.9196,
+          "probability_30d": 0.9197,
           "probability_7d": 0.7291,
           "probability_1d": 0.6367,
           "data_points": 13,
-          "change_vs_yesterday": 0.5778,
-          "change_vs_7d_ago": 0.5842
+          "change_vs_yesterday": 0.5779,
+          "change_vs_7d_ago": 0.5843
         },
         {
           "event_type": "other",
