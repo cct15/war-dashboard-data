@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-09T03:30:14+00:00",
+    "updated_at": "2026-04-10T06:02:40+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,11 +43,11 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0385,
-      "probability_7d": 0.0091,
-      "probability_1d": 0.0013,
-      "data_points": 6,
-      "composite_risk_score": 0.1431,
+      "probability_30d": 0.0368,
+      "probability_7d": 0.0087,
+      "probability_1d": 0.0012,
+      "data_points": 7,
+      "composite_risk_score": 0.1386,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -55,63 +55,63 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "局部冲突已发生，全面升级风险仍存",
           "direction": "risk_increase",
-          "probability_30d": 0.0385,
-          "probability_7d": 0.1568,
-          "probability_1d": 0.1449,
-          "data_points": 6,
-          "change_vs_yesterday": 0.0095,
-          "change_vs_7d_ago": -0.0196
+          "probability_30d": 0.0368,
+          "probability_7d": 0.1393,
+          "probability_1d": 0.1271,
+          "data_points": 7,
+          "change_vs_yesterday": -0.0017,
+          "change_vs_7d_ago": -0.0319
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0378,
-          "probability_7d": 0.0085,
-          "probability_1d": 0.0012,
+          "probability_30d": 0.0332,
+          "probability_7d": 0.0076,
+          "probability_1d": 0.0011,
           "data_points": 5,
-          "change_vs_yesterday": 0.0102,
-          "change_vs_7d_ago": 0.0007
+          "change_vs_yesterday": -0.0046,
+          "change_vs_7d_ago": -0.0068
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.1749,
-          "probability_7d": 0.0419,
-          "probability_1d": 0.0061,
+          "probability_30d": 0.1915,
+          "probability_7d": 0.0461,
+          "probability_1d": 0.0067,
           "data_points": 3,
-          "change_vs_yesterday": -0.0228,
-          "change_vs_7d_ago": 0.1003
+          "change_vs_yesterday": 0.0166,
+          "change_vs_7d_ago": 0.1228
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.8996,
-          "probability_7d": 0.7166,
-          "probability_1d": 0.6341,
+          "probability_30d": 0.9573,
+          "probability_7d": 0.7351,
+          "probability_1d": 0.6395,
           "data_points": 13,
-          "change_vs_yesterday": -0.0144,
-          "change_vs_7d_ago": 0.5762
+          "change_vs_yesterday": 0.0577,
+          "change_vs_7d_ago": 0.6786
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "部分事件已确认",
           "direction": "neutral",
-          "probability_30d": 0.3156,
-          "probability_7d": 0.3893,
-          "probability_1d": 0.3416,
-          "data_points": 3,
-          "change_vs_yesterday": 0.2135,
-          "change_vs_7d_ago": 0.1176
+          "probability_30d": 0.7556,
+          "probability_7d": 0.1002,
+          "probability_1d": 0.0628,
+          "data_points": 19,
+          "change_vs_yesterday": 0.44,
+          "change_vs_7d_ago": 0.5082
         }
       ],
-      "situation_briefing": "美以对伊战争第41天，停火第2天。两周停火生效中：伊朗承诺\"完全、立即、安全\"重开霍尔木兹海峡，但IRGC声称海峡航运仍处于停滞状态。巴基斯坦斡旋获全球赞誉：英德澳马等国称赞伊斯兰堡外交成果。伊斯兰堡和谈定于本周六（4月11日）启动，副总统万斯、特使威特科夫、库什纳率美方代表团赴巴。伊朗开战以来至少2076人死亡，56处文化遗址、30所大学、55座图书馆受损。油价自开战飙升60%+，停火后略有回落但仍处高位。General License U 4月19日到期。",
+      "situation_briefing": "美以对伊战争第42天，停火第3天。停火脆弱：伊朗承诺重开霍尔木兹海峡但至今未见执行，船舶仍被阻止通行。以色列声称停火不适用于黎巴嫩，4月8日对黎发动开战以来最大规模打击。特朗普要求海峡\"无条件、无收费\"开放。伊斯兰堡和谈今日（周五）开始准备，周六正式启动：万斯、威特科夫、库什纳率美方代表团。CFR警告：停火在霍尔木兹僵局中面临崩溃风险。Soufan Center分析：停火\"极度脆弱\"。General License U 4月19日到期。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -128,10 +128,10 @@
           "航运指数"
         ],
         "channels": [
-          "两周停火第2天：伊朗承诺重开霍尔木兹海峡，但IRGC称航运仍停滞，执行存疑",
-          "伊斯兰堡和谈周六启动：万斯+威特科夫+库什纳率美方代表团，巴基斯坦主办",
-          "全球赞誉巴基斯坦斡旋外交，英德澳马等国称赞伊斯兰堡成果",
-          "油价停火后略有回落但仍处高位，IEA称日缺1000万桶，GL-U 4月19日到期"
+          "停火第3天但霍尔木兹仍未重开，船舶被阻止通行，特朗普要求无条件无收费开放",
+          "伊斯兰堡和谈今日准备/周六正式启动，万斯+威特科夫+库什纳率美方代表团",
+          "停火极度脆弱：以色列声称不适用于黎巴嫩，CFR/Soufan Center警告崩溃风险",
+          "GL-U 4月19日到期，油价仍处高位"
         ]
       }
     },
@@ -141,11 +141,11 @@
       "label_cn": "印度 - 巴基斯坦",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0387,
-      "probability_7d": 0.0092,
-      "probability_1d": 0.0013,
+      "probability_30d": 0.0404,
+      "probability_7d": 0.0096,
+      "probability_1d": 0.0014,
       "data_points": 2,
-      "composite_risk_score": 0.1337,
+      "composite_risk_score": 0.1293,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -153,27 +153,27 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0387,
-          "probability_7d": 0.0046,
+          "probability_30d": 0.0404,
+          "probability_7d": 0.0048,
           "probability_1d": 0.0007,
           "data_points": 2,
-          "change_vs_yesterday": -0.0006,
-          "change_vs_7d_ago": 0.0002
+          "change_vs_yesterday": 0.0017,
+          "change_vs_7d_ago": 0.0026
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.0675,
-          "probability_7d": 0.0162,
-          "probability_1d": 0.0023,
+          "probability_30d": 0.0824,
+          "probability_7d": 0.0199,
+          "probability_1d": 0.0029,
           "data_points": 1,
-          "change_vs_yesterday": 0.0202,
+          "change_vs_yesterday": 0.0149,
           "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "巴防长Khawaja Asif进一步升级：声称\"将进入印度境内打击\"，目标包括RSS营地，\"下次冲突将打到加尔各答\"。印方回应：任何挑衅招致\"前所未有的决定性回击\"，援引Operation Sindoor先例。巴方同时承认与阿富汗塔利班处于\"公开战争\"状态，西部边境战斗加剧。帕哈尔加姆袭击一周年（4月22日）临近，印巴紧张持续升温。但目前无即时军事升级迹象——双方口水战为主，实际军事部署未见异常变动。",
+      "situation_briefing": "缓和信号：巴基斯坦向2800名印度锡克教朝圣者发放签证，赴旁遮普省庆祝拜萨基节（4月10-14日），朝圣者今日经瓦加口岸入境。巴基斯坦因成功斡旋美伊停火获国际声望提升，外交地位增强。但口水战未停：巴防长此前威胁\"打到加尔各答\"、打击RSS营地。帕哈尔加姆袭击一周年（4月22日）临近。2025年5月印巴DGMO热线停火仍维持。",
       "risk_impact": {
         "industries": [
           "纺织",
@@ -188,10 +188,10 @@
           "棉花"
         ],
         "channels": [
-          "巴防长再升级：\"将进入印度境内打击RSS营地\"，\"打到加尔各答\"",
-          "印方回应\"前所未有的决定性回击\"，但双方目前以口水战为主，无实质军事部署变动",
-          "帕哈尔加姆袭击一周年（4/22）临近，巴方同时承认与阿塔处于\"公开战争\"",
-          "巴基斯坦三线困境：巴阿战争+伊朗停火后注意力转移+印度方向口水战升温"
+          "缓和信号：巴方发放2800签证给印度锡克教朝圣者赴拜萨基节（4/10-14经瓦加口岸）",
+          "巴基斯坦因斡旋美伊停火获国际声望提升，外交地位增强",
+          "口水战未停：巴防长此前威胁打到加尔各答/打击RSS营地，帕哈尔加姆一周年（4/22）临近",
+          "2025年5月DGMO热线停火维持，但紧张持续"
         ]
       }
     },
@@ -201,11 +201,11 @@
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0185,
-      "probability_7d": 0.0044,
+      "probability_30d": 0.0192,
+      "probability_7d": 0.0045,
       "probability_1d": 0.0006,
       "data_points": 5,
-      "composite_risk_score": 0.1083,
+      "composite_risk_score": 0.1201,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -213,39 +213,39 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "北约与俄罗斯直接军事冲突",
           "direction": "risk_increase",
-          "probability_30d": 0.0185,
-          "probability_7d": 0.0023,
-          "probability_1d": 0.0003,
+          "probability_30d": 0.0192,
+          "probability_7d": 0.0026,
+          "probability_1d": 0.0004,
           "data_points": 5,
-          "change_vs_yesterday": 0.0012,
-          "change_vs_7d_ago": 0.0031
+          "change_vs_yesterday": 0.0007,
+          "change_vs_7d_ago": 0.0055
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "",
           "direction": "risk_decrease",
-          "probability_30d": 0.0318,
-          "probability_7d": 0.0063,
-          "probability_1d": 0.0009,
+          "probability_30d": 0.0418,
+          "probability_7d": 0.0078,
+          "probability_1d": 0.0011,
           "data_points": 7,
-          "change_vs_yesterday": -0.0008,
-          "change_vs_7d_ago": -0.0027
+          "change_vs_yesterday": 0.01,
+          "change_vs_7d_ago": 0.0081
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.0124,
-          "probability_7d": 0.0029,
+          "probability_30d": 0.0129,
+          "probability_7d": 0.003,
           "probability_1d": 0.0004,
           "data_points": 1,
-          "change_vs_yesterday": 0.0022,
+          "change_vs_yesterday": 0.0005,
           "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "东正教复活节（4月12日）临近。克里姆林宫拒绝泽连斯基复活节停火提案，坚持要求永久和平而非暂停。俄军持续大规模无人机和导弹袭击，4月7日全境170次战斗接触，乌方7人死亡、俄方3名平民死亡。泽连斯基另提\"能源互停火\"方案（互不攻击能源基础设施），已通过美方转交俄方。前线：乌军南部反攻收复400km²为近一年最大进展。特朗普-泽连斯基和平方案已就90-95%内容达成一致，日内瓦调停因伊朗战事暂停。",
+      "situation_briefing": "重大转折：普京宣布东正教复活节32小时停火（4月11日16:00至4月12日终了），泽连斯基确认乌方将对等执行。此前克里姆林宫一直拒绝停火提案。但各方对停火持续性持怀疑态度——去年复活节停火双方互相指责对方违反。前线：战斗仍在继续直至停火生效，乌军南部反攻已收复400km²。特朗普-泽连斯基和平方案已就90-95%内容达成一致。伊朗停火后国际外交资源可能重新聚焦俄乌。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -261,10 +261,10 @@
           "铝/镍"
         ],
         "channels": [
-          "克里姆林宫拒绝复活节停火（4/12），坚持永久和平而非暂停",
-          "4月7日全境170次战斗接触，俄乌互袭平民目标造成10人死亡",
-          "泽连斯基另提能源互停火方案，乌军南部反攻400km²为近一年最大进展",
-          "和平方案90-95%达成一致，伊朗停火后外交资源可能重新聚焦俄乌"
+          "普京宣布复活节32小时停火（4/11 16:00至4/12终了），泽连斯基确认对等执行",
+          "停火持续性存疑：去年复活节停火双方互指违反，前线战斗持续至停火生效前",
+          "乌军南部反攻400km²为近一年最大进展，和平方案90-95%已达成一致",
+          "伊朗停火后国际外交资源可能重新聚焦俄乌谈判"
         ]
       }
     },
@@ -274,11 +274,11 @@
       "label_cn": "美国 - 拉丁美洲",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.0261,
+      "probability_30d": 0.026,
       "probability_7d": 0.0061,
       "probability_1d": 0.0009,
       "data_points": 5,
-      "composite_risk_score": 0.1033,
+      "composite_risk_score": 0.1081,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -286,27 +286,27 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0261,
+          "probability_30d": 0.026,
           "probability_7d": 0.0051,
           "probability_1d": 0.0007,
           "data_points": 5,
-          "change_vs_yesterday": -0.0011,
-          "change_vs_7d_ago": -0.0003
+          "change_vs_yesterday": -0.0001,
+          "change_vs_7d_ago": -0.0
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0402,
-          "probability_7d": 0.0095,
+          "probability_30d": 0.0419,
+          "probability_7d": 0.0099,
           "probability_1d": 0.0014,
           "data_points": 1,
-          "change_vs_yesterday": 0.0039,
-          "change_vs_7d_ago": -0.0021
+          "change_vs_yesterday": 0.0017,
+          "change_vs_7d_ago": 0.0002
         }
       ],
-      "situation_briefing": "古巴危机持续深化：3月爆发三次全国性大停电，100+次示威游行为ACLED 2018年追踪以来最高。3月30日一艘俄罗斯油轮在马坦萨斯卸载70万桶石油暂时缓解燃料短缺（美方未拦截）。古巴政府释放51名政治犯+2000+名普通犯人以示善意。迪亚斯-卡内尔宣布允许海外侨民回国投资私营部门。厄瓜多尔加大打击武装团体力度，与哥伦比亚紧张加剧。委内瑞拉过渡进程长期化，美方封锁委对古石油供应。",
+      "situation_briefing": "古巴危机持续：3月三次全国停电+100+次示威（2018年以来最高）。美方2月起封锁驶往古巴的油轮，威胁相关国家征收关税。俄油轮3/30卸载70万桶暂缓危机。古巴释放2000+囚犯+允许侨民投资私营部门以示善意。委内瑞拉：代理总统Delcy Rodríguez 90天临时期限4月3日届满，国会未投票延期，宪政合法性存疑。厄瓜多尔加大打击武装团体力度，与哥伦比亚紧张加剧。",
       "risk_impact": {
         "industries": [
           "石油",
@@ -321,10 +321,10 @@
           "糖/咖啡"
         ],
         "channels": [
-          "古巴3月爆发三次全国停电+100+次示威（2018年以来最高），人道危机加深",
-          "俄油轮3/30卸载70万桶暂缓危机，古巴释放2000+囚犯+开放侨民投资以示善意",
-          "厄瓜多尔加大打击武装团体力度，与哥伦比亚紧张加剧，拉美安全形势恶化",
-          "美方持续封锁委对古石油供应，委内瑞拉过渡长期化"
+          "古巴3月三次全国停电+100+次示威，美方2月起封锁油轮+威胁关税",
+          "古巴释放2000+囚犯+开放侨民投资，俄油轮3/30暂缓危机",
+          "委内瑞拉代理总统90天期限4/3届满未延期，宪政合法性存疑",
+          "厄瓜多尔打击武装团体升级，与哥伦比亚紧张加剧"
         ]
       }
     },
@@ -334,11 +334,11 @@
       "label_cn": "中国 - 台海",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.0127,
-      "probability_7d": 0.003,
+      "probability_30d": 0.0115,
+      "probability_7d": 0.0027,
       "probability_1d": 0.0004,
       "data_points": 9,
-      "composite_risk_score": 0.0921,
+      "composite_risk_score": 0.1034,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -346,12 +346,12 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0127,
+          "probability_30d": 0.0115,
           "probability_7d": 0.0035,
           "probability_1d": 0.0005,
           "data_points": 9,
-          "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": 0.0004
+          "change_vs_yesterday": -0.0012,
+          "change_vs_7d_ago": -0.0006
         }
       ],
       "situation_briefing": "台湾在野党领袖郑丽文4月7日访华，称\"和平使命\"旨在缓和台海紧张，但加剧岛内政治分裂。解放军4月初两日军演模拟三阶段对台作战计划，含高超音速导弹部署和海警新角色。中国海军多点部署台岛周边：东海岸、北部、西北和西南方向均有军舰驻位，持续施压态势。台湾军购延期：HIMARS、M109A7等美制武器付款推迟至2026年5月，短期防御能力受限。分析人士评估2026年武力攻台可能性低，北京以渐进施压和管控关系为优先。",
@@ -387,7 +387,7 @@
       "probability_7d": 0.0,
       "probability_1d": 0.0,
       "data_points": 4,
-      "composite_risk_score": 0.0883,
+      "composite_risk_score": 0.085,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -407,12 +407,12 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火Phase II（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.1388,
-          "probability_7d": 0.0086,
-          "probability_1d": 0.0012,
+          "probability_30d": 0.1012,
+          "probability_7d": 0.0061,
+          "probability_1d": 0.0009,
           "data_points": 4,
-          "change_vs_yesterday": -0.013,
-          "change_vs_7d_ago": 0.0681
+          "change_vs_yesterday": -0.0376,
+          "change_vs_7d_ago": 0.0491
         },
         {
           "event_type": "other",
@@ -420,14 +420,14 @@
           "event_note": "已确认事件",
           "direction": "neutral",
           "probability_30d": 1.0,
-          "probability_7d": 0.9982,
-          "probability_1d": 0.9982,
+          "probability_7d": 0.9998,
+          "probability_1d": 0.9998,
           "data_points": 2,
-          "change_vs_yesterday": 0.427,
+          "change_vs_yesterday": 0.0,
           "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "黎巴嫩战事第39天。以军发动\"咆哮雄狮行动\"以来最大规模协调打击：目标涵盖真主党总部、军事阵列和指挥控制中心。开战首月真主党向以色列发射约1800枚火箭弹。以军向贝鲁特空投传单警告\"加沙之后的成功，新现实即将降临黎巴嫩\"。地面行动持续推进南黎缓冲区。超100万人流离失所（占黎人口20%），1400+军民死亡。真主党可能倾向于以色列深入入侵以发动游击战（Foreign Policy分析）。加沙Phase II谈判因伊朗停火而出现重启窗口。",
+      "situation_briefing": "黎巴嫩战事第40天。4月8日以军发动开战以来最大规模打击，单日致至少254人死亡——为整场战争单日最高伤亡。内塔尼亚胡声称伊朗停火不适用于黎巴嫩，与伊朗和巴基斯坦斡旋方说法矛盾。真主党4月9日凌晨以导弹回击以色列北部。以军宣布在南黎发动\"针对关键目标的定向地面行动\"以建立\"前沿防御区域\"。累计1500+军民死亡，约100万人流离失所。以色列同意与黎巴嫩进行谈判但誓言继续打击真主党。",
       "risk_impact": {
         "industries": [
           "科技",
@@ -442,10 +442,10 @@
           "原油"
         ],
         "channels": [
-          "以军发动咆哮雄狮行动以来最大规模协调打击，目标涵盖真主党总部和指挥中心",
-          "以军向贝鲁特空投传单：\"加沙之后的成功，新现实即将降临黎巴嫩\"",
-          "开战39天，1400+死亡，100万+流离失所（占黎人口20%），真主党首月发射1800枚火箭",
-          "伊朗停火后加沙Phase II谈判出现重启窗口"
+          "4/8以军最大规模打击单日致254人死亡（战争单日最高），内塔尼亚胡称停火不适用于黎",
+          "真主党4/9凌晨导弹回击以北部，以军宣布南黎定向地面行动建立前沿防御区",
+          "累计1500+军民死亡，约100万人流离失所（占黎人口20%）",
+          "以色列同意与黎巴嫩谈判但誓言继续打击真主党，停火适用范围成核心争议"
         ]
       }
     }
