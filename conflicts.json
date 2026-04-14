@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-14T02:16:58+00:00",
+    "updated_at": "2026-04-14T02:39:47+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,11 +43,11 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0558,
+      "probability_30d": 0.0556,
       "probability_7d": 0.0133,
       "probability_1d": 0.0019,
       "data_points": 9,
-      "composite_risk_score": 0.1564,
+      "composite_risk_score": 0.1557,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -55,12 +55,12 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "局部冲突已发生，全面升级风险仍存",
           "direction": "risk_increase",
-          "probability_30d": 0.0558,
-          "probability_7d": 0.2278,
+          "probability_30d": 0.0556,
+          "probability_7d": 0.2273,
           "probability_1d": 0.2041,
           "data_points": 9,
-          "change_vs_yesterday": 0.0117,
-          "change_vs_7d_ago": -0.0232
+          "change_vs_yesterday": 0.0115,
+          "change_vs_7d_ago": -0.0234
         },
         {
           "event_type": "regime_change",
@@ -79,36 +79,36 @@
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.2906,
-          "probability_7d": 0.0691,
-          "probability_1d": 0.0103,
+          "probability_30d": 0.2731,
+          "probability_7d": 0.0646,
+          "probability_1d": 0.0096,
           "data_points": 3,
-          "change_vs_yesterday": 0.1181,
-          "change_vs_7d_ago": 0.2098
+          "change_vs_yesterday": 0.1006,
+          "change_vs_7d_ago": 0.1923
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.682,
-          "probability_7d": 0.6577,
-          "probability_1d": 0.5935,
+          "probability_30d": 0.6822,
+          "probability_7d": 0.6579,
+          "probability_1d": 0.5938,
           "data_points": 15,
-          "change_vs_yesterday": 0.1457,
-          "change_vs_7d_ago": 0.3402
+          "change_vs_yesterday": 0.1459,
+          "change_vs_7d_ago": 0.3404
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "部分事件已确认",
           "direction": "neutral",
-          "probability_30d": 0.3136,
-          "probability_7d": 0.1965,
-          "probability_1d": 0.1841,
+          "probability_30d": 0.3087,
+          "probability_7d": 0.1963,
+          "probability_1d": 0.184,
           "data_points": 22,
-          "change_vs_yesterday": 0.0435,
-          "change_vs_7d_ago": -0.0247
+          "change_vs_yesterday": 0.0386,
+          "change_vs_7d_ago": -0.0296
         }
       ],
       "situation_briefing": "美以对伊战争第45天。海上封锁正式生效：CENTCOM于4月13日14:00 GMT起封锁所有进出伊朗港口的海上交通，覆盖波斯湾和阿曼湾全部伊朗港口及沿海区域，适用于所有国籍船只。封锁声明不阻碍非伊朗目的地的霍尔木兹海峡正常通行，但特朗普下令拦截任何向伊朗缴纳海峡通行费的船只。航运数据显示霍尔木兹日通行船舶骤降至17艘（正常约130艘），部分船只已掉头返航。油价暴涨：Brent突破$102/桶（+7%），WTI升至$104/桶（+7.8%），较战前累涨超50%。伊朗军方称封锁为「海盗行为」，IRGC警告接近军舰将遭严厉回击。General License U 4月19日到期，届时制裁豁免消失将进一步收紧。福特号+林肯号航母打击群执行封锁，美海军同步展开海峡扫雷行动。CNN 4/11报道美情报显示北京准备数周内通过第三国向伊朗转运便携式防空导弹（MANPAD），特朗普威胁对中国加征50%关税，冲突国际化风险加剧。",
@@ -147,7 +147,7 @@
       "probability_7d": 0.009,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1285,
+      "composite_risk_score": 0.1295,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -167,12 +167,12 @@
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.0962,
-          "probability_7d": 0.0236,
+          "probability_30d": 0.0958,
+          "probability_7d": 0.0235,
           "probability_1d": 0.0034,
           "data_points": 2,
-          "change_vs_yesterday": 0.0084,
-          "change_vs_7d_ago": 0.0369
+          "change_vs_yesterday": 0.008,
+          "change_vs_7d_ago": 0.0365
         }
       ],
       "situation_briefing": "拜萨基节朝圣进行中（4月10-20日）：2800名印度锡克教朝圣者预计4月20日经瓦加口岸返回。巴基斯坦因斡旋美伊和谈持续获国际赞誉，但和谈破裂+美方转向海上封锁后，斡旋红利能否持续存疑。印度外交被动加深：未参与伊斯兰堡谈判，转向阿联酋加强接触以对冲巴方崛起。帕哈尔加姆袭击一周年（4月22日）倒计时8天——去年此事件触发印巴武装冲突（2025年5月Operation Sindoor），双边紧张将因纪念日再度升温。2025年5月DGMO热线停火仍维持，但印方对巴方外交地位跃升持高度警惕。",
@@ -300,12 +300,12 @@
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0378,
-          "probability_7d": 0.009,
-          "probability_1d": 0.0013,
+          "probability_30d": 0.0363,
+          "probability_7d": 0.0086,
+          "probability_1d": 0.0012,
           "data_points": 1,
-          "change_vs_yesterday": 0.0024,
-          "change_vs_7d_ago": 0.0024
+          "change_vs_yesterday": 0.0009,
+          "change_vs_7d_ago": 0.0009
         }
       ],
       "situation_briefing": "古巴人道危机持续恶化：4月12日停电面积达全国领土55%，峰时电力缺口1600MW。圣地亚哥省Saturnino Lora医院因停电被迫从ICU紧急转移12-14名患者。联合国秘书长古特雷斯发出紧急呼吁，称若石油需求得不到满足，人道局势「将恶化甚至崩溃」。巴西总统卢拉公开谴责美方燃油封锁。30国组成Nuestra América人道援助车队向古巴运送物资。积压手术超96000例（含11000例儿童），国家免疫计划延期，3月100+次示威为ACLED自2018年跟踪以来最高。委内瑞拉：代理总统Delcy Rodríguez 90天期限4月3日届满未延期，宪政合法性存疑。厄瓜多尔打击武装团体升级，与哥伦比亚紧张加剧。",
@@ -409,12 +409,12 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火Phase II（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.1085,
-          "probability_7d": 0.0066,
-          "probability_1d": 0.001,
+          "probability_30d": 0.1039,
+          "probability_7d": 0.0063,
+          "probability_1d": 0.0009,
           "data_points": 4,
-          "change_vs_yesterday": -0.0034,
-          "change_vs_7d_ago": 0.0171
+          "change_vs_yesterday": -0.008,
+          "change_vs_7d_ago": 0.0125
         },
         {
           "event_type": "other",

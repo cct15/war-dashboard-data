@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-14T02:16:58+00:00",
+    "updated_at": "2026-04-14T02:39:47+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
       "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
       "category": "political",
-      "probability": 0.9115,
+      "probability": 0.9135,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -94,7 +94,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.5985,
+      "probability": 0.5965,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -103,7 +103,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.495,
+      "probability": 0.585,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -130,7 +130,7 @@
       "event_summary": "英国首相斯塔默年内下台",
       "event_summary_en": "Starmer out by...?",
       "category": "political",
-      "probability": 0.485,
+      "probability": 0.48,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -175,19 +175,10 @@
       }
     },
     {
-      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
-      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
-      "category": "political",
-      "probability": 0.415,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.415,
+      "probability": 0.4155,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -208,6 +199,15 @@
           "降息不及预期则高杠杆资产承压"
         ]
       }
+    },
+    {
+      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
+      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
+      "category": "political",
+      "probability": 0.405,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
     },
     {
       "event_summary": "Brazil Presidential Election",
@@ -257,7 +257,8 @@
         ],
         "channels": [
           "油价飙升+关税叠加推高通胀，消费需求萎缩",
-          "非农就业连续下滑，失业率升至4.4%"
+          "非农就业连续下滑，失业率升至4.4%",
+          "IMF 4/14世界经济展望下调全球增长预期，战争+关税双重冲击成核心下行风险"
         ]
       }
     },
@@ -344,7 +345,7 @@
       "event_summary": "Named storm forms before hurricane season",
       "event_summary_en": "Named storm forms before hurricane season?",
       "category": "natural_disaster",
-      "probability": 0.42,
+      "probability": 0.43,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "low"
