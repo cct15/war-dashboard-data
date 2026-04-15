@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-15T02:50:40+00:00",
+    "updated_at": "2026-04-15T05:32:07+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -41,7 +41,7 @@
       "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
       "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
       "category": "political",
-      "probability": 0.954,
+      "probability": 0.952,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -68,7 +68,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.6905,
+      "probability": 0.6795,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -103,7 +103,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.595,
+      "probability": 0.605,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -204,7 +204,7 @@
       "event_summary": "Brazil Presidential Election",
       "event_summary_en": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.3985,
+      "probability": 0.399,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -229,7 +229,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.396,
+      "probability": 0.395,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -283,7 +283,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2735,
+      "probability": 0.2725,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -317,7 +317,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1925,
+      "probability": 0.1915,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -359,20 +359,20 @@
       }
     },
     {
-      "event_summary": "Named storm forms before hurricane season",
-      "event_summary_en": "Named storm forms before hurricane season?",
-      "category": "natural_disaster",
-      "probability": 0.425,
-      "deadline": null,
-      "data_confidence": "medium",
-      "importance": "low"
-    },
-    {
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "event_summary_en": "Will any Category 4 hurricane make landfall in the US in before 2027?",
       "category": "natural_disaster",
       "probability": 0.37,
       "deadline": "2026-12-31",
+      "data_confidence": "medium",
+      "importance": "low"
+    },
+    {
+      "event_summary": "Named storm forms before hurricane season",
+      "event_summary_en": "Named storm forms before hurricane season?",
+      "category": "natural_disaster",
+      "probability": 0.365,
+      "deadline": null,
       "data_confidence": "medium",
       "importance": "low"
     },
@@ -406,7 +406,7 @@
       "event_summary": "10.0 or above earthquake before 2027",
       "event_summary_en": "10.0 or above earthquake before 2027?",
       "category": "natural_disaster",
-      "probability": 0.0375,
+      "probability": 0.0415,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",

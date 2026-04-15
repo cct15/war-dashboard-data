@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-15T02:50:40+00:00",
+    "updated_at": "2026-04-15T05:32:06+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -47,7 +47,7 @@
       "probability_7d": 0.0088,
       "probability_1d": 0.0013,
       "data_points": 9,
-      "composite_risk_score": 0.1163,
+      "composite_risk_score": 0.1094,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -67,48 +67,48 @@
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0312,
-          "probability_7d": 0.0073,
-          "probability_1d": 0.001,
+          "probability_30d": 0.0329,
+          "probability_7d": 0.0075,
+          "probability_1d": 0.0011,
           "data_points": 5,
-          "change_vs_yesterday": -0.0067,
-          "change_vs_7d_ago": 0.0036
+          "change_vs_yesterday": -0.005,
+          "change_vs_7d_ago": 0.0053
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.4232,
-          "probability_7d": 0.1048,
-          "probability_1d": 0.0161,
+          "probability_30d": 0.4382,
+          "probability_7d": 0.109,
+          "probability_1d": 0.0168,
           "data_points": 3,
-          "change_vs_yesterday": 0.1528,
-          "change_vs_7d_ago": 0.2255
+          "change_vs_yesterday": 0.1678,
+          "change_vs_7d_ago": 0.2405
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.8178,
-          "probability_7d": 0.6257,
-          "probability_1d": 0.5387,
+          "probability_30d": 0.8302,
+          "probability_7d": 0.6302,
+          "probability_1d": 0.5397,
           "data_points": 14,
-          "change_vs_yesterday": 0.1359,
-          "change_vs_7d_ago": -0.0962
+          "change_vs_yesterday": 0.1483,
+          "change_vs_7d_ago": -0.0838
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "部分事件已确认",
           "direction": "neutral",
-          "probability_30d": 0.2516,
-          "probability_7d": 0.194,
+          "probability_30d": 0.2474,
+          "probability_7d": 0.1941,
           "probability_1d": 0.1837,
           "data_points": 22,
-          "change_vs_yesterday": -0.0572,
-          "change_vs_7d_ago": 0.1495
+          "change_vs_yesterday": -0.0614,
+          "change_vs_7d_ago": 0.1453
         }
       ],
       "situation_briefing": "美以对伊战争第47天。海上封锁第二日执行出现漏洞：至少3艘美国制裁名单油轮于4月14日穿越霍尔木兹海峡进入波斯湾，封锁并非水泄不通。CENTCOM澄清封锁仅针对进出伊朗港口船只，不阻碍前往非伊朗港口的正常海峡通行。油价从封锁首日高点大幅回落：Brent跌逾4%至$94.79/桶，WTI跌破$92/桶（较首日$104高点回落超12%），市场消化「封锁可渗透+和谈可能重启」预期。特朗普向纽约邮报透露美伊和谈「可能在未来两天内」于伊斯兰堡重启，副总统万斯预计领衔第二轮谈判。伊朗拒绝美方核协议提案，巴基斯坦提议主持新一轮调解。General License U 4月19日到期倒计时4天，届时制裁豁免消失将进一步收紧能源供应。美情报显示北京准备向伊朗转运MANPAD防空导弹，中方否认并称「从未向冲突任何一方提供武器」，特朗普威胁对华加征50%关税，冲突国际化风险持续。",
@@ -147,7 +147,7 @@
       "probability_7d": 0.0075,
       "probability_1d": 0.0011,
       "data_points": 2,
-      "composite_risk_score": 0.0984,
+      "composite_risk_score": 0.1009,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -167,12 +167,12 @@
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.1411,
-          "probability_7d": 0.0359,
-          "probability_1d": 0.0052,
+          "probability_30d": 0.1485,
+          "probability_7d": 0.0381,
+          "probability_1d": 0.0055,
           "data_points": 2,
-          "change_vs_yesterday": 0.0447,
-          "change_vs_7d_ago": 0.0938
+          "change_vs_yesterday": 0.0521,
+          "change_vs_7d_ago": 0.1012
         }
       ],
       "situation_briefing": "拜萨基节朝圣进入后半程（4月10-19日）：1763名锡克教朝圣者已于4月10日经阿塔里-瓦加口岸入境巴基斯坦，前往南卡纳萨希卜、庞贾萨希卜等历史性谒师所，全球逾26000朝圣者汇聚巴基斯坦。巴基斯坦外交声势持续上升：在美伊和谈破裂后主动提议主持新一轮调解，国际社会赞誉其「和平缔造者」角色。印度反对党公开批评莫迪外交政策，国大党Shashi Tharoor称巴基斯坦在外交层面表现优于印度。帕哈尔加姆袭击一周年（4月22日）倒计时7天——去年此事件触发印巴武装冲突（2025年5月Operation Sindoor），纪念日临近双边紧张预计再度升温。2025年5月DGMO热线停火仍维持，但印方对巴方外交地位跃升持高度警惕。",
@@ -203,11 +203,11 @@
       "label_cn": "美国 - 拉丁美洲",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.029,
-      "probability_7d": 0.0069,
+      "probability_30d": 0.0281,
+      "probability_7d": 0.0066,
       "probability_1d": 0.001,
       "data_points": 5,
-      "composite_risk_score": 0.0944,
+      "composite_risk_score": 0.0916,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -215,24 +215,24 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.029,
-          "probability_7d": 0.0055,
+          "probability_30d": 0.0281,
+          "probability_7d": 0.0054,
           "probability_1d": 0.0008,
           "data_points": 5,
-          "change_vs_yesterday": 0.0017,
-          "change_vs_7d_ago": 0.0018
+          "change_vs_yesterday": 0.0008,
+          "change_vs_7d_ago": 0.0009
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0435,
+          "probability_30d": 0.0436,
           "probability_7d": 0.0103,
           "probability_1d": 0.0015,
           "data_points": 1,
-          "change_vs_yesterday": 0.0072,
-          "change_vs_7d_ago": 0.0072
+          "change_vs_yesterday": 0.0073,
+          "change_vs_7d_ago": 0.0073
         }
       ],
       "situation_briefing": "古巴人道危机深化：电力缺口持续在1600-1700MW（峰值需求约3000MW，实际发电仅约1278MW），9台火电机组因故障和维修停运。石油进口2026年1月降至零——为2015年以来首次，美方封锁委内瑞拉对古巴输油+墨西哥Pemex暂停出口为主因。WSJ 4/13报道指危机根源不仅是禁运，更在于体制性管理失败。联合国持续紧急呼吁，称100万人依赖送水车（受柴油短缺严重制约），积压手术超96000例，国家免疫计划延期。3月100+次示威为ACLED自2018年跟踪以来最高，迪亚斯-卡内尔称「辞职不在他的词汇表里」。30国Nuestra América人道援助车队持续运送物资。委内瑞拉：代理总统Delcy Rodríguez 90天期限4月3日届满未延期，宪政合法性存疑。厄瓜多尔打击武装团体升级，与哥伦比亚紧张加剧。",
@@ -287,12 +287,12 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "",
           "direction": "risk_decrease",
-          "probability_30d": 0.0394,
+          "probability_30d": 0.0395,
           "probability_7d": 0.0073,
-          "probability_1d": 0.001,
+          "probability_1d": 0.0011,
           "data_points": 7,
-          "change_vs_yesterday": -0.0001,
-          "change_vs_7d_ago": 0.0068
+          "change_vs_yesterday": -0.0,
+          "change_vs_7d_ago": 0.0069
         },
         {
           "event_type": "other",
@@ -332,6 +332,78 @@
       }
     },
     {
+      "conflict_id": "israel_palestine",
+      "label": "Israel-Palestine",
+      "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.0,
+      "probability_7d": 0.0,
+      "probability_1d": 0.0,
+      "data_points": 4,
+      "composite_risk_score": 0.076,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "ceasefire_cancel",
+          "event_description": "Existing ceasefire breaks down or is cancelled",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0,
+          "probability_7d": 0.0,
+          "probability_1d": 0.0,
+          "data_points": 4,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
+        },
+        {
+          "event_type": "ceasefire",
+          "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "加沙停火Phase II（不含黎巴嫩）",
+          "direction": "risk_decrease",
+          "probability_30d": 0.0558,
+          "probability_7d": 0.0033,
+          "probability_1d": 0.0005,
+          "data_points": 4,
+          "change_vs_yesterday": -0.0551,
+          "change_vs_7d_ago": -0.096
+        },
+        {
+          "event_type": "other",
+          "event_description": "other",
+          "event_note": "已确认事件",
+          "direction": "neutral",
+          "probability_30d": 1.0,
+          "probability_7d": 1.0,
+          "probability_1d": 1.0,
+          "data_points": 3,
+          "change_vs_yesterday": 0.0,
+          "change_vs_7d_ago": 0.427
+        }
+      ],
+      "situation_briefing": "黎巴嫩战事第45天。华盛顿和谈4月14日举行并取得进展：以色列大使Yechiel Leiter与黎巴嫩大使Nada Hamadeh Moawad在美方主持下完成30多年来首次以黎直接外交对话，三方称会谈「富有成效」，同意在双方商定的时间和地点启动正式直接谈判。但核心分歧未解：以方拒绝将停火作为谈判前提，坚持要求真主党解除武装；黎方明确呼吁立即停火+流离失所者返乡+人道危机缓解措施。真主党领袖纳伊姆·卡西姆誓言「战至最后一口气」，敦促黎政府退出和谈。以军在和谈期间继续地面攻势夺取边境城镇。4月8日「黑色星期三」357人死亡仍为战争单日最高。累计2000+军民死亡，超130万人流离失所（占黎人口20%+），IRC称人道危机持续恶化。",
+      "risk_impact": {
+        "industries": [
+          "科技",
+          "航运",
+          "能源",
+          "旅游"
+        ],
+        "assets": [
+          "以色列谢克尔",
+          "黎巴嫩主权债",
+          "黄金",
+          "原油"
+        ],
+        "channels": [
+          "4/14华盛顿和谈完成30年来首次以黎直接对话，三方称「富有成效」，同意启动正式谈判",
+          "核心分歧未解：以方要求真主党解除武装，黎方坚持停火+返乡+人道缓解为前提",
+          "真主党领袖卡西姆誓言战至最后一口气并敦促黎政府退出和谈，以军继续地面攻势",
+          "累计2000+军民死亡，超130万人流离失所（占黎人口20%+），IRC称人道危机持续恶化"
+        ]
+      }
+    },
+    {
       "conflict_id": "china_taiwan",
       "label": "China-Taiwan",
       "label_cn": "中国 - 台海",
@@ -341,7 +413,7 @@
       "probability_7d": 0.0027,
       "probability_1d": 0.0004,
       "data_points": 9,
-      "composite_risk_score": 0.0723,
+      "composite_risk_score": 0.0638,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -377,78 +449,6 @@
           "中伊MANPAD转运情报引发连锁：特朗普威胁50%关税，中方否认，特习会从4月推迟至5/14北京",
           "NATO秘书长吕特警告中国问题可能成为多战区议题，称北京或调动次级伙伴制造分散",
           "台湾军购僵局持续：HIMARS/M109A7付款延至5月，防御现代化窗口收窄"
-        ]
-      }
-    },
-    {
-      "conflict_id": "israel_palestine",
-      "label": "Israel-Palestine",
-      "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0,
-      "probability_7d": 0.0,
-      "probability_1d": 0.0,
-      "data_points": 4,
-      "composite_risk_score": 0.0675,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "ceasefire_cancel",
-          "event_description": "Existing ceasefire breaks down or is cancelled",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0,
-          "probability_7d": 0.0,
-          "probability_1d": 0.0,
-          "data_points": 4,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": null
-        },
-        {
-          "event_type": "ceasefire",
-          "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "加沙停火Phase II（不含黎巴嫩）",
-          "direction": "risk_decrease",
-          "probability_30d": 0.0557,
-          "probability_7d": 0.0033,
-          "probability_1d": 0.0005,
-          "data_points": 4,
-          "change_vs_yesterday": -0.0552,
-          "change_vs_7d_ago": -0.0961
-        },
-        {
-          "event_type": "other",
-          "event_description": "other",
-          "event_note": "已确认事件",
-          "direction": "neutral",
-          "probability_30d": 1.0,
-          "probability_7d": 1.0,
-          "probability_1d": 1.0,
-          "data_points": 3,
-          "change_vs_yesterday": 0.0,
-          "change_vs_7d_ago": 0.427
-        }
-      ],
-      "situation_briefing": "黎巴嫩战事第45天。华盛顿和谈4月14日举行并取得进展：以色列大使Yechiel Leiter与黎巴嫩大使Nada Hamadeh Moawad在美方主持下完成30多年来首次以黎直接外交对话，三方称会谈「富有成效」，同意在双方商定的时间和地点启动正式直接谈判。但核心分歧未解：以方拒绝将停火作为谈判前提，坚持要求真主党解除武装；黎方明确呼吁立即停火+流离失所者返乡+人道危机缓解措施。真主党领袖纳伊姆·卡西姆誓言「战至最后一口气」，敦促黎政府退出和谈。以军在和谈期间继续地面攻势夺取边境城镇。4月8日「黑色星期三」357人死亡仍为战争单日最高。累计2000+军民死亡，超130万人流离失所（占黎人口20%+），IRC称人道危机持续恶化。",
-      "risk_impact": {
-        "industries": [
-          "科技",
-          "航运",
-          "能源",
-          "旅游"
-        ],
-        "assets": [
-          "以色列谢克尔",
-          "黎巴嫩主权债",
-          "黄金",
-          "原油"
-        ],
-        "channels": [
-          "4/14华盛顿和谈完成30年来首次以黎直接对话，三方称「富有成效」，同意启动正式谈判",
-          "核心分歧未解：以方要求真主党解除武装，黎方坚持停火+返乡+人道缓解为前提",
-          "真主党领袖卡西姆誓言战至最后一口气并敦促黎政府退出和谈，以军继续地面攻势",
-          "累计2000+军民死亡，超130万人流离失所（占黎人口20%+），IRC称人道危机持续恶化"
         ]
       }
     }
