@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-04-15T05:32:07+00:00",
+    "updated_at": "2026-04-16T03:03:19+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Next Prime Minister of Hungary",
       "event_summary_en": "Next Prime Minister of Hungary",
       "category": "political",
-      "probability": 0.9875,
+      "probability": 0.986,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -38,10 +38,10 @@
       }
     },
     {
-      "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
-      "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
+      "event_summary": "Next Prime Minister of Denmark",
+      "event_summary_en": "Next Prime Minister of Denmark?",
       "category": "political",
-      "probability": 0.952,
+      "probability": 0.92,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -50,16 +50,16 @@
       "event_summary": "2026 Seoul Mayoral Election Winner",
       "event_summary_en": "2026 Seoul Mayoral Election Winner",
       "category": "political",
-      "probability": 0.885,
+      "probability": 0.89,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
     },
     {
-      "event_summary": "Next Prime Minister of Denmark",
-      "event_summary_en": "Next Prime Minister of Denmark?",
+      "event_summary": "Colombia Chamber of Representatives Election: 3rd Place",
+      "event_summary_en": "Colombia Chamber of Representatives Election: 3rd Place",
       "category": "political",
-      "probability": 0.87,
+      "probability": 0.857,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -68,7 +68,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.6795,
+      "probability": 0.695,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -77,7 +77,7 @@
       "event_summary": "俄罗斯9月议会选举：统一俄罗斯党获最多席位概率",
       "event_summary_en": "Which party will gain most seats in Russian Parliamentary Election?",
       "category": "political",
-      "probability": 0.665,
+      "probability": 0.655,
       "deadline": null,
       "data_confidence": "high",
       "importance": "high",
@@ -103,7 +103,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.605,
+      "probability": 0.645,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -112,7 +112,7 @@
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.595,
+      "probability": 0.605,
       "deadline": "2026-12-20",
       "data_confidence": "high",
       "importance": "low",
@@ -204,7 +204,7 @@
       "event_summary": "Brazil Presidential Election",
       "event_summary_en": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.399,
+      "probability": 0.4045,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -229,7 +229,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.395,
+      "probability": 0.3965,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -255,7 +255,7 @@
       "event_summary": "美国2026年底前陷入衰退",
       "event_summary_en": "US recession by end of 2026?",
       "category": "economic",
-      "probability": 0.295,
+      "probability": 0.285,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -283,7 +283,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2725,
+      "probability": 0.2755,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -317,7 +317,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1915,
+      "probability": 0.1905,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -335,7 +335,7 @@
       "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.535,
+      "probability": 0.62,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high",
@@ -359,20 +359,20 @@
       }
     },
     {
+      "event_summary": "Named storm forms before hurricane season",
+      "event_summary_en": "Named storm forms before hurricane season?",
+      "category": "natural_disaster",
+      "probability": 0.375,
+      "deadline": null,
+      "data_confidence": "medium",
+      "importance": "low"
+    },
+    {
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "event_summary_en": "Will any Category 4 hurricane make landfall in the US in before 2027?",
       "category": "natural_disaster",
       "probability": 0.37,
       "deadline": "2026-12-31",
-      "data_confidence": "medium",
-      "importance": "low"
-    },
-    {
-      "event_summary": "Named storm forms before hurricane season",
-      "event_summary_en": "Named storm forms before hurricane season?",
-      "category": "natural_disaster",
-      "probability": 0.365,
-      "deadline": null,
       "data_confidence": "medium",
       "importance": "low"
     },
