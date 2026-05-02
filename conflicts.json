@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-01T03:44:36+00:00",
+    "updated_at": "2026-05-02T03:43:26+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,11 +43,11 @@
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.1758,
-      "probability_7d": 0.0441,
-      "probability_1d": 0.0064,
+      "probability_30d": 0.1132,
+      "probability_7d": 0.0277,
+      "probability_1d": 0.004,
       "data_points": 5,
-      "composite_risk_score": 0.1981,
+      "composite_risk_score": 0.1543,
       "anomaly_detected": true,
       "risk_events": [
         {
@@ -55,11 +55,11 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.1758,
-          "probability_7d": 0.0088,
-          "probability_1d": 0.0013,
+          "probability_30d": 0.1132,
+          "probability_7d": 0.0055,
+          "probability_1d": 0.0008,
           "data_points": 5,
-          "change_vs_yesterday": null,
+          "change_vs_yesterday": -0.0626,
           "change_vs_7d_ago": null
         },
         {
@@ -67,15 +67,15 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火第二阶段（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.0728,
-          "probability_7d": 0.0044,
+          "probability_30d": 0.0685,
+          "probability_7d": 0.0041,
           "probability_1d": 0.0006,
           "data_points": 4,
-          "change_vs_yesterday": -0.015,
-          "change_vs_7d_ago": -0.0354
+          "change_vs_yesterday": -0.0043,
+          "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "黎巴嫩战事第61天。特朗普告诉内塔尼亚胡：黎巴嫩打击必须「手术式」，不能炸楼——「让以色列形象很差」。但4/30以军空袭致28死（含9名黎军士兵+3名医护），系停火以来最致命一天。内塔尼亚胡坚称保留「对任何威胁的完全行动自由」，称真主党「企图破坏」停火。以军行动范围持续扩展（南黎→贝卡谷地→叙黎边境）。停火5月中旬到期在即，持续被侵蚀。黎巴嫩卫生部：累计死亡超2500人（含177儿童+100医护），超120万人流离失所。",
+      "situation_briefing": "黎巴嫩战事第62天。以军持续大规模空袭——4/30单日致30+人死亡（停火以来最致命一天），宾特朱拜勒战役仍在进行。特朗普要求内塔尼亚胡「手术式」打击不炸楼，但以军行动范围持续扩展（南黎→贝卡→叙黎边境）。联合国安理会5月将审议黎巴嫩问题。停火5月中旬到期在即，持续被侵蚀。黎巴嫩卫生部：自3月2日以来2489人死亡、7719人受伤，超120万人流离失所。",
       "risk_impact": {
         "industries": [
           "科技",
@@ -90,10 +90,10 @@
           "原油"
         ],
         "channels": [
-          "Trump要求内塔尼亚胡「手术式」打击不炸楼，但4/30以军空袭致28死（停火以来最致命一天）",
-          "以军行动范围持续扩展（南黎→贝卡谷地→叙黎边境），内塔尼亚胡称保留「完全行动自由」",
-          "停火5月中旬到期在即，持续被侵蚀；卡西姆称谈判「屈辱」vs奥恩坚持面对面",
-          "累计2500+死亡（含177儿童+100医护+军警），超120万流离失所"
+          "4/30单日致30+人死亡（停火最致命一天），宾特朱拜勒战役持续，联合国安理会5月将审议",
+          "Trump要求「手术式」打击但以军行动范围持续扩展（南黎→贝卡→叙黎边境）",
+          "停火5月中旬到期在即，持续被侵蚀，分析指停火「可能从未意在止战」",
+          "累计2489人死亡+7719人受伤，超120万流离失所"
         ]
       }
     },
@@ -103,11 +103,11 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0478,
-      "probability_7d": 0.0114,
-      "probability_1d": 0.0016,
-      "data_points": 6,
-      "composite_risk_score": 0.1256,
+      "probability_30d": 0.0429,
+      "probability_7d": 0.0102,
+      "probability_1d": 0.0015,
+      "data_points": 3,
+      "composite_risk_score": 0.1257,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -115,48 +115,48 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "地面入侵/正式宣战/核试验",
           "direction": "risk_increase",
-          "probability_30d": 0.0478,
-          "probability_7d": 0.0037,
-          "probability_1d": 0.0016,
-          "data_points": 6,
-          "change_vs_yesterday": 0.0002,
-          "change_vs_7d_ago": -0.0006
+          "probability_30d": 0.0429,
+          "probability_7d": 0.0051,
+          "probability_1d": 0.0007,
+          "data_points": 3,
+          "change_vs_yesterday": -0.0049,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0382,
-          "probability_7d": 0.0072,
+          "probability_30d": 0.0304,
+          "probability_7d": 0.0074,
           "probability_1d": 0.0011,
-          "data_points": 5,
-          "change_vs_yesterday": 0.0046,
-          "change_vs_7d_ago": -0.0008
+          "data_points": 4,
+          "change_vs_yesterday": -0.0078,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.1307,
-          "probability_7d": 0.02,
-          "probability_1d": 0.003,
-          "data_points": 3,
-          "change_vs_yesterday": -0.0187,
-          "change_vs_7d_ago": -0.103
+          "probability_30d": 0.1449,
+          "probability_7d": 0.0329,
+          "probability_1d": 0.0048,
+          "data_points": 2,
+          "change_vs_yesterday": 0.0142,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.1789,
-          "probability_7d": 0.7231,
-          "probability_1d": 0.7156,
-          "data_points": 14,
-          "change_vs_yesterday": -0.04,
-          "change_vs_7d_ago": -0.1223
+          "probability_30d": 0.2248,
+          "probability_7d": 0.7818,
+          "probability_1d": 0.7711,
+          "data_points": 13,
+          "change_vs_yesterday": 0.0459,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "other",
@@ -164,14 +164,14 @@
           "event_note": "",
           "direction": "neutral",
           "probability_30d": 0.0,
-          "probability_7d": 0.0027,
-          "probability_1d": 0.0027,
-          "data_points": 3,
+          "probability_7d": 0.0025,
+          "probability_1d": 0.0025,
+          "data_points": 2,
           "change_vs_yesterday": null,
           "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "美以对伊战争第63天。《战争权力法》60天期限今日（5/1）到期——理论上需国会授权继续军事行动，但赫格塞斯声称停火「暂停了时钟」（参议员柯林斯等共和党人亦表反对此解读），国会授权前景不明。特朗普已拒绝伊朗提议（开放海峡但搁置核问题），与能源高管讨论「封锁数月」。五角大楼公布战争成本250亿美元。UAE今日正式退出OPEC（近60年来首次），油价布伦特$110+。美伊「双重封锁」僵局持续。霍尔木兹航运仍降逾90%，全球1/5石油和LNG供应中断。13名美军阵亡，伊朗方面死亡超4000人。",
+      "situation_briefing": "美以对伊战争第64天。特朗普5/1告诉国会领导人「敌对行动已终止」，试图规避《战争权力法》60天限制——参议员凯恩反驳「军事封锁本身就是战争行为，行动从未停止」。特朗普对伊朗最新和平提议表示「不满意」。油价飙升（布伦特$112、WTI $105），IEA称霍尔木兹封锁已移除全球12%石油供应——超过赎罪日战争、两伊战争、科威特入侵和乌克兰冲突的供应冲击。UAE已于5/1正式退出OPEC。五角大楼公布战争成本$250亿。美伊「双重封锁」僵局持续。13名美军阵亡，伊朗方面死亡超4000人。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -188,71 +188,11 @@
           "航运指数"
         ],
         "channels": [
-          "战争权力法60天期限今日到期：赫格塞斯声称停火「暂停时钟」（共和党柯林斯亦反对），国会授权前景不明",
-          "Trump拒绝伊朗提议+与能源高管讨论「封锁数月」，五角大楼公布战争成本$250亿",
-          "UAE今日正式退出OPEC（近60年首次），计划逐步增产至500万桶/日，油价Brent $110+",
-          "美伊「双重封锁」僵局持续，霍尔木兹航运降逾90%，全球1/5石油和LNG中断",
+          "Trump告知国会「敌对行动已终止」规避战争权力法——凯恩反驳「封锁就是战争行为」，法律争议持续",
+          "IEA称霍尔木兹封锁移除全球12%石油供应——超过赎罪日战争/两伊/科威特/乌克兰的供应冲击",
+          "油价Brent $112/WTI $105，Trump对伊朗新提议「不满意」，五角大楼战争成本$250亿",
+          "UAE已于5/1退出OPEC，美伊「双重封锁」僵局持续",
           "13名美军阵亡，伊朗方面死亡超4000人"
-        ]
-      }
-    },
-    {
-      "conflict_id": "india_pakistan",
-      "label": "India-Pakistan",
-      "label_cn": "印度 - 巴基斯坦",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.034,
-      "probability_7d": 0.008,
-      "probability_1d": 0.0012,
-      "data_points": 2,
-      "composite_risk_score": 0.1032,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.034,
-          "probability_7d": 0.004,
-          "probability_1d": 0.0006,
-          "data_points": 2,
-          "change_vs_yesterday": -0.0022,
-          "change_vs_7d_ago": 0.004
-        },
-        {
-          "event_type": "other",
-          "event_description": "other",
-          "event_note": "",
-          "direction": "neutral",
-          "probability_30d": 0.0,
-          "probability_7d": 0.0012,
-          "probability_1d": 0.0012,
-          "data_points": 2,
-          "change_vs_yesterday": null,
-          "change_vs_7d_ago": null
-        }
-      ],
-      "situation_briefing": "印巴局势逼近临界点。4月30日巴基斯坦声称获得「可信情报」显示印度将在数小时内发动军事行动。此前4/29夜间巴方在克什米尔国际边界沿线开火，印度Rafale战机在LoC附近飞行被侦测。双方互指对方违反停火。4/27巴方炮击阿富汗库纳尔省大学致7死85伤（中方斡旋停火以来首次重大暴力），巴基斯坦和平中介形象受损。俄中介入呼吁克制。巴基斯坦多线承压：美伊中介+巴阿冲突+印巴对峙。印度空域禁令延至5/24，《印度河水条约》搁置。",
-      "risk_impact": {
-        "industries": [
-          "纺织",
-          "农业",
-          "IT外包",
-          "南亚贸易"
-        ],
-        "assets": [
-          "印度卢比",
-          "巴基斯坦卢比",
-          "黄金",
-          "棉花"
-        ],
-        "channels": [
-          "4/30巴方声称「可信情报」显示印度将在数小时内发动军事行动——局势逼近临界点",
-          "4/29夜间巴方在克什米尔国际边界开火，Rafale战机在LoC附近被侦测，双方互指违反停火",
-          "4/27巴方炮击库纳尔省大学致7死85伤（中方斡旋停火后首次重大暴力），和平中介形象受损",
-          "巴基斯坦多线承压：美伊中介+巴阿冲突+印巴对峙+即将面临印度军事行动威胁"
         ]
       }
     },
@@ -262,11 +202,11 @@
       "label_cn": "美国 - 拉丁美洲",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.033,
-      "probability_7d": 0.0078,
-      "probability_1d": 0.0011,
+      "probability_30d": 0.0349,
+      "probability_7d": 0.0083,
+      "probability_1d": 0.0012,
       "data_points": 5,
-      "composite_risk_score": 0.0996,
+      "composite_risk_score": 0.1005,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -274,24 +214,24 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.033,
-          "probability_7d": 0.0061,
+          "probability_30d": 0.0349,
+          "probability_7d": 0.0063,
           "probability_1d": 0.0009,
           "data_points": 5,
-          "change_vs_yesterday": -0.0002,
-          "change_vs_7d_ago": 0.0037
+          "change_vs_yesterday": 0.0019,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0348,
-          "probability_7d": 0.0082,
-          "probability_1d": 0.0012,
+          "probability_30d": 0.0318,
+          "probability_7d": 0.0075,
+          "probability_1d": 0.0011,
           "data_points": 1,
-          "change_vs_yesterday": -0.0006,
-          "change_vs_7d_ago": 0.004
+          "change_vs_yesterday": -0.003,
+          "change_vs_7d_ago": null
         }
       ],
       "situation_briefing": "古巴封锁僵局加深。4月28日参议院共和党否决民主党提出的要求特朗普解除能源封锁的法案——除非获得国会授权。封锁进入第三个月，美国国会议员访古后谴责封锁构成「经济轰炸」。古巴外长此前秘密致信特朗普提议经济协议，4/10美方代表团首次乘政府专机赴哈瓦那会谈。美方条件：释放政治犯、开放Starlink、资产赔偿、经济自由化。古巴坚持政治犯释放「不在谈判桌上」。人道状况持续恶化：石油进口锐减约90%，电力缺口超1700MW，积压96000台手术。美方对古巴施压同时面对霍尔木兹和古巴双线能源封锁挑战。",
@@ -317,16 +257,16 @@
       }
     },
     {
-      "conflict_id": "china_taiwan",
-      "label": "China-Taiwan",
-      "label_cn": "中国 - 台海",
-      "importance": "low",
+      "conflict_id": "india_pakistan",
+      "label": "India-Pakistan",
+      "label_cn": "印度 - 巴基斯坦",
+      "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0103,
-      "probability_7d": 0.0024,
-      "probability_1d": 0.0003,
-      "data_points": 10,
-      "composite_risk_score": 0.0823,
+      "probability_30d": 0.0341,
+      "probability_7d": 0.0081,
+      "probability_1d": 0.0012,
+      "data_points": 2,
+      "composite_risk_score": 0.0989,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -334,15 +274,137 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0103,
-          "probability_7d": 0.0031,
-          "probability_1d": 0.0005,
-          "data_points": 10,
+          "probability_30d": 0.0341,
+          "probability_7d": 0.004,
+          "probability_1d": 0.0006,
+          "data_points": 2,
           "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": -0.0
+          "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "南海军事对峙进一步升级。美军在距台湾100英里吕宋海峡岛屿部署HIMARS+NMESIS反舰导弹系统（射程115-310英里，覆盖吕宋至台湾南端），第3海军陆战队濒海团1300人执行海上打击/海域拒止任务。菲美联军在南海沿岸举行反登陆演习。解放军以辽宁号+075型在附近同步行动回应。Balikatan 2026进入第12天（17000军人、7国、至5/8），此前公布YJ-20高超声速导弹发射视频。日本1400人+88式反舰导弹为二战后最大作战参演。空域限制持续（至5/6）。习特5/14北京峰会倒计时13天。",
+      "situation_briefing": "印巴紧张持续。Operation Sindoor一周年临近（5/7），印度已确立「恐袭=战争行为」新战略——去年同期印度对巴发动导弹打击引发两国4天武装冲突。巴方此前声称获「可信情报」印度数小时内将发动军事行动，4/29夜间克什米尔边界交火。巴阿边境4/27库纳尔省大学炮击致7死85伤（中方斡旋停火后首次重大暴力），巴基斯坦和平中介形象受损。俄中介入呼吁克制。巴基斯坦多线承压：美伊中介+巴阿冲突+印巴对峙。印度空域禁令延至5/24，《印度河水条约》搁置。",
+      "risk_impact": {
+        "industries": [
+          "纺织",
+          "农业",
+          "IT外包",
+          "南亚贸易"
+        ],
+        "assets": [
+          "印度卢比",
+          "巴基斯坦卢比",
+          "黄金",
+          "棉花"
+        ],
+        "channels": [
+          "Sindoor行动一周年临近（5/7）：印度确立「恐袭=战争行为」新战略，去年导弹打击引发4天武装冲突",
+          "巴方声称「可信情报」印度将发动军事行动，4/29克什米尔边界交火，紧张持续",
+          "巴阿边境4/27炮击库纳尔大学致7死85伤，巴基斯坦和平中介形象受损",
+          "巴基斯坦多线承压：美伊中介+巴阿冲突+印巴对峙，印度空域禁令延至5/24"
+        ]
+      }
+    },
+    {
+      "conflict_id": "russia_ukraine",
+      "label": "Russia-Ukraine",
+      "label_cn": "俄罗斯 - 乌克兰",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.0163,
+      "probability_7d": 0.0038,
+      "probability_1d": 0.0005,
+      "data_points": 6,
+      "composite_risk_score": 0.0844,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "北约与俄罗斯直接军事冲突",
+          "direction": "risk_increase",
+          "probability_30d": 0.0163,
+          "probability_7d": 0.0022,
+          "probability_1d": 0.0003,
+          "data_points": 6,
+          "change_vs_yesterday": -0.0022,
+          "change_vs_7d_ago": null
+        },
+        {
+          "event_type": "ceasefire",
+          "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "",
+          "direction": "risk_decrease",
+          "probability_30d": 0.0423,
+          "probability_7d": 0.008,
+          "probability_1d": 0.0012,
+          "data_points": 9,
+          "change_vs_yesterday": -0.003,
+          "change_vs_7d_ago": null
+        },
+        {
+          "event_type": "other",
+          "event_description": "other",
+          "event_note": "",
+          "direction": "neutral",
+          "probability_30d": 0.0054,
+          "probability_7d": 0.0013,
+          "probability_1d": 0.0002,
+          "data_points": 1,
+          "change_vs_yesterday": 0.0001,
+          "change_vs_7d_ago": null
+        }
+      ],
+      "situation_briefing": "全面入侵第1529天。5/9停火谈判出现分歧：乌克兰提出长期停火反提案（冻结当前前线+可靠安全保障+持久和平），拒绝仅5/9一天象征性暂停。克宫称普京将单方面宣布停火不需基辅回应——但乌方记录复活节停火期间400+次违规，对俄方执行力持高度怀疑。俄方坚持乌军须从顿巴斯部分地区撤出（基辅已拒绝）。前线战斗强度未减：过去24小时177次交锋，波克罗夫斯克31次攻击仍最激烈。俄军发射226枚制导航弹+9683架自杀式无人机+3326次炮击。乌军持续打击俄炼油设施（图阿普谢被疏散）。俄军单日损失1470人，累计约133万人。",
+      "risk_impact": {
+        "industries": [
+          "能源",
+          "粮食",
+          "化肥",
+          "欧洲制造业"
+        ],
+        "assets": [
+          "欧洲天然气(TTF)",
+          "小麦",
+          "欧元",
+          "卢布",
+          "铝/镍"
+        ],
+        "channels": [
+          "5/9停火谈判分歧：乌方提出长期停火反提案（冻结前线+安全保障），拒绝仅一天象征性暂停",
+          "克宫称普京将单方面宣布停火，但乌方记录复活节停火400+次违规，对执行力高度怀疑",
+          "俄军发射226枚制导航弹+9683架自杀式无人机+3326次炮击，波克罗夫斯克31次攻击最激烈",
+          "乌军持续打击俄炼油设施（图阿普谢被疏散，苯/甲苯超标3倍），削弱俄能源出口",
+          "俄军单日损失1470人（累计~133万），前线强度未减"
+        ]
+      }
+    },
+    {
+      "conflict_id": "china_taiwan",
+      "label": "China-Taiwan",
+      "label_cn": "中国 - 台海",
+      "importance": "low",
+      "risk_level": "low",
+      "probability_30d": 0.01,
+      "probability_7d": 0.0024,
+      "probability_1d": 0.0003,
+      "data_points": 10,
+      "composite_risk_score": 0.0828,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.01,
+          "probability_7d": 0.003,
+          "probability_1d": 0.0004,
+          "data_points": 10,
+          "change_vs_yesterday": -0.0003,
+          "change_vs_7d_ago": null
+        }
+      ],
+      "situation_briefing": "南海军事对峙持续。美军HIMARS+NMESIS反舰导弹部署在距台湾100英里的吕宋海峡岛屿（射程115-310英里），解放军以辽宁号+055/052D/054A编队（176具垂发系统，可搭载YJ-20高超声速导弹）在附近同步行动。Balikatan 2026进入第13天（17000军人、7国、至5/8），菲美联军反登陆演习持续。南海军事化引发区域担忧——马来西亚媒体警告「南海军事化」风险。空域限制持续（至5/6）。习特5/14北京峰会倒计时12天。",
       "risk_impact": {
         "industries": [
           "半导体",
@@ -363,80 +425,6 @@
           "解放军此前公布YJ-20高超声速导弹发射视频，伊巴亚特岛海上打击演习持续（距台湾<200km）",
           "日本1400人+88式反舰导弹为二战以来最大作战参演，空域限制持续至5/6",
           "习特5/14北京峰会倒计时14天，南海军事化加剧与外交窗口并行"
-        ]
-      }
-    },
-    {
-      "conflict_id": "russia_ukraine",
-      "label": "Russia-Ukraine",
-      "label_cn": "俄罗斯 - 乌克兰",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0185,
-      "probability_7d": 0.0043,
-      "probability_1d": 0.0006,
-      "data_points": 6,
-      "composite_risk_score": 0.0749,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "北约与俄罗斯直接军事冲突",
-          "direction": "risk_increase",
-          "probability_30d": 0.0185,
-          "probability_7d": 0.0026,
-          "probability_1d": 0.0004,
-          "data_points": 6,
-          "change_vs_yesterday": 0.0013,
-          "change_vs_7d_ago": 0.0007
-        },
-        {
-          "event_type": "ceasefire",
-          "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "",
-          "direction": "risk_decrease",
-          "probability_30d": 0.0453,
-          "probability_7d": 0.0078,
-          "probability_1d": 0.0012,
-          "data_points": 10,
-          "change_vs_yesterday": 0.0037,
-          "change_vs_7d_ago": 0.0099
-        },
-        {
-          "event_type": "other",
-          "event_description": "other",
-          "event_note": "",
-          "direction": "neutral",
-          "probability_30d": 0.0053,
-          "probability_7d": 0.0012,
-          "probability_1d": 0.0002,
-          "data_points": 1,
-          "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": -0.0106
-        }
-      ],
-      "situation_briefing": "全面入侵第1528天。重大外交信号：普京与特朗普4/29进行90分钟通话，提议5月9日（胜利日）在乌克兰临时停火，特朗普支持；泽连斯基表示正在寻求提议细节，乌方立场是「长期停火+可靠安全保障+持久和平」，克宫发言人称尚未做出最终决定。过去24小时177次战斗交锋，波克罗夫斯克方向31次攻击仍最激烈。俄军昨日发射2枚导弹+69次空袭+226枚制导航弹+9683架自杀式无人机+3326次炮击。乌军打击图阿普谢炼油厂（连续第三次），当地苯/甲苯浓度超安全标准3倍，居民被疏散。俄军单日损失1470人，累计约133万人。",
-      "risk_impact": {
-        "industries": [
-          "能源",
-          "粮食",
-          "化肥",
-          "欧洲制造业"
-        ],
-        "assets": [
-          "欧洲天然气(TTF)",
-          "小麦",
-          "欧元",
-          "卢布",
-          "铝/镍"
-        ],
-        "channels": [
-          "普京-特朗普90分钟通话：提议5/9胜利日临时停火，特朗普支持，泽连斯基寻求细节，克宫称未最终决定",
-          "过去24h 177次战斗交锋，俄军发射2枚导弹+226枚制导航弹+9683架自杀式无人机+3326次炮击",
-          "乌军连续第三次打击图阿普谢炼油厂，当地有毒物质超标3倍居民被疏散——持续削弱俄能源出口",
-          "波克罗夫斯克方向31次攻击仍最激烈，俄军单日损失1470人（累计~133万）",
-          "5/9停火提议可能改变谈判格局，但前线强度未减"
         ]
       }
     }
