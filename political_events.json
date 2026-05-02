@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-02T03:43:26+00:00",
+    "updated_at": "2026-05-02T04:26:22+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -24,7 +24,7 @@
       "event_summary": "Tamil Nadu Legislative Assembly Election Winner",
       "event_summary_en": "Tamil Nadu Legislative Assembly Election Winner",
       "category": "political",
-      "probability": 0.87,
+      "probability": 0.875,
       "deadline": null,
       "data_confidence": "high",
       "importance": "high"
@@ -306,10 +306,19 @@
       }
     },
     {
+      "event_summary": "Another US government shutdown & House Winner 2026",
+      "event_summary_en": "Another US government shutdown & House Winner 2026?",
+      "category": "economic",
+      "probability": 0.819,
+      "deadline": "2026-12-31",
+      "data_confidence": "medium",
+      "importance": "low"
+    },
+    {
       "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.83,
+      "probability": 0.815,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high",
@@ -333,15 +342,6 @@
       }
     },
     {
-      "event_summary": "Another US government shutdown & House Winner 2026",
-      "event_summary_en": "Another US government shutdown & House Winner 2026?",
-      "category": "economic",
-      "probability": 0.8185,
-      "deadline": "2026-12-31",
-      "data_confidence": "medium",
-      "importance": "low"
-    },
-    {
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "event_summary_en": "Will any Category 4 hurricane make landfall in the US in before 2027?",
       "category": "natural_disaster",
@@ -354,7 +354,7 @@
       "event_summary": "Named storm forms before hurricane season",
       "event_summary_en": "Named storm forms before hurricane season?",
       "category": "natural_disaster",
-      "probability": 0.185,
+      "probability": 0.19,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "low"

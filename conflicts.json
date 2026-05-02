@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-02T03:43:26+00:00",
+    "updated_at": "2026-05-02T04:26:22+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,11 +43,11 @@
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.1132,
+      "probability_30d": 0.1133,
       "probability_7d": 0.0277,
       "probability_1d": 0.004,
       "data_points": 5,
-      "composite_risk_score": 0.1543,
+      "composite_risk_score": 0.1553,
       "anomaly_detected": true,
       "risk_events": [
         {
@@ -55,11 +55,11 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.1132,
+          "probability_30d": 0.1133,
           "probability_7d": 0.0055,
           "probability_1d": 0.0008,
           "data_points": 5,
-          "change_vs_yesterday": -0.0626,
+          "change_vs_yesterday": -0.0625,
           "change_vs_7d_ago": null
         },
         {
@@ -67,11 +67,11 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火第二阶段（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.0685,
+          "probability_30d": 0.0686,
           "probability_7d": 0.0041,
           "probability_1d": 0.0006,
           "data_points": 4,
-          "change_vs_yesterday": -0.0043,
+          "change_vs_yesterday": -0.0042,
           "change_vs_7d_ago": null
         }
       ],
@@ -107,7 +107,7 @@
       "probability_7d": 0.0102,
       "probability_1d": 0.0015,
       "data_points": 3,
-      "composite_risk_score": 0.1257,
+      "composite_risk_score": 0.1246,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -127,11 +127,11 @@
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0304,
-          "probability_7d": 0.0074,
+          "probability_30d": 0.0302,
+          "probability_7d": 0.0073,
           "probability_1d": 0.0011,
           "data_points": 4,
-          "change_vs_yesterday": -0.0078,
+          "change_vs_yesterday": -0.008,
           "change_vs_7d_ago": null
         },
         {
@@ -151,11 +151,11 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.2248,
+          "probability_30d": 0.225,
           "probability_7d": 0.7818,
           "probability_1d": 0.7711,
-          "data_points": 13,
-          "change_vs_yesterday": 0.0459,
+          "data_points": 12,
+          "change_vs_yesterday": 0.0461,
           "change_vs_7d_ago": null
         },
         {
@@ -197,16 +197,16 @@
       }
     },
     {
-      "conflict_id": "us_latam",
-      "label": "US-Latin America",
-      "label_cn": "美国 - 拉丁美洲",
-      "importance": "low",
+      "conflict_id": "india_pakistan",
+      "label": "India-Pakistan",
+      "label_cn": "印度 - 巴基斯坦",
+      "importance": "high",
       "risk_level": "low",
       "probability_30d": 0.0349,
       "probability_7d": 0.0083,
       "probability_1d": 0.0012,
-      "data_points": 5,
-      "composite_risk_score": 0.1005,
+      "data_points": 2,
+      "composite_risk_score": 0.1012,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -215,70 +215,10 @@
           "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0349,
-          "probability_7d": 0.0063,
-          "probability_1d": 0.0009,
-          "data_points": 5,
-          "change_vs_yesterday": 0.0019,
-          "change_vs_7d_ago": null
-        },
-        {
-          "event_type": "regime_change",
-          "event_description": "Government or regime falls/changes",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0318,
-          "probability_7d": 0.0075,
-          "probability_1d": 0.0011,
-          "data_points": 1,
-          "change_vs_yesterday": -0.003,
-          "change_vs_7d_ago": null
-        }
-      ],
-      "situation_briefing": "古巴封锁僵局加深。4月28日参议院共和党否决民主党提出的要求特朗普解除能源封锁的法案——除非获得国会授权。封锁进入第三个月，美国国会议员访古后谴责封锁构成「经济轰炸」。古巴外长此前秘密致信特朗普提议经济协议，4/10美方代表团首次乘政府专机赴哈瓦那会谈。美方条件：释放政治犯、开放Starlink、资产赔偿、经济自由化。古巴坚持政治犯释放「不在谈判桌上」。人道状况持续恶化：石油进口锐减约90%，电力缺口超1700MW，积压96000台手术。美方对古巴施压同时面对霍尔木兹和古巴双线能源封锁挑战。",
-      "risk_impact": {
-        "industries": [
-          "石油",
-          "矿业",
-          "农业",
-          "金融"
-        ],
-        "assets": [
-          "委内瑞拉原油",
-          "古巴债券",
-          "拉美货币",
-          "糖/咖啡"
-        ],
-        "channels": [
-          "4/28参议院共和党否决解除封锁法案，封锁进入第三个月，国会议员访古谴责「经济轰炸」",
-          "古巴外长此前秘密致信特朗普提议经济协议，4/10首次政府专机赴哈瓦那会谈",
-          "美方条件：政治犯+Starlink+资产赔偿+经济自由化 vs 古巴坚持政治犯「不在谈判桌上」",
-          "石油进口锐减~90%，电力缺口超1700MW，积压96000台手术，霍尔木兹+古巴双线封锁挑战"
-        ]
-      }
-    },
-    {
-      "conflict_id": "india_pakistan",
-      "label": "India-Pakistan",
-      "label_cn": "印度 - 巴基斯坦",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0341,
-      "probability_7d": 0.0081,
-      "probability_1d": 0.0012,
-      "data_points": 2,
-      "composite_risk_score": 0.0989,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0341,
-          "probability_7d": 0.004,
+          "probability_7d": 0.0041,
           "probability_1d": 0.0006,
           "data_points": 2,
-          "change_vs_yesterday": 0.0001,
+          "change_vs_yesterday": 0.0009,
           "change_vs_7d_ago": null
         }
       ],
@@ -305,6 +245,66 @@
       }
     },
     {
+      "conflict_id": "us_latam",
+      "label": "US-Latin America",
+      "label_cn": "美国 - 拉丁美洲",
+      "importance": "low",
+      "risk_level": "low",
+      "probability_30d": 0.0359,
+      "probability_7d": 0.0085,
+      "probability_1d": 0.0012,
+      "data_points": 5,
+      "composite_risk_score": 0.1002,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0359,
+          "probability_7d": 0.0064,
+          "probability_1d": 0.0009,
+          "data_points": 5,
+          "change_vs_yesterday": 0.0029,
+          "change_vs_7d_ago": null
+        },
+        {
+          "event_type": "regime_change",
+          "event_description": "Government or regime falls/changes",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.031,
+          "probability_7d": 0.0073,
+          "probability_1d": 0.001,
+          "data_points": 1,
+          "change_vs_yesterday": -0.0038,
+          "change_vs_7d_ago": null
+        }
+      ],
+      "situation_briefing": "古巴封锁僵局加深。4月28日参议院共和党否决民主党提出的要求特朗普解除能源封锁的法案——除非获得国会授权。封锁进入第三个月，美国国会议员访古后谴责封锁构成「经济轰炸」。古巴外长此前秘密致信特朗普提议经济协议，4/10美方代表团首次乘政府专机赴哈瓦那会谈。美方条件：释放政治犯、开放Starlink、资产赔偿、经济自由化。古巴坚持政治犯释放「不在谈判桌上」。人道状况持续恶化：石油进口锐减约90%，电力缺口超1700MW，积压96000台手术。美方对古巴施压同时面对霍尔木兹和古巴双线能源封锁挑战。",
+      "risk_impact": {
+        "industries": [
+          "石油",
+          "矿业",
+          "农业",
+          "金融"
+        ],
+        "assets": [
+          "委内瑞拉原油",
+          "古巴债券",
+          "拉美货币",
+          "糖/咖啡"
+        ],
+        "channels": [
+          "4/28参议院共和党否决解除封锁法案，封锁进入第三个月，国会议员访古谴责「经济轰炸」",
+          "古巴外长此前秘密致信特朗普提议经济协议，4/10首次政府专机赴哈瓦那会谈",
+          "美方条件：政治犯+Starlink+资产赔偿+经济自由化 vs 古巴坚持政治犯「不在谈判桌上」",
+          "石油进口锐减~90%，电力缺口超1700MW，积压96000台手术，霍尔木兹+古巴双线封锁挑战"
+        ]
+      }
+    },
+    {
       "conflict_id": "russia_ukraine",
       "label": "Russia-Ukraine",
       "label_cn": "俄罗斯 - 乌克兰",
@@ -314,7 +314,7 @@
       "probability_7d": 0.0038,
       "probability_1d": 0.0005,
       "data_points": 6,
-      "composite_risk_score": 0.0844,
+      "composite_risk_score": 0.0814,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -334,11 +334,11 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "",
           "direction": "risk_decrease",
-          "probability_30d": 0.0423,
+          "probability_30d": 0.0421,
           "probability_7d": 0.008,
-          "probability_1d": 0.0012,
+          "probability_1d": 0.0011,
           "data_points": 9,
-          "change_vs_yesterday": -0.003,
+          "change_vs_yesterday": -0.0032,
           "change_vs_7d_ago": null
         },
         {
@@ -384,11 +384,11 @@
       "label_cn": "中国 - 台海",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.01,
+      "probability_30d": 0.0101,
       "probability_7d": 0.0024,
       "probability_1d": 0.0003,
       "data_points": 10,
-      "composite_risk_score": 0.0828,
+      "composite_risk_score": 0.0764,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -396,11 +396,11 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.01,
+          "probability_30d": 0.0101,
           "probability_7d": 0.003,
           "probability_1d": 0.0004,
           "data_points": 10,
-          "change_vs_yesterday": -0.0003,
+          "change_vs_yesterday": -0.0002,
           "change_vs_7d_ago": null
         }
       ],
