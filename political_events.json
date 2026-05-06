@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-06T09:20:25+00:00",
+    "updated_at": "2026-05-06T12:19:57+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Peru Presidential Election First Round: 2nd Place",
       "event_summary_en": "Peru Presidential Election First Round: 2nd Place",
       "category": "political",
-      "probability": 0.9725,
+      "probability": 0.9755,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -33,7 +33,7 @@
       "event_summary": "2026 Seoul Mayoral Election Winner",
       "event_summary_en": "2026 Seoul Mayoral Election Winner",
       "category": "political",
-      "probability": 0.885,
+      "probability": 0.895,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -101,7 +101,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.5705,
+      "probability": 0.5635,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -145,7 +145,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.4645,
+      "probability": 0.4685,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -154,7 +154,7 @@
       "event_summary": "Brazil Presidential Election",
       "event_summary_en": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.4395,
+      "probability": 0.4385,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -203,7 +203,7 @@
       "event_summary": "Who will be the next Prime Minister of Israel after the next election",
       "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
       "category": "political",
-      "probability": 0.435,
+      "probability": 0.395,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -238,7 +238,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2525,
+      "probability": 0.2505,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -300,7 +300,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1985,
+      "probability": 0.1995,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -309,7 +309,7 @@
       "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.825,
+      "probability": 0.815,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high",
@@ -363,7 +363,7 @@
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.215,
+      "probability": 0.195,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
