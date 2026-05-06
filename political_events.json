@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-05T03:29:54+00:00",
+    "updated_at": "2026-05-06T07:00:24+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Peru Presidential Election First Round: 2nd Place",
       "event_summary_en": "Peru Presidential Election First Round: 2nd Place",
       "category": "political",
-      "probability": 0.9565,
+      "probability": 0.9725,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -63,15 +63,6 @@
       }
     },
     {
-      "event_summary": "Peru Presidential Election Winner",
-      "event_summary_en": "Peru Presidential Election Winner",
-      "category": "political",
-      "probability": 0.655,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "俄罗斯9月议会选举：统一俄罗斯党获最多席位概率",
       "event_summary_en": "Which party will gain most seats in Russian Parliamentary Election?",
       "category": "political",
@@ -98,10 +89,19 @@
       }
     },
     {
+      "event_summary": "Peru Presidential Election Winner",
+      "event_summary_en": "Peru Presidential Election Winner",
+      "category": "political",
+      "probability": 0.645,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.5865,
+      "probability": 0.5745,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -142,10 +142,19 @@
       "importance": "low"
     },
     {
+      "event_summary": "California Governor Election Winner",
+      "event_summary_en": "California Governor Election Winner",
+      "category": "political",
+      "probability": 0.4635,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.45,
+      "probability": 0.455,
       "deadline": "2026-12-20",
       "data_confidence": "high",
       "importance": "low",
@@ -168,19 +177,10 @@
       }
     },
     {
-      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
-      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
-      "category": "political",
-      "probability": 0.445,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "Brazil Presidential Election",
       "event_summary_en": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.4425,
+      "probability": 0.44,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -226,11 +226,11 @@
       }
     },
     {
-      "event_summary": "California Governor Election Winner",
-      "event_summary_en": "California Governor Election Winner",
+      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
+      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
       "category": "political",
-      "probability": 0.3915,
-      "deadline": "2026-12-31",
+      "probability": 0.435,
+      "deadline": null,
       "data_confidence": "high",
       "importance": "low"
     },
@@ -238,7 +238,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2635,
+      "probability": 0.2565,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -300,7 +300,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.2005,
+      "probability": 0.2,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -309,7 +309,7 @@
       "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.835,
+      "probability": 0.82,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high",
@@ -336,7 +336,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.8225,
+      "probability": 0.812,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -345,7 +345,7 @@
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "event_summary_en": "Will any Category 4 hurricane make landfall in the US in before 2027?",
       "category": "natural_disaster",
-      "probability": 0.365,
+      "probability": 0.37,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -354,7 +354,7 @@
       "event_summary": "Named storm forms before hurricane season",
       "event_summary_en": "Named storm forms before hurricane season?",
       "category": "natural_disaster",
-      "probability": 0.28,
+      "probability": 0.295,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "low"
@@ -363,7 +363,7 @@
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.245,
+      "probability": 0.225,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
@@ -389,7 +389,7 @@
       "event_summary": "10.0 or above earthquake before 2027",
       "event_summary_en": "10.0 or above earthquake before 2027?",
       "category": "natural_disaster",
-      "probability": 0.047,
+      "probability": 0.0465,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
