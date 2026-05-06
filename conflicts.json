@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-06T07:00:24+00:00",
+    "updated_at": "2026-05-06T09:20:25+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,11 +43,11 @@
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.1061,
-      "probability_7d": 0.0258,
-      "probability_1d": 0.0037,
+      "probability_30d": 0.1093,
+      "probability_7d": 0.0266,
+      "probability_1d": 0.0039,
       "data_points": 5,
-      "composite_risk_score": 0.1488,
+      "composite_risk_score": 0.1563,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -55,11 +55,11 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
           "direction": "risk_increase",
-          "probability_30d": 0.1061,
-          "probability_7d": 0.0052,
-          "probability_1d": 0.0007,
+          "probability_30d": 0.1093,
+          "probability_7d": 0.0053,
+          "probability_1d": 0.0008,
           "data_points": 5,
-          "change_vs_yesterday": -0.0249,
+          "change_vs_yesterday": -0.0217,
           "change_vs_7d_ago": null
         },
         {
@@ -67,15 +67,15 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火第二阶段（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.0533,
+          "probability_30d": 0.0534,
           "probability_7d": 0.0032,
           "probability_1d": 0.0005,
           "data_points": 4,
-          "change_vs_yesterday": 0.0011,
-          "change_vs_7d_ago": -0.0465
+          "change_vs_yesterday": 0.0012,
+          "change_vs_7d_ago": -0.0464
         }
       ],
-      "situation_briefing": "黎巴嫩战事第66天，停火「仅存在于名义上」。Al Jazeera驻贝鲁特记者直言美方斡旋的停火（4/16生效、4/23延长3周至5月中旬）「name-only」存在。5月初密集打击持续——5/1单日空袭致40余人死亡，5/2以军空袭南黎24小时内致41人死亡（含单波次10人）+约50次空袭针对真主党基础设施，5/3 IDF对南黎多个城镇（含其当前占领区以外区域）发布新一轮强制撤离令并实施大范围打击致4死10伤，覆盖Tyre、Bint Jbeil、Marjayoun的Siddiqine、Kafra-Yater、Al Smaaiyah、Shaaitiyeh等多镇，Nabatieh住宅区严重损毁。真主党议员Hussein Hajj Hassan周六表态：以军必须「立即无条件终止所有侵略行为」、不得在该区域自由行动；真主党给出五项停火持续条件，警告若以方违反则「真主党战士同样不再受停火约束」。黎总统奥恩谴责「持续以方违规」，以总参谋长公开承认南黎「没有真正停火」、以方坚持驻留南黎。黎以1983年以来首次直接谈判进行中，目标含最终和平协议+真主党解武；分析警告以方持续打击或致真主党拒绝解武、让谈判脱轨。停火延期约5/14到期，进入决定性最后一周窗口。黎卫生部累计2489死、7719伤、超120万流离失所。",
+      "situation_briefing": "黎巴嫩战事第66天，停火「仅存在于名义上」。Al Jazeera驻贝鲁特记者直言美方斡旋的停火（4/16生效、4/23延长3周至5月中旬）「name-only」存在。5月初密集打击持续——5/1单日空袭致40余人死亡，5/2以军空袭南黎24小时内致41人死亡（含单波次10人）+约50次空袭针对真主党基础设施，5/3 IDF对南黎多个城镇（含其当前占领区以外区域）发布新一轮强制撤离令并实施大范围打击致4死10伤，覆盖Tyre、Bint Jbeil、Marjayoun的Siddiqine、Kafra-Yater、Al Smaaiyah、Shaaitiyeh等多镇，Nabatieh住宅区严重损毁。真主党议员Hussein Hajj Hassan周六表态：以军必须「立即无条件终止所有侵略行为」、不得在该区域自由行动；真主党给出五项停火持续条件，警告若以方违反则「真主党战士同样不再受停火约束」。黎总统奥恩谴责「持续以方违规」，以总参谋长公开承认南黎「没有真正停火」、以方坚持驻留南黎。黎以1983年以来首次直接谈判进行中，目标含最终和平协议+真主党解武；分析警告以方持续打击或致真主党拒绝解武、让谈判脱轨。停火延期约5/14到期，进入决定性最后一周窗口。黎卫生部累计2489死、7719伤、超120万流离失所。加沙方面，以哈第二阶段停火总体维持但谈判延期压力上升、破裂风险有所抬头；本节卡片中的「停战/和平」与「停战破裂」概率反映加沙板块进展，与上述黎巴嫩战事叙事并列。",
       "risk_impact": {
         "industries": [
           "科技",
@@ -108,7 +108,7 @@
       "probability_7d": 0.0084,
       "probability_1d": 0.0012,
       "data_points": 3,
-      "composite_risk_score": 0.1067,
+      "composite_risk_score": 0.1079,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -129,7 +129,7 @@
           "event_note": "",
           "direction": "risk_increase",
           "probability_30d": 0.0292,
-          "probability_7d": 0.0072,
+          "probability_7d": 0.0069,
           "probability_1d": 0.001,
           "data_points": 4,
           "change_vs_yesterday": 0.0002,
@@ -140,24 +140,24 @@
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.144,
-          "probability_7d": 0.0378,
-          "probability_1d": 0.0055,
+          "probability_30d": 0.1742,
+          "probability_7d": 0.0451,
+          "probability_1d": 0.0066,
           "data_points": 3,
-          "change_vs_yesterday": 0.0226,
-          "change_vs_7d_ago": -0.0037
+          "change_vs_yesterday": 0.0528,
+          "change_vs_7d_ago": 0.0265
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.2093,
-          "probability_7d": 0.6581,
-          "probability_1d": 0.6451,
+          "probability_30d": 0.3469,
+          "probability_7d": 0.6686,
+          "probability_1d": 0.6467,
           "data_points": 14,
-          "change_vs_yesterday": 0.0603,
-          "change_vs_7d_ago": -0.0581
+          "change_vs_yesterday": 0.1979,
+          "change_vs_7d_ago": 0.0795
         }
       ],
       "situation_briefing": "美伊战事进入外交窗口期，「自由行动」紧急叫停。5/5特朗普宣布暂停启动仅一天的「自由行动」（Project Freedom）——美军原计划护送滞留中立船只通过霍尔木兹海峡，但开局即陷困境：5/4阿联酋一关键石油码头遭弹道导弹、巡航导弹、无人机袭击致3伤，韩籍船只海岸附近爆炸起火，美军同日击落7艘伊朗小艇。特朗普5/5在Truth Social发声明称「应巴基斯坦及其他国家请求」、「在与伊朗代表达成完整最终协议方面取得重大进展」，故「短期暂停」护航行动以观察协议能否签署，但对伊朗港口的封锁「全面继续生效」。国务卿Rubio同日宣布2月对伊作战「Epic Fury 行动」结束，称近月停火「仍然成立」，但承认整体冲突未解决。伊朗5/2通过巴基斯坦中介递交的14点条件（30天内全面停战含黎巴嫩、解冻资产、取消制裁、解除海上封锁、霍尔木兹「新机制」）仍是核心分歧——特朗普此前已对Kan电视台明确表态该方案「不可接受」。霍尔木兹通行量较冲突前下降超90%，IEA维持「全球油市史上最大供应中断」定性；五角大楼战争成本$250亿，13名美军阵亡，伊朗方面死亡约3375人。市场密切关注暂停期能否转化为正式协议，或重新开火。",
@@ -191,11 +191,11 @@
       "label_cn": "印度 - 巴基斯坦",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.038,
-      "probability_7d": 0.009,
+      "probability_30d": 0.0388,
+      "probability_7d": 0.0092,
       "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.1009,
+      "composite_risk_score": 0.1004,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -203,12 +203,12 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.038,
-          "probability_7d": 0.0045,
-          "probability_1d": 0.0006,
+          "probability_30d": 0.0388,
+          "probability_7d": 0.0046,
+          "probability_1d": 0.0007,
           "data_points": 2,
-          "change_vs_yesterday": 0.001,
-          "change_vs_7d_ago": 0.0058
+          "change_vs_yesterday": 0.0018,
+          "change_vs_7d_ago": 0.0066
         }
       ],
       "situation_briefing": "Operation Sindoor一周年仅剩1天（明日5/7）。去年5/6-7深夜印度对巴境内及巴控克什米尔九处武装基地（含Jaish-e-Mohammed、Lashkar-e-Taiba、Hizbul Mujahideen训练营）发动23分钟精确导弹打击，据印方公布击毙超100名武装人员，引发印巴4天近战，超114架战机（印72+巴42）参与战后视距外最大规模空战，特朗普5/10斡旋促成停火（5/10下午5时IST/下午4:30 PKT生效）。一周年前夕高度紧张——印方公开宣示Operation Sindoor「仍在进行中」，印军重申「确保回应」立场，维持「恐袭=战争行为」新战略；《印度河水条约》自2025年4月Pahalgam事件（克什米尔Baisaran山谷恐袭致26死）后正式搁置至今，印方加速推进多个水电项目重塑水资源版图，巴方称对其依赖印度河、杰赫勒姆河、奇纳布河的人口构成「生存威胁」。印巴双边互相延长空域禁令至5/24凌晨5时（按NOTAM），禁令进入第二年；印度航司被迫绕飞欧洲与中东航线，运营和燃料成本持续飙升。巴阿边境冲突未平，巴基斯坦多线承压。区域观察人士密切关注印方明日周年节点是否采取象征性军事仪式或新外交动作。",
@@ -244,7 +244,7 @@
       "probability_7d": 0.0028,
       "probability_1d": 0.0004,
       "data_points": 7,
-      "composite_risk_score": 0.0976,
+      "composite_risk_score": 0.0941,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -264,12 +264,12 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "",
           "direction": "risk_decrease",
-          "probability_30d": 0.0444,
-          "probability_7d": 0.0074,
-          "probability_1d": 0.0011,
+          "probability_30d": 0.0406,
+          "probability_7d": 0.0068,
+          "probability_1d": 0.001,
           "data_points": 9,
-          "change_vs_yesterday": -0.0021,
-          "change_vs_7d_ago": 0.0091
+          "change_vs_yesterday": -0.0059,
+          "change_vs_7d_ago": 0.0053
         },
         {
           "event_type": "other",
@@ -318,7 +318,7 @@
       "probability_7d": 0.008,
       "probability_1d": 0.0011,
       "data_points": 5,
-      "composite_risk_score": 0.0874,
+      "composite_risk_score": 0.086,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -378,7 +378,7 @@
       "probability_7d": 0.0023,
       "probability_1d": 0.0003,
       "data_points": 10,
-      "composite_risk_score": 0.0787,
+      "composite_risk_score": 0.0805,
       "anomaly_detected": false,
       "risk_events": [
         {

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-06T07:00:24+00:00",
+    "updated_at": "2026-05-06T09:20:25+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -101,7 +101,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.5745,
+      "probability": 0.5705,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -145,42 +145,16 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.4635,
+      "probability": 0.4645,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
     },
     {
-      "event_summary": "Fed rate cut by...",
-      "event_summary_en": "Fed rate cut by...?",
-      "category": "economic",
-      "probability": 0.455,
-      "deadline": "2026-12-20",
-      "data_confidence": "high",
-      "importance": "low",
-      "risk_impact": {
-        "industries": [
-          "金融",
-          "房地产",
-          "科技"
-        ],
-        "assets": [
-          "美债(10Y)",
-          "美股(SPX)",
-          "黄金",
-          "美元指数"
-        ],
-        "channels": [
-          "降息节奏决定流动性拐点，直接影响估值中枢",
-          "降息不及预期则高杠杆资产承压"
-        ]
-      }
-    },
-    {
       "event_summary": "Brazil Presidential Election",
       "event_summary_en": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.44,
+      "probability": 0.4395,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -235,10 +209,36 @@
       "importance": "low"
     },
     {
+      "event_summary": "Fed rate cut by...",
+      "event_summary_en": "Fed rate cut by...?",
+      "category": "economic",
+      "probability": 0.375,
+      "deadline": "2026-12-20",
+      "data_confidence": "high",
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "科技"
+        ],
+        "assets": [
+          "美债(10Y)",
+          "美股(SPX)",
+          "黄金",
+          "美元指数"
+        ],
+        "channels": [
+          "降息节奏决定流动性拐点，直接影响估值中枢",
+          "降息不及预期则高杠杆资产承压"
+        ]
+      }
+    },
+    {
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2565,
+      "probability": 0.2525,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -300,7 +300,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.2,
+      "probability": 0.1985,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -309,7 +309,7 @@
       "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.82,
+      "probability": 0.825,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "high",
@@ -363,7 +363,7 @@
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.225,
+      "probability": 0.215,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
