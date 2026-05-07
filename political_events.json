@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-06T12:19:57+00:00",
+    "updated_at": "2026-05-07T04:34:22+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Peru Presidential Election First Round: 2nd Place",
       "event_summary_en": "Peru Presidential Election First Round: 2nd Place",
       "category": "political",
-      "probability": 0.9755,
+      "probability": 0.982,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -42,7 +42,7 @@
       "event_summary": "英国首相斯塔默年内下台",
       "event_summary_en": "Starmer out by...?",
       "category": "political",
-      "probability": 0.685,
+      "probability": 0.675,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -92,7 +92,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.645,
+      "probability": 0.605,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -101,7 +101,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.5635,
+      "probability": 0.5565,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -145,16 +145,42 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.4685,
+      "probability": 0.4745,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
     },
     {
+      "event_summary": "Fed rate cut by...",
+      "event_summary_en": "Fed rate cut by...?",
+      "category": "economic",
+      "probability": 0.47,
+      "deadline": "2026-12-20",
+      "data_confidence": "high",
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "科技"
+        ],
+        "assets": [
+          "美债(10Y)",
+          "美股(SPX)",
+          "黄金",
+          "美元指数"
+        ],
+        "channels": [
+          "降息节奏决定流动性拐点，直接影响估值中枢",
+          "降息不及预期则高杠杆资产承压"
+        ]
+      }
+    },
+    {
       "event_summary": "Brazil Presidential Election",
       "event_summary_en": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.4385,
+      "probability": 0.4505,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -203,73 +229,19 @@
       "event_summary": "Who will be the next Prime Minister of Israel after the next election",
       "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
       "category": "political",
-      "probability": 0.395,
+      "probability": 0.405,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
-    },
-    {
-      "event_summary": "Fed rate cut by...",
-      "event_summary_en": "Fed rate cut by...?",
-      "category": "economic",
-      "probability": 0.375,
-      "deadline": "2026-12-20",
-      "data_confidence": "high",
-      "importance": "low",
-      "risk_impact": {
-        "industries": [
-          "金融",
-          "房地产",
-          "科技"
-        ],
-        "assets": [
-          "美债(10Y)",
-          "美股(SPX)",
-          "黄金",
-          "美元指数"
-        ],
-        "channels": [
-          "降息节奏决定流动性拐点，直接影响估值中枢",
-          "降息不及预期则高杠杆资产承压"
-        ]
-      }
     },
     {
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2505,
+      "probability": 0.2475,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
-    },
-    {
-      "event_summary": "美国2026年底前陷入衰退",
-      "event_summary_en": "US recession by end of 2026?",
-      "category": "economic",
-      "probability": 0.245,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "high",
-      "risk_impact": {
-        "industries": [
-          "金融",
-          "房地产",
-          "消费",
-          "科技"
-        ],
-        "assets": [
-          "美股(SPX)",
-          "美债(10Y)",
-          "美元指数",
-          "高收益债"
-        ],
-        "channels": [
-          "油价飙升+关税叠加推高通胀，消费需求萎缩",
-          "非农就业连续下滑，失业率升至4.4%",
-          "IMF 4/14世界经济展望下调全球增长至3.1%（下修0.2个百分点），霍尔木兹封锁+关税双重冲击为核心下行风险"
-        ]
-      }
     },
     {
       "event_summary": "Next French Presidential Election",
@@ -297,22 +269,50 @@
       }
     },
     {
+      "event_summary": "美国2026年底前陷入衰退",
+      "event_summary_en": "US recession by end of 2026?",
+      "category": "economic",
+      "probability": 0.225,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "high",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "消费",
+          "科技"
+        ],
+        "assets": [
+          "美股(SPX)",
+          "美债(10Y)",
+          "美元指数",
+          "高收益债"
+        ],
+        "channels": [
+          "油价飙升+关税叠加推高通胀，消费需求萎缩",
+          "非农就业连续下滑，失业率升至4.4%",
+          "IMF 4/14世界经济展望下调全球增长至3.1%（下修0.2个百分点），霍尔木兹封锁+关税双重冲击为核心下行风险"
+        ]
+      }
+    },
+    {
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1995,
+      "probability": 0.1975,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
     },
     {
-      "event_summary": "法院判定关税违宪并强制退款（影响全部10%关税）",
+      "event_summary": "the Court Force Trump to Refund Tariffs",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.815,
+      "probability": 0.938,
       "deadline": null,
       "data_confidence": "medium",
-      "importance": "high",
+      "importance": "low",
       "risk_impact": {
         "industries": [
           "制造业",
@@ -336,7 +336,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.812,
+      "probability": 0.818,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -347,15 +347,6 @@
       "category": "natural_disaster",
       "probability": 0.37,
       "deadline": "2026-12-31",
-      "data_confidence": "medium",
-      "importance": "low"
-    },
-    {
-      "event_summary": "Named storm forms before hurricane season",
-      "event_summary_en": "Named storm forms before hurricane season?",
-      "category": "natural_disaster",
-      "probability": 0.295,
-      "deadline": null,
       "data_confidence": "medium",
       "importance": "low"
     },
@@ -384,6 +375,15 @@
           "债市'叛变'——长端利率飙升冲击估值"
         ]
       }
+    },
+    {
+      "event_summary": "Named storm forms before hurricane season",
+      "event_summary_en": "Named storm forms before hurricane season?",
+      "category": "natural_disaster",
+      "probability": 0.14,
+      "deadline": null,
+      "data_confidence": "medium",
+      "importance": "low"
     },
     {
       "event_summary": "10.0 or above earthquake before 2027",
