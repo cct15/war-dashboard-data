@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-10T10:21:21+00:00",
+    "updated_at": "2026-05-10T10:33:38+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Peru Presidential Election First Round: 2nd Place",
       "event_summary_en": "Peru Presidential Election First Round: 2nd Place",
       "category": "political",
-      "probability": 0.975,
+      "probability": 0.9755,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -60,15 +60,6 @@
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
       "probability": 0.615,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
-      "event_summary": "Next Prime Minister of Denmark",
-      "event_summary_en": "Next Prime Minister of Denmark?",
-      "category": "political",
-      "probability": 0.6,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -122,6 +113,15 @@
           "降息不及预期则高杠杆资产承压"
         ]
       }
+    },
+    {
+      "event_summary": "Next Prime Minister of Denmark",
+      "event_summary_en": "Next Prime Minister of Denmark?",
+      "category": "political",
+      "probability": 0.55,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
     },
     {
       "event_summary": "Colombia Presidential Election",
