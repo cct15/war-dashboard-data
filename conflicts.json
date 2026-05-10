@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-10T10:33:38+00:00",
+    "updated_at": "2026-05-10T10:47:36+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -45,7 +45,7 @@
       "risk_level": "low",
       "probability_30d": 0.0825,
       "data_points": 5,
-      "composite_risk_score": 0.1318,
+      "composite_risk_score": 0.1307,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -99,7 +99,7 @@
       "risk_level": "low",
       "probability_30d": 0.0284,
       "data_points": 3,
-      "composite_risk_score": 0.1215,
+      "composite_risk_score": 0.1218,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -127,7 +127,7 @@
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.2112,
+          "probability_30d": 0.2104,
           "data_points": 3,
           "change_vs_yesterday": null,
           "change_vs_7d_ago": null
@@ -137,7 +137,7 @@
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.4458,
+          "probability_30d": 0.4462,
           "data_points": 16,
           "change_vs_yesterday": null,
           "change_vs_7d_ago": null
@@ -175,7 +175,7 @@
       "risk_level": "low",
       "probability_30d": 0.0395,
       "data_points": 2,
-      "composite_risk_score": 0.11,
+      "composite_risk_score": 0.1115,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -219,7 +219,7 @@
       "risk_level": "low",
       "probability_30d": 0.0324,
       "data_points": 6,
-      "composite_risk_score": 0.0972,
+      "composite_risk_score": 0.0951,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -273,7 +273,7 @@
       "risk_level": "low",
       "probability_30d": 0.0153,
       "data_points": 8,
-      "composite_risk_score": 0.0884,
+      "composite_risk_score": 0.0863,
       "anomaly_detected": false,
       "risk_events": [
         {

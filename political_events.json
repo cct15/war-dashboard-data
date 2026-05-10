@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-10T10:33:38+00:00",
+    "updated_at": "2026-05-10T10:47:36+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -118,7 +118,7 @@
       "event_summary": "Next Prime Minister of Denmark",
       "event_summary_en": "Next Prime Minister of Denmark?",
       "category": "political",
-      "probability": 0.55,
+      "probability": 0.545,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
