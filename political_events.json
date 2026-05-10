@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-08T12:16:48+00:00",
+    "updated_at": "2026-05-10T10:21:21+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,16 +15,7 @@
       "event_summary": "Peru Presidential Election First Round: 2nd Place",
       "event_summary_en": "Peru Presidential Election First Round: 2nd Place",
       "category": "political",
-      "probability": 0.9845,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
-      "event_summary": "Next Prime Minister of Denmark",
-      "event_summary_en": "Next Prime Minister of Denmark?",
-      "category": "political",
-      "probability": 0.93,
+      "probability": 0.975,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -33,19 +24,19 @@
       "event_summary": "2026 Seoul Mayoral Election Winner",
       "event_summary_en": "2026 Seoul Mayoral Election Winner",
       "category": "political",
-      "probability": 0.905,
+      "probability": 0.915,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
     },
     {
-      "event_summary": "Which party will gain most seats in Russian Parliamentary Election",
+      "event_summary": "俄罗斯9月议会选举：统一俄罗斯党获最多席位概率",
       "event_summary_en": "Which party will gain most seats in Russian Parliamentary Election?",
       "category": "political",
       "probability": 0.655,
       "deadline": null,
       "data_confidence": "high",
-      "importance": "low",
+      "importance": "high",
       "risk_impact": {
         "industries": [
           "能源",
@@ -65,10 +56,28 @@
       }
     },
     {
+      "event_summary": "Peru Presidential Election Winner",
+      "event_summary_en": "Peru Presidential Election Winner",
+      "category": "political",
+      "probability": 0.615,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
+      "event_summary": "Next Prime Minister of Denmark",
+      "event_summary_en": "Next Prime Minister of Denmark?",
+      "category": "political",
+      "probability": 0.6,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "英国首相斯塔默年内下台",
       "event_summary_en": "Starmer out by...?",
       "category": "political",
-      "probability": 0.625,
+      "probability": 0.595,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -89,19 +98,10 @@
       }
     },
     {
-      "event_summary": "Peru Presidential Election Winner",
-      "event_summary_en": "Peru Presidential Election Winner",
-      "category": "political",
-      "probability": 0.615,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.554,
+      "probability": 0.5665,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -133,6 +133,15 @@
       "importance": "low"
     },
     {
+      "event_summary": "California Governor Election Winner",
+      "event_summary_en": "California Governor Election Winner",
+      "category": "political",
+      "probability": 0.4925,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "Republican Presidential Nominee 2028",
       "event_summary_en": "Republican Presidential Nominee 2028",
       "category": "political",
@@ -140,40 +149,6 @@
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
-    },
-    {
-      "event_summary": "California Governor Election Winner",
-      "event_summary_en": "California Governor Election Winner",
-      "category": "political",
-      "probability": 0.4815,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
-      "event_summary": "Brazil Presidential Election",
-      "event_summary_en": "Brazil Presidential Election",
-      "category": "political",
-      "probability": 0.4485,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low",
-      "risk_impact": {
-        "industries": [
-          "矿业",
-          "农业",
-          "金融"
-        ],
-        "assets": [
-          "巴西雷亚尔",
-          "淡水河谷",
-          "巴西ETF(EWZ)"
-        ],
-        "channels": [
-          "左翼/右翼路线之争影响外资准入和国企政策",
-          "亚马逊环保政策变化影响全球大宗商品供应"
-        ]
-      }
     },
     {
       "event_summary": "内塔尼亚胡年内下台",
@@ -200,10 +175,44 @@
       }
     },
     {
+      "event_summary": "Brazil Presidential Election",
+      "event_summary_en": "Brazil Presidential Election",
+      "category": "political",
+      "probability": 0.4115,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "矿业",
+          "农业",
+          "金融"
+        ],
+        "assets": [
+          "巴西雷亚尔",
+          "淡水河谷",
+          "巴西ETF(EWZ)"
+        ],
+        "channels": [
+          "左翼/右翼路线之争影响外资准入和国企政策",
+          "亚马逊环保政策变化影响全球大宗商品供应"
+        ]
+      }
+    },
+    {
+      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
+      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
+      "category": "political",
+      "probability": 0.405,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.425,
+      "probability": 0.395,
       "deadline": "2026-12-20",
       "data_confidence": "high",
       "importance": "low",
@@ -226,19 +235,10 @@
       }
     },
     {
-      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
-      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
-      "category": "political",
-      "probability": 0.395,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "high"
-    },
-    {
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2475,
+      "probability": 0.2465,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -272,7 +272,7 @@
       "event_summary": "美国2026年底前陷入衰退",
       "event_summary_en": "US recession by end of 2026?",
       "category": "economic",
-      "probability": 0.225,
+      "probability": 0.215,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -300,7 +300,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1955,
+      "probability": 0.1875,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -309,7 +309,7 @@
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.185,
+      "probability": 0.175,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low",
@@ -335,7 +335,7 @@
       "event_summary": "the Court Force Trump to Refund Tariffs",
       "event_summary_en": "Will the Court Force Trump to Refund Tariffs?",
       "category": "economic",
-      "probability": 0.936,
+      "probability": 0.944,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "low",
@@ -362,7 +362,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.796,
+      "probability": 0.798,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -380,7 +380,7 @@
       "event_summary": "Named storm forms before hurricane season",
       "event_summary_en": "Named storm forms before hurricane season?",
       "category": "natural_disaster",
-      "probability": 0.1,
+      "probability": 0.13,
       "deadline": null,
       "data_confidence": "medium",
       "importance": "low"
@@ -389,7 +389,7 @@
       "event_summary": "10.0 or above earthquake before 2027",
       "event_summary_en": "10.0 or above earthquake before 2027?",
       "category": "natural_disaster",
-      "probability": 0.0465,
+      "probability": 0.0445,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",

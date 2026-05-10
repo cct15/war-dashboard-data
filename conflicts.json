@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-08T12:16:48+00:00",
+    "updated_at": "2026-05-10T10:21:21+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,11 +43,11 @@
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0614,
-      "probability_7d": 0.0147,
-      "probability_1d": 0.0021,
+      "probability_30d": 0.0793,
+      "probability_7d": 0.0191,
+      "probability_1d": 0.0027,
       "data_points": 5,
-      "composite_risk_score": 0.1152,
+      "composite_risk_score": 0.1315,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -55,24 +55,24 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
           "direction": "risk_increase",
-          "probability_30d": 0.0614,
-          "probability_7d": 0.0029,
-          "probability_1d": 0.0004,
+          "probability_30d": 0.0793,
+          "probability_7d": 0.0038,
+          "probability_1d": 0.0005,
           "data_points": 5,
-          "change_vs_yesterday": -0.0342,
-          "change_vs_7d_ago": -0.1144
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火第二阶段（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.1229,
-          "probability_7d": 0.0075,
-          "probability_1d": 0.0011,
+          "probability_30d": 0.0762,
+          "probability_7d": 0.0046,
+          "probability_1d": 0.0007,
           "data_points": 4,
-          "change_vs_yesterday": 0.06,
-          "change_vs_7d_ago": 0.0501
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         }
       ],
       "situation_briefing": "黎巴嫩战事第 68 天，5/14 停火窗口到期仅剩 6 天进入决定性最后窗口。**5/6 以军自 4/16 美方斡旋停火生效以来首次空袭贝鲁特南郊 Haret Hreik**——IDF 称击杀真主党 Radwan 部队作战指挥官 Malek Ballout，标志「10 天初始停火+三周延期」框架的有效性正式崩溃；以方 5/7 进一步对南黎多镇连续空袭，并对 Deir al-Zahrani、Bafroa、Habush 三镇发新一轮强制撤离令、指控真主党违反停火条件。同日南/东黎多镇空袭至少 13 死；5/1 单日空袭致 40+ 死、5/2 24 小时内 41 死含单波次 10 人+约 50 次空袭。真主党议员 Hussein Hajj Hassan 5/3 公开五项停火持续条件，警告若以方违反则「真主党战士同样不再受停火约束」——脱钩风险升至临界。黎总统奥恩谴责「持续以方违规」，以总参谋长公开承认南黎「没有真正停火」、以方坚持驻留南黎。黎以 1983 年以来首次直接谈判进行中、目标含最终和平协议+真主党解武，分析警告贝鲁特被击+持续南黎打击或致真主党拒绝解武、让谈判脱轨。黎方累计 2700+ 死、超 120 万流离失所。加沙方面以哈第二阶段停火总体维持但谈判延期压力升高、破裂风险抬头。",
@@ -103,11 +103,11 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0282,
-      "probability_7d": 0.0066,
+      "probability_30d": 0.0284,
+      "probability_7d": 0.0067,
       "probability_1d": 0.001,
       "data_points": 3,
-      "composite_risk_score": 0.1077,
+      "composite_risk_score": 0.1205,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -115,48 +115,48 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "地面入侵/正式宣战/核试验",
           "direction": "risk_increase",
-          "probability_30d": 0.0282,
-          "probability_7d": 0.0038,
-          "probability_1d": 0.0005,
+          "probability_30d": 0.0284,
+          "probability_7d": 0.0039,
+          "probability_1d": 0.0006,
           "data_points": 3,
-          "change_vs_yesterday": 0.0002,
-          "change_vs_7d_ago": -0.0196
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0255,
-          "probability_7d": 0.0061,
-          "probability_1d": 0.0009,
+          "probability_30d": 0.0256,
+          "probability_7d": 0.0058,
+          "probability_1d": 0.0008,
           "data_points": 4,
-          "change_vs_yesterday": 0.0014,
-          "change_vs_7d_ago": -0.0127
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.1749,
-          "probability_7d": 0.0481,
-          "probability_1d": 0.007,
+          "probability_30d": 0.2112,
+          "probability_7d": 0.0578,
+          "probability_1d": 0.0085,
           "data_points": 3,
-          "change_vs_yesterday": -0.0258,
-          "change_vs_7d_ago": 0.0442
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.4712,
-          "probability_7d": 0.597,
-          "probability_1d": 0.5677,
+          "probability_30d": 0.4454,
+          "probability_7d": 0.5948,
+          "probability_1d": 0.5674,
           "data_points": 16,
-          "change_vs_yesterday": 0.0995,
-          "change_vs_7d_ago": 0.2923
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         }
       ],
       "situation_briefing": "美伊外交进入关键单页备忘录草拟阶段，距 5/14-15 习特北京峰会仅剩 6 天。巴基斯坦中介下双方已就「一页纸停战备忘录+30 天分阶段执行」框架接近共识——首阶段宣布敌对行动结束，第二阶段在 30 天内推进核诉求、资产解冻、霍尔木兹安全新机制。伊外长 Araghchi 5/7 重申「现阶段仅谈结束战争，核计划进入第二阶段才讨论」，且明确浓缩铀库存「不可外运」、浓缩权「不可谈判」，构成核心红线。Project Freedom 护航自 5/5 暂停后维持冻结状态，特朗普 5/6 称取得「重大进展」、却在 5/7 同日威胁「若拒绝协议将重启大规模空袭」、并表态「现阶段直接对话还为时过早」，立场摇摆延续。伊方 14 点诉求（全战线停战、资产解冻、海上封锁解除、霍尔木兹新机制）仍是分歧轴心，黎巴嫩战事被纳入更大停火前置条件。霍尔木兹通行量较冲突前下降 >90%，IEA 维持「全球油市史上最大供应中断」定性。中方 5/6 王毅与伊外长通话施压伊方避免重启战争、并将霍尔木兹列入习特峰会议题，外交筹码与峰会倒计时叠加。",
@@ -189,11 +189,11 @@
       "label_cn": "印度 - 巴基斯坦",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.04,
-      "probability_7d": 0.0095,
-      "probability_1d": 0.0014,
+      "probability_30d": 0.0395,
+      "probability_7d": 0.0093,
+      "probability_1d": 0.0013,
       "data_points": 2,
-      "composite_risk_score": 0.0977,
+      "composite_risk_score": 0.1085,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -201,12 +201,12 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.04,
+          "probability_30d": 0.0395,
           "probability_7d": 0.0047,
           "probability_1d": 0.0007,
           "data_points": 2,
-          "change_vs_yesterday": -0.0014,
-          "change_vs_7d_ago": 0.006
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         }
       ],
       "situation_briefing": "Operation Sindoor 周年后第二天（昨 5/7 周年），印方官方姿态「行动仍未结束、仅暂停」获多源印证。前 DGMO Rajiv Ghai 5/7 公开称「巴方主动请求停火」并强调印军取得空中优势；印军三军重申「展示了纵深打击能力」并向巴方发出警告，#SindoorKaBadla 持续主导印度社交舆论。印方周年口径明确将 Operation Sindoor 定性为「开放性、持续行动」。一年前 5/6-7 深夜印军对巴境内及巴控克什米尔九处武装基地（含 Jaish-e-Mohammed Bahawalpur 总部、Lashkar-e-Taiba Muridke 基地）发动 22 分钟精确打击，据印方公布摧毁 11 处机场+9 处武装训练营、击毙超 100 名武装人员，引发印巴 4 天近战、超 114 架战机参与，特朗普 5/10 斡旋促成停火延续至今。印巴空域互禁延至 5/24 凌晨 5 时进入第二年；《印度河水条约》自 2025 年 4 月 Pahalgam 事件（26 死）后搁置满一年，印方加速 Indus/Jhelum/Chenab 流域水电项目重塑水资源版图，巴方称构成「生存威胁」。印度航司绕飞欧洲与中东航线，运营+燃料成本持续飙升。观察人士警示印方延伸打击「中-巴-土」轴心动向，关注周年节点后是否启动新外交或军事姿态。",
@@ -232,16 +232,76 @@
       }
     },
     {
+      "conflict_id": "us_latam",
+      "label": "US-Latin America",
+      "label_cn": "美国 - 拉丁美洲",
+      "importance": "low",
+      "risk_level": "low",
+      "probability_30d": 0.0324,
+      "probability_7d": 0.0076,
+      "probability_1d": 0.0011,
+      "data_points": 6,
+      "composite_risk_score": 0.094,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0324,
+          "probability_7d": 0.0075,
+          "probability_1d": 0.0011,
+          "data_points": 6,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
+        },
+        {
+          "event_type": "regime_change",
+          "event_description": "Government or regime falls/changes",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0243,
+          "probability_7d": 0.0057,
+          "probability_1d": 0.0008,
+          "data_points": 1,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
+        }
+      ],
+      "situation_briefing": "美对古经济战进入实体清单点名阶段。5/7 美方依 5/1 行政令对古军方控股财阀 GAESA（Grupo de Administracion Empresarial SA，业务覆盖几乎全经济板块）及其执行总裁 Ania Guillermina Lastres Morera 列入制裁；同步将 Moa Nickel SA（Sherritt International 与古国营镍企合资）纳入清单——把矛头从政府官员推进到军方主导的国企-跨国合资链条。新行政令保留「外国银行/公司若与被制裁实体业务往来即切断进入美国市场渠道」的二级制裁机制。联合国专家 5/7 公开警告美方对古燃油封锁等同「能源饥饿」，被白宫无视。哈瓦那将制裁定性为「集体惩罚+胁迫」；白宫行政令指控古方与伊朗+真主党结盟、「为美本土 100 英里外的敌对情报-军事-恐怖活动提供环境」。委内瑞拉端：美方 1/3「绝对决心行动」推翻马杜罗后切断委对古石油并施压墨西哥停止运输；特朗普扬言将委策略复刻至古、警告「Cuba is next」，AP 5/7 援引官员称美方目前「不寻求迫近军事行动」。古方坚持「社会主义制度不上谈判桌」，封锁致石油进口锐减~90%、电力缺口 >1700MW、积压 96000 台手术；美方对外双线博弈——霍尔木兹外交窗口+加勒比能源-政治施压同步进行。",
+      "risk_impact": {
+        "industries": [
+          "石油",
+          "矿业",
+          "农业",
+          "金融"
+        ],
+        "assets": [
+          "委内瑞拉原油",
+          "古巴债券",
+          "拉美货币",
+          "糖/咖啡"
+        ],
+        "channels": [
+          "GAESA 入清单触发二级制裁→拉美银行业次级风险扩大",
+          "镍合资被点名→镍价与拉美矿业股估值受压",
+          "委油断供叠燃料封锁→加勒比能源与糖供给路径重塑",
+          "联合国警告能源饥饿→人道压力外溢至拉美主权债"
+        ]
+      }
+    },
+    {
       "conflict_id": "russia_ukraine",
       "label": "Russia-Ukraine",
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0128,
-      "probability_7d": 0.003,
-      "probability_1d": 0.0004,
+      "probability_30d": 0.0158,
+      "probability_7d": 0.0037,
+      "probability_1d": 0.0005,
       "data_points": 8,
-      "composite_risk_score": 0.0938,
+      "composite_risk_score": 0.0873,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -249,36 +309,36 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "北约与俄罗斯直接军事冲突",
           "direction": "risk_increase",
-          "probability_30d": 0.0128,
+          "probability_30d": 0.0158,
           "probability_7d": 0.0029,
           "probability_1d": 0.0004,
           "data_points": 8,
-          "change_vs_yesterday": 0.0015,
-          "change_vs_7d_ago": -0.0057
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "",
+          "event_note": "局部停火已达成，全面和平尚未确定",
           "direction": "risk_decrease",
-          "probability_30d": 0.0393,
-          "probability_7d": 0.0067,
-          "probability_1d": 0.001,
+          "probability_30d": 0.049,
+          "probability_7d": 0.3402,
+          "probability_1d": 0.3343,
           "data_points": 9,
-          "change_vs_yesterday": -0.0007,
-          "change_vs_7d_ago": -0.006
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.0086,
-          "probability_7d": 0.002,
-          "probability_1d": 0.0003,
+          "probability_30d": 0.0376,
+          "probability_7d": 0.0089,
+          "probability_1d": 0.0013,
           "data_points": 1,
-          "change_vs_yesterday": 0.0005,
-          "change_vs_7d_ago": 0.0033
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         }
       ],
       "situation_briefing": "全面入侵第 1535 天，俄方 5/8-5/9 胜利日单方面停火生效首日。两期停火完全错位、互不承认——乌方 5/5 起 30 天停火提案被俄方拒绝，俄方 5/8 凌晨起 72 小时停火无乌方背书。停火甫一生效双方即互指违反：俄国防部称当日上午击落 347 架乌军无人机，乌总统办公室称俄军开战首日仍发动 140+ 次前线打击+10 次合成进攻+850+ 次无人机/制导弹打击，乌方表态「俄方既不停火我方亦同等回应」。停火生效前 24 小时内俄军大规模空袭乌全境致 27+ 死、120+ 伤，使用 11 枚弹道导弹+154 架无人机，目标含 Naftogaz 国营天然气设施（波尔塔瓦/哈尔科夫，致 3 员工 + 2 救援者死亡，二次打击救援现场被定性「尤为卑鄙」）。前线高强度延续：5/8 早间录 120 次交火，波克罗夫斯克方向仍录 25 次俄军进攻、为主攻轴心，目标夺取以康斯坦丁尼夫卡为核心的「堡垒带」。红场阅兵因惧乌军远程无人机首次取消重武器展示，俄军总参谋部威胁「若乌方扰乱阅兵将对基辅市中心发动大规模导弹打击」。俄军单日损失约 890 人、累计约 133.8 万人。",
@@ -305,76 +365,16 @@
       }
     },
     {
-      "conflict_id": "us_latam",
-      "label": "US-Latin America",
-      "label_cn": "美国 - 拉丁美洲",
-      "importance": "low",
-      "risk_level": "low",
-      "probability_30d": 0.0296,
-      "probability_7d": 0.007,
-      "probability_1d": 0.001,
-      "data_points": 6,
-      "composite_risk_score": 0.0879,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0296,
-          "probability_7d": 0.0073,
-          "probability_1d": 0.001,
-          "data_points": 6,
-          "change_vs_yesterday": -0.0016,
-          "change_vs_7d_ago": -0.0034
-        },
-        {
-          "event_type": "regime_change",
-          "event_description": "Government or regime falls/changes",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0241,
-          "probability_7d": 0.0057,
-          "probability_1d": 0.0008,
-          "data_points": 1,
-          "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": -0.0107
-        }
-      ],
-      "situation_briefing": "美对古经济战进入实体清单点名阶段。5/7 美方依 5/1 行政令对古军方控股财阀 GAESA（Grupo de Administracion Empresarial SA，业务覆盖几乎全经济板块）及其执行总裁 Ania Guillermina Lastres Morera 列入制裁；同步将 Moa Nickel SA（Sherritt International 与古国营镍企合资）纳入清单——把矛头从政府官员推进到军方主导的国企-跨国合资链条。新行政令保留「外国银行/公司若与被制裁实体业务往来即切断进入美国市场渠道」的二级制裁机制。联合国专家 5/7 公开警告美方对古燃油封锁等同「能源饥饿」，被白宫无视。哈瓦那将制裁定性为「集体惩罚+胁迫」；白宫行政令指控古方与伊朗+真主党结盟、「为美本土 100 英里外的敌对情报-军事-恐怖活动提供环境」。委内瑞拉端：美方 1/3「绝对决心行动」推翻马杜罗后切断委对古石油并施压墨西哥停止运输；特朗普扬言将委策略复刻至古、警告「Cuba is next」，AP 5/7 援引官员称美方目前「不寻求迫近军事行动」。古方坚持「社会主义制度不上谈判桌」，封锁致石油进口锐减~90%、电力缺口 >1700MW、积压 96000 台手术；美方对外双线博弈——霍尔木兹外交窗口+加勒比能源-政治施压同步进行。",
-      "risk_impact": {
-        "industries": [
-          "石油",
-          "矿业",
-          "农业",
-          "金融"
-        ],
-        "assets": [
-          "委内瑞拉原油",
-          "古巴债券",
-          "拉美货币",
-          "糖/咖啡"
-        ],
-        "channels": [
-          "GAESA 入清单触发二级制裁→拉美银行业次级风险扩大",
-          "镍合资被点名→镍价与拉美矿业股估值受压",
-          "委油断供叠燃料封锁→加勒比能源与糖供给路径重塑",
-          "联合国警告能源饥饿→人道压力外溢至拉美主权债"
-        ]
-      }
-    },
-    {
       "conflict_id": "china_taiwan",
       "label": "China-Taiwan",
       "label_cn": "中国 - 台海",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.01,
-      "probability_7d": 0.0023,
-      "probability_1d": 0.0003,
+      "probability_30d": 0.0107,
+      "probability_7d": 0.0025,
+      "probability_1d": 0.0004,
       "data_points": 10,
-      "composite_risk_score": 0.0813,
+      "composite_risk_score": 0.0794,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -382,12 +382,12 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.01,
-          "probability_7d": 0.0029,
-          "probability_1d": 0.0004,
+          "probability_30d": 0.0107,
+          "probability_7d": 0.0033,
+          "probability_1d": 0.0005,
           "data_points": 10,
-          "change_vs_yesterday": 0.0002,
-          "change_vs_7d_ago": -0.0003
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         }
       ],
       "situation_briefing": "Balikatan 2026 今日（5/8）于奎松市 Camp Aguinaldo 举行闭幕式（4/20–5/8 共 19 天），17000 军人来自美/菲/澳/加/法/日。菲国防部长 Teodoro 在闭幕辞中力挺美军 Tomahawk+Typhon 中程导弹系统及日本 88 式岸舰导弹在菲领土的部署与实弹科目，称演习展示「菲方与盟友共同投射力量、强化威慑」的能力，正面回应中方与左翼对外军导弹入境的批评。日本 US-2 水上飞机首次以现役身份参与南海科目；过去一周美军 HIMARS+战机+导弹巡逻艇+攻击直升机+毒刺地空导弹模拟岛链反介入。PLA 南部战区保持「战备警巡」反制——辽宁号航母编队部署南海，配 Type 054A/056A+歼-16；PLA 海军电子侦察船 AGI-797 4/28 进入吕宋以西 150-200 公里与演习区直接对峙；YJ-20 高超声速导弹海上试射强化反介入威慑。习特 5/14-15 北京峰会倒计时 6 天——AI 议题首次纳入议程，双方酝酿设立 AI 双边对话机制管理 AI 故障与自主武器风险；伊朗议题或挤占关税/稀土进度；中方明确三大议题为「台湾、贸易、伊朗」、台海居首；中方副外长傅聪公开表态霍尔木兹必为峰会议题；美方顾问公开施压北京协助开通霍尔木兹换取台海议程让步。",
