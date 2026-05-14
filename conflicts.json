@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-13T02:47:43+00:00",
+    "updated_at": "2026-05-14T02:53:04+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,9 +43,9 @@
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.1169,
+      "probability_30d": 0.0886,
       "data_points": 5,
-      "composite_risk_score": 0.1535,
+      "composite_risk_score": 0.1376,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -53,23 +53,23 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
           "direction": "risk_increase",
-          "probability_30d": 0.1169,
+          "probability_30d": 0.0886,
           "data_points": 5,
-          "change_vs_yesterday": 0.0089,
-          "change_vs_7d_ago": 0.0074
+          "change_vs_yesterday": -0.0283,
+          "change_vs_7d_ago": -0.007
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火第二阶段（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.1068,
+          "probability_30d": 0.0652,
           "data_points": 4,
-          "change_vs_yesterday": 0.0152,
-          "change_vs_7d_ago": 0.0533
+          "change_vs_yesterday": -0.0416,
+          "change_vs_7d_ago": 0.0023
         }
       ],
-      "situation_briefing": "黎巴嫩战事第 73 天，1983 年以来黎以首次直接谈判第三轮 5/14-15 在 Washington 启动倒计时 1 天（与北京习特峰会同期），代表团级深度谈判 5/17 起延续展开。**真主党脱钩信号实质化**：真主党领袖 5/12 公开呼吁黎政府退出与以色列的直接谈判、定性为「让步」、改走「间接谈判」路径——黎以首次直接谈判机制本身遭挑战，提升 5/14 谈判桌脱轨概率。黎方代表团仍由 Simon Karam 率领、以方由 Ron Dermer 率领，议题含最终和平协议+真主党解武+以军全面撤出南黎+边界+战俘+流离失所+重建；黎方主张「结束敌对+以军撤出」，以方坚持「真主党解武」为非协商前提。5/10 以军对黎巴嫩多地发动自三周停火以来最猛烈一轮空袭——南黎单日至少 39 死，并首次延伸至贝鲁特仅 20 公里以南的 Saadiyat 高速公路，明显跨出真主党传统势力范围；Nabatieh 城内一辆摩托车遭无人机三度返场连续打击（一名叙利亚男子与其 12 岁女儿被击毙）；Bedias 镇 1 死 13 伤含 6 名儿童 2 名妇女。真主党 5/3 已公开五项停火持续条件、警告若以方违反则「真主党战士不再受停火约束」，配合 5/12 退出谈判呼吁形成完整脱钩升级链条。黎方累计 2700+ 死、超 120 万流离失所。加沙方面以哈第二阶段停火总体维持但谈判延期压力升高、破裂风险持续抬头。",
+      "situation_briefing": "黎巴嫩战事第 74 天，**1983 年以来黎以首次直接谈判第三轮 5/14-15 在 Washington 今日正式启动**（与北京习特峰会同期）；首次有军方代表参与，专题讨论真主党解武的具体执行措施，5/17 起代表团级深度谈判延续展开。黎方代表团由 Simon Karam 率领、以方由 Ron Dermer 率领，议题含最终和平协议+真主党解武+以军全面撤出南黎+边界+战俘+流离失所+重建+黎以外交关系正常化；黎方主张「结束敌对+以军撤出」，以方坚持「真主党解武」为非协商前提。**真主党脱钩信号实质化**：真主党领袖 5/12 公开呼吁黎政府退出与以色列的直接谈判、定性为「让步」、改走「间接谈判」路径，黎以首次直接谈判机制本身遭挑战；黎方总统 Aoun 此前已称「无安全协议+以方未停火前不宜元首参与」。5/10 以军对黎巴嫩多地发动自三周停火以来最猛烈一轮空袭——南黎单日至少 39 死、首次延伸至贝鲁特仅 20 公里以南的 Saadiyat 高速公路，明显跨出真主党传统势力范围；以方至今未承诺停火节奏调整。真主党 5/3 已公开五项停火持续条件、警告若以方违反则「真主党战士不再受停火约束」，配合 5/12 退出谈判呼吁形成完整脱钩升级链条。今日谈判桌首日的语调与军方实质磋商内容将直接决定 5/14-15 停火窗口能否延续。黎方累计 2700+ 死、超 120 万流离失所。加沙方面以哈第二阶段停火总体维持但谈判延期压力升高、破裂风险持续抬头。",
       "risk_impact": {
         "industries": [
           "科技",
@@ -84,9 +84,9 @@
           "原油"
         ],
         "channels": [
-          "真主党呼吁退出直接谈判→谢克尔与黎债波动放大",
-          "5/14 谈判脱轨风险抬升→中东保险与能源溢价上行",
-          "打击延伸至贝鲁特门户→区域避险溢价推升金价",
+          "5/14 黎以直接谈判今日开幕→谢克尔与黎债单边博弈",
+          "军方代表首次入桌讨论解武→中东保险与能源溢价上行",
+          "真主党呼吁退出直接谈判→区域避险溢价推升金价",
           "加沙谈判破裂风险抬头→区域旅游与航运二次冲击"
         ]
       }
@@ -97,9 +97,9 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0417,
+      "probability_30d": 0.0402,
       "data_points": 3,
-      "composite_risk_score": 0.1299,
+      "composite_risk_score": 0.1289,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -107,43 +107,43 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "地面入侵/正式宣战/核试验",
           "direction": "risk_increase",
-          "probability_30d": 0.0417,
+          "probability_30d": 0.0402,
           "data_points": 3,
-          "change_vs_yesterday": 0.0036,
-          "change_vs_7d_ago": 0.0138
+          "change_vs_yesterday": -0.0015,
+          "change_vs_7d_ago": 0.0122
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0271,
+          "probability_30d": 0.0267,
           "data_points": 4,
-          "change_vs_yesterday": -0.004,
-          "change_vs_7d_ago": 0.0024
+          "change_vs_yesterday": -0.0004,
+          "change_vs_7d_ago": 0.0026
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.1422,
+          "probability_30d": 0.1517,
           "data_points": 3,
-          "change_vs_yesterday": -0.0032,
-          "change_vs_7d_ago": -0.0768
+          "change_vs_yesterday": 0.0095,
+          "change_vs_7d_ago": -0.049
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.2444,
+          "probability_30d": 0.2209,
           "data_points": 15,
-          "change_vs_yesterday": -0.0047,
-          "change_vs_7d_ago": -0.0679
+          "change_vs_yesterday": -0.0235,
+          "change_vs_7d_ago": -0.1508
         }
       ],
-      "situation_briefing": "特朗普 5/13 抵达利雅得正式启动中东三国行（沙特→卡塔尔→阿联酋），距 5/14-15 习特北京峰会仅剩 1 天。沙特国王+王储 MBS 罕见亲自陪同迎接、F-15 编队空中护航；首场出席 GCC 海湾合作组织峰会+美沙商务峰会。特朗普在利雅得论坛公开「亚拉伯半岛建设性路径 vs 海湾对岸伊朗灾难」对比叙事，鼓励沙特加入亚伯拉罕协议、宣布解除叙利亚制裁、并敦促伊朗就核计划谈判。美伊核心分歧未弥合：5/11 第四轮阿曼谈判「艰难但建设性」未带来实质突破；伊方反提案稀释部分高浓缩铀+剩余库存第三国托管+坚持霍尔木兹主权诉求+资产解冻+取消制裁+全战线停火（含黎巴嫩）+战争损失补偿；美方 14 点诉求维持高位（禁核武+全面停止浓缩 12 年+移交 440kg/970lb 60% 浓缩铀）。特朗普 5/11 公开拒绝伊方反提案「完全不可接受」、称当前停火「靠生命维持」、给伊方「一周时间」回应（倒计时 5/18），伊外长 Araghchi 反控「伊朗人绝不会屈服于压力」，最高领袖哈梅内伊背书「美国去死」强硬基本盘。5/12 美方对伊朗核研究中可能具军事用途的实体追加制裁、延伸至中国/伊朗就伊朗弹道导弹支持实体。霍尔木兹仍实质封闭、通行量较冲突前下降 >90%，护航 Project Freedom 自 5/5 暂停后维持冻结。中东行能否带回投资承诺与外交筹码直接决定 5/14 起北京议程权重分布。",
+      "situation_briefing": "**核协议信号实质转向**：5/14 伊朗最高领袖哈梅内伊核心政治-军事-核顾问首次公开表态愿在条件下签署核协议——不制造核武+将浓缩铀库存削减至民用水平+接受国际监察，换取美方全面解除经济制裁。Trump 5/14 抵达卡塔尔多哈（中东行第二站），与埃米尔 Tamim bin Hamad Al Thani 会晤；当日签下 $243B 大额商务+军售协议（含 Qatar Airways 购 210 架 Boeing+$1B Raytheon 反无人机+$2B General Atomics MQ-9B+$38B Al Udeid 空军基地），并在 Lusail Palace 国宴上请卡塔尔斡旋改善美伊关系。Trump 5/13 利雅得首日已宣布解除叙利亚制裁、鼓励沙特加入亚伯拉罕协议，5/11 给伊方一周回应倒计时至 5/18。美伊核心分歧仍待磨合：伊方反提案稀释高浓缩铀+剩余库存第三国托管+坚持霍尔木兹主权诉求+资产解冻+取消制裁+全战线停火+战争损失补偿；美方 14 点诉求维持高位（禁核武+全面停止浓缩 12 年+移交 440kg/970lb 60% 浓缩铀），但顾问表态首次为伊方让步预留台阶。5/12 美方对伊朗核研究中可能具军事用途的实体追加制裁、延伸至中国/伊朗弹道导弹支持实体。霍尔木兹仍实质封闭、通行量较冲突前下降 >90%，护航 Project Freedom 自 5/5 暂停后维持冻结。多哈伊朗信号能否在 Trump 5/15 阿联酋行程内升级为正式接触是核心观察点。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -160,9 +160,9 @@
           "航运指数"
         ],
         "channels": [
-          "Trump 抵达利雅得+GCC 峰会→沙特军售与能源合同回温",
-          "5/18 一周回应倒计时→油价金价波动放大",
-          "Trump 宣布解除叙利亚制裁→中东重建投资链异动",
+          "伊朗顾问首释愿签核协议→油价金价单边方向再定价",
+          "卡塔尔 $243B 协议落地→Boeing+军工订单提振",
+          "Trump 多哈请卡斡旋伊朗→中东外交斡旋升温",
           "霍尔木兹封闭未解→油运保险与绕行成本承压"
         ]
       }
@@ -173,9 +173,9 @@
       "label_cn": "印度 - 巴基斯坦",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0374,
+      "probability_30d": 0.0392,
       "data_points": 2,
-      "composite_risk_score": 0.0984,
+      "composite_risk_score": 0.0994,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -183,13 +183,13 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0374,
+          "probability_30d": 0.0392,
           "data_points": 2,
-          "change_vs_yesterday": -0.0015,
-          "change_vs_7d_ago": -0.0031
+          "change_vs_yesterday": 0.0018,
+          "change_vs_7d_ago": -0.0022
         }
       ],
-      "situation_briefing": "Operation Sindoor 周年第 7 日（周年为 5/7），舆论焦点已从周年纪念正式过渡到水资源结构性博弈与地区轴心重组。巴方总统 Zardari 5/10 公开指控印度对《印度河水条约》（IWT）的暂停构成「水恐怖主义」，称印度此举威胁地区稳定并要求恢复条约执行；巴方进一步将其定性为「生存威胁」并寻求联合国与国际仲裁路径，目前未获实质支持。印方官方口径维持「开放性、持续行动」未松动——MEA 周年节点已明确 IWT「将持续中止，直至巴方可信且不可逆地放弃对跨境恐怖主义的支持」，条件门槛升级为公开硬约束、短期难以满足。印方同步加速 Indus/Jhelum/Chenab 流域水电项目、改造水库与渠系，事实上重塑水资源版图。印巴空域互禁延至 5/24 凌晨 5 时进入第二年，印度航司绕飞欧洲与中东航线、运营+燃料成本持续飙升。一年前 5/6-7 深夜印军对巴境内 9 处武装基地发动 22 分钟精确打击，引发印巴 4 天近战、超 114 架战机参与，特朗普 5/10 斡旋促成停火延续至今。观察焦点同步集中于「中-巴-土」轴心延伸：巴方在国际仲裁推进未果情境下可能寻求外部安全保障升级，土耳其+中国对巴武器+水利项目支持是核心观察点。",
+      "situation_briefing": "Operation Sindoor 周年第 8 日（周年为 5/7），舆论焦点已完成从周年纪念到水资源结构性博弈与地区轴心重组的过渡。巴方总统 Zardari 5/10 公开指控印度对《印度河水条约》（IWT）的暂停构成「水恐怖主义」、称威胁地区稳定并要求恢复条约执行；巴方将其定性为「生存威胁」、寻求联合国与国际仲裁路径，目前未获实质支持。印方官方口径维持「开放性、持续行动」未松动——MEA 周年节点已明确 IWT「将持续中止，直至巴方可信且不可逆地放弃对跨境恐怖主义的支持」，条件门槛升级为公开硬约束、短期难以满足。印方同步加速 Indus/Jhelum/Chenab 流域水电项目、改造水库与渠系，Baglihar 大坝 Chenab 段所有闸门继续关闭，事实上重塑水资源版图。印巴空域互禁延至 5/24 凌晨 5 时进入第二年，印度航司绕飞欧洲与中东航线、运营+燃料成本持续飙升。一年前 5/6-7 深夜印军对巴境内 9 处武装基地发动 22 分钟精确打击，引发印巴 4 天近战、超 114 架战机参与，特朗普 5/10 斡旋促成停火延续至今。习特峰会期间台海+伊朗议题占据中方焦点，「中-巴-土」轴心延伸节奏短期被峰会动态稀释；巴方在国际仲裁推进未果情境下可能寻求外部安全保障升级，土耳其+中国对巴武器+水利项目支持仍是核心观察点。",
       "risk_impact": {
         "industries": [
           "纺织",
@@ -205,9 +205,9 @@
         ],
         "channels": [
           "巴方控水恐怖主义→印巴卢比与南亚贸易避险升",
-          "水条约设硬条件持续中止→巴方农业水电承压加剧",
+          "Baglihar 闸门继续关闭→巴方农业水电承压加剧",
           "空域互禁延至次年→欧亚航线绕飞燃料成本飙升",
-          "中-巴-土轴心延伸→纺织棉花供应链断点风险"
+          "中方议程被习特会稀释→中-巴-土轴心延伸节奏放缓"
         ]
       }
     },
@@ -217,9 +217,9 @@
       "label_cn": "美国 - 拉丁美洲",
       "importance": "low",
       "risk_level": "low",
-      "probability_30d": 0.0381,
+      "probability_30d": 0.0386,
       "data_points": 6,
-      "composite_risk_score": 0.0945,
+      "composite_risk_score": 0.0982,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -227,23 +227,23 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0381,
+          "probability_30d": 0.0386,
           "data_points": 6,
-          "change_vs_yesterday": 0.0038,
-          "change_vs_7d_ago": 0.0043
+          "change_vs_yesterday": 0.0005,
+          "change_vs_7d_ago": 0.0074
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0365,
+          "probability_30d": 0.0342,
           "data_points": 1,
-          "change_vs_yesterday": 0.0113,
-          "change_vs_7d_ago": 0.0111
+          "change_vs_yesterday": -0.0023,
+          "change_vs_7d_ago": 0.0102
         }
       ],
-      "situation_briefing": "美对古经济战进入「制裁+人道操作+军事侦察」三轴复合施压阶段，跨国企业资本退场已外溢至能源基础设施。Sherritt 5/8 宣布退出 Moa Nickel SA（32 年合作）后，5/13 进一步披露其拥有 Energas 1/3 股权（供给古巴约 10% 电力发电），暂停后古巴电力缺口可能再扩；Sherritt 已就 Cuba 业务全面去化、开始遣返外籍员工。WSWS 5/12 报道美军在过去数周对古巴进行「数十次侦察机飞行」（dozens of spy flights），与「不寻求迫近军事行动」官方表态形成施压叠加。SCMP 5/13：美方制裁 Moa Nickel 的战略意图同时指向中国－加勒比关键矿产供应链（含钴），不仅是对古施压更是对中国冶炼-供应链的间接打击。Rubio 5/9 公开称将「持续加压古巴军方精英」、宣称古巴拒绝美方 $1 亿人道援助提议；古外长 Bruno Rodríguez 5/10 直接否认、称之为「虚构童话」。5/7 美方依 EO 14404 对 GAESA+其执行总裁 Ania Guillermina Lastres Morera+12 名官员+7 个军方/安全实体+3 艘运委油船只实施制裁；Florida 州长 DeSantis 5/9 签新法限制州内与古巴主体协议、形成联邦+州双重压力。UN 4 月报告标记古巴已连续 3 个月燃油供应不足、进入「尖锐持续的人道危机」状态：石油进口较封锁前下降 ~90%、电力缺口 >1700MW、积压约 96000 台手术；UN 专家 5/7 公开警告美方对古燃油封锁等同「能源饥饿」。委内瑞拉端：美方 1/3「绝对决心行动」拘捕马杜罗后切断委对古石油并施压墨西哥停止运输；二级制裁机制保留「外国银行/公司与被制裁实体业务即切断进入美国市场渠道」威慑。",
+      "situation_briefing": "美对古「制裁+人道操作+军事侦察+石油封锁」四轴复合施压阶段持续，外界开始关注 Trump 中东行结束后是否升级对古/委政策表态。背景定位：美方自 2026 年 2 月起对开往古巴的油轮实施事实封锁、阻拦含墨西哥国有 Pemex 船只，被多方学者评估为「自古巴导弹危机以来首次有效封锁」。Sherritt 5/8 宣布退出 Moa Nickel SA（32 年合作）后，5/13 进一步披露其拥有 Energas 1/3 股权（供给古巴约 10% 电力发电），暂停后古巴电力缺口可能再扩；Sherritt 已就 Cuba 业务全面去化、开始遣返外籍员工。WSWS 5/12 报道美军在过去数周对古巴进行「数十次侦察机飞行」，与「不寻求迫近军事行动」官方表态形成施压叠加。SCMP 5/13：美方制裁 Moa Nickel 的战略意图同时指向中国－加勒比关键矿产供应链（含钴），是对中国冶炼-供应链的间接打击。Rubio 5/9 公开称将「持续加压古巴军方精英」、宣称古巴拒绝美方 $1 亿人道援助提议；古外长 Bruno Rodríguez 5/10 直接否认。5/7 美方依 EO 14404 对 GAESA+执行总裁 Lastres Morera+12 名官员+7 个军方/安全实体+3 艘运委油船只实施制裁；Florida 州长 DeSantis 5/9 签新法形成联邦+州双重压力。UN 4 月报告：古巴已连续 3 个月燃油供应不足、石油进口较封锁前下降 ~90%、电力缺口 >1700MW、积压约 96000 台手术；UN 专家 5/7 警告美方对古燃油封锁等同「能源饥饿」。委内瑞拉端：美方 1/3「绝对决心行动」拘捕马杜罗后切断委对古石油（断 25,000-30,000 桶/日，占古巴石油进口约 2/3）并施压墨西哥停止运输；二级制裁机制保留威慑。",
       "risk_impact": {
         "industries": [
           "石油",
@@ -258,10 +258,10 @@
           "糖/咖啡"
         ],
         "channels": [
+          "美方阻拦 Pemex 油轮→加勒比能源与糖供给路径重塑",
           "Sherritt 撤 Energas→古巴电力缺口加剧",
-          "美军侦察飞行密度上升→拉美主权债避险溢价上行",
           "Moa 制裁指向中国矿业链→镍钴供应链溢价上行",
-          "委油断供叠燃料封锁→加勒比能源与糖供给路径重塑"
+          "美军侦察飞行密度上升→拉美主权债避险溢价上行"
         ]
       }
     },
@@ -271,9 +271,9 @@
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0122,
+      "probability_30d": 0.0155,
       "data_points": 8,
-      "composite_risk_score": 0.0913,
+      "composite_risk_score": 0.0898,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -281,33 +281,33 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "北约与俄罗斯直接军事冲突",
           "direction": "risk_increase",
-          "probability_30d": 0.0122,
+          "probability_30d": 0.0155,
           "data_points": 8,
-          "change_vs_yesterday": -0.0018,
-          "change_vs_7d_ago": 0.0004
+          "change_vs_yesterday": 0.0033,
+          "change_vs_7d_ago": 0.0042
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "局部停火已达成，全面和平尚未确定",
           "direction": "risk_decrease",
-          "probability_30d": 0.0499,
+          "probability_30d": 0.0439,
           "data_points": 6,
-          "change_vs_yesterday": 0.0014,
-          "change_vs_7d_ago": 0.0084
+          "change_vs_yesterday": -0.006,
+          "change_vs_7d_ago": 0.0039
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.017,
+          "probability_30d": 0.0132,
           "data_points": 1,
-          "change_vs_yesterday": -0.0018,
-          "change_vs_7d_ago": null
+          "change_vs_yesterday": -0.0038,
+          "change_vs_7d_ago": 0.0051
         }
       ],
-      "situation_briefing": "全面入侵第 1540 天，5/15 伊斯坦布尔俄乌直接谈判倒计时 2 天且核心变量已落地——Kremlin 5/13 正式确认普京不亲自出席，改由总统助理 Vladimir Medinsky 率团（成员含副外长 Mikhail Galuzin、军情局长 Igor Kostyukov、副国防 Alexander Fomin），层级显著低于元首会晤预期。泽连斯基幕僚长 Yermak 5/13 公开称「普京若拒亲赴是俄方不愿结束战争的最后信号」，泽连斯基同日称普京「恐惧」；Trump 此前公开施压「Vladimir, STOP!」并称愿出席协助但未确认行程。5/11 24:00 三日停火窗口到期未续，普京 5/11 凌晨已拒绝欧/美/乌「自 5/12 起 30 天无条件停火」要求；ISW 评估「9-11 停火缺监控+争端解决机制注定失败」，已被前线高强度交火证实。前线波克罗夫斯克轴心仍为主攻方向（5/11 单日 37 次俄军突击为全线最高强度），Lyman 轴俄军调动新步兵预备攻势；停火前 5/8-5/9 俄方大规模空袭乌全境致 27+ 死、120+ 伤，含 Naftogaz 国营天然气设施。5/15 谈判层级降级直接影响外交破局概率：以代表团对元首意向落差结构性扩大，乌方质疑「sham 代表团」+ 欧洲外交圈对俄诚意评估转弱，欧洲能源/粮食通道与卢布定价中期路径更倾向延续震荡而非趋势性反转。",
+      "situation_briefing": "全面入侵第 1541 天，5/15 伊斯坦布尔俄乌直接谈判倒计时 1 天，双方代表团名单均已正式公布。**俄方代表团**：总统助理 Vladimir Medinsky 任团长，含副外长 Mikhail Galuzin、军情局长 Igor Kostyukov、副国防 Alexander Fomin；普京已确认不亲自出席。**乌方代表团**：泽连斯基幕僚长 Andriy Yermak、外长 Andrii Sybiha、前情报负责人/国防部长 Rustem Umerov；泽连斯基 5/14 抵达安卡拉与埃尔多安会面后将派代表团赴伊斯坦布尔，自身不与 Medinsky 同台。泽连斯基安卡拉记者会公开批俄方代表团「sham（虚假）」「我们看不到任何真正决策者」；Yermak 此前 5/13 称「普京若拒亲赴是俄方不愿结束战争的最后信号」。Trump 公开施压「Vladimir, STOP!」并称愿出席协助但未确认行程，目前在卡塔尔多哈中东行程内。5/11 24:00 三日停火窗口到期未续，普京已拒欧/美/乌「自 5/12 起 30 天无条件停火」要求；ISW 评估「9-11 停火缺监控+争端解决机制注定失败」，已被前线高强度交火证实。前线波克罗夫斯克轴心仍为主攻方向（5/11 单日 37 次俄军突击为全线最高强度），Lyman 轴俄军调动新步兵预备攻势。5/15 谈判层级降级直接影响外交破局概率：以代表团对元首意向落差结构性扩大，欧洲外交圈对俄诚意评估转弱，欧洲能源/粮食通道与卢布定价中期路径更倾向延续震荡而非趋势性反转。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -323,8 +323,8 @@
           "铝/镍"
         ],
         "channels": [
-          "普京拒亲赴+派代表团→欧债与卢布单边博弈",
-          "5/15 谈判层级降级→TTF 短线波动放大",
+          "双方代表团均到位+元首缺席→欧债与卢布单边博弈",
+          "乌方斥俄团 sham→TTF 短线波动放大",
           "三日停火到期未续→欧洲冬储缺口风险延续",
           "波克罗夫斯克 37 次突击→粮食化肥走廊扰动"
         ]
@@ -336,9 +336,9 @@
       "label_cn": "中国 - 台海",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0109,
+      "probability_30d": 0.0107,
       "data_points": 11,
-      "composite_risk_score": 0.0718,
+      "composite_risk_score": 0.0831,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -346,13 +346,13 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0109,
+          "probability_30d": 0.0107,
           "data_points": 11,
-          "change_vs_yesterday": -0.0003,
-          "change_vs_7d_ago": 0.0011
+          "change_vs_yesterday": -0.0002,
+          "change_vs_7d_ago": 0.0009
         }
       ],
-      "situation_briefing": "习特北京峰会 5/14-15 倒计时 1 天，台海议题被中美双方公开确认置于议程首位，2017 年以来美国总统首次对华国事访问。中方核心诉求：推动 Trump 公开将「不支持台独」升级为「反对台独」、支持「和平统一」或表态接受「一个中国原则」、限制对台军售、削减美台安全合作；同时在用语上施压 Trump 接受「台湾岛/台湾省/台湾地区」等中方语汇，CSIS/CFR 评估「中方在峰会上占据上风」。台北方面忧虑议程被压缩或筹码被让渡，Rubio 此前 5/7 已公开确认峰会将讨论台湾。议程跨域交换张力：中方副外长傅聪坚持霍尔木兹议题必入峰会，美方顾问反向施压北京协助打开霍尔木兹+约束中国向伊朗弹道导弹链供应+稀土出口管制松动换取台海议程让步；贸易侧可能宣布中方对 Boeing/农产品采购+双边「Board of Trade」+部分关税调整+AI 议题。5/9 PLA 出动 8 架次军机环台、全部跨越海峡中线，配合 6 艘 PLAN 舰艇+2 艘公务船；台方官员仍观察到近期 PLA 战机环台架次「不可解释的下降」，研判北京为峰会创造缓和气氛主动降温。Balikatan 2026 已 5/8 闭幕（4/20–5/8 共 19 天、17000 军人）；PLA 南部战区维持反制——辽宁号航母编队自 4/20 起持续部署南海未见撤离，YJ-20 高超声速导弹海上试射延续。",
+      "situation_briefing": "**习特北京峰会今日（5/14）正式开幕**，2017 年以来美国总统首次对华国事访问。Trump 已于 5/13 抵达北京、举行抵达仪式，5/14 进入实质双边会谈+访问天坛+正式国宴；议题首位为台湾，其次贸易+伊朗+稀土+AI。**Trump 5/11 已公开宣布将与 Xi 讨论对台军售**，被外界解读为打破「六项保证」原则、台北高度警觉。中方核心诉求：推动 Trump 公开将「不支持台独」升级为「反对台独」、支持「和平统一」或表态接受「一个中国原则」、放宽高端科技出口管制、移除中国企业制裁清单；用语层施压 Trump 接受「台湾岛/台湾省/台湾地区」等中方语汇。CSIS/CFR 评估「中方占据上风」+利用稀土供应链与国内市场作为筹码。台方高度关注峰后双方公开措辞精度：Trump 是否重申支持台湾防卫+对军售表态是否含糊+是否给 Xi 留下「华盛顿在抑制台北」的话术空间。议程跨域交换张力：中方副外长傅聪坚持霍尔木兹议题必入峰会，美方顾问反向施压北京约束中国向伊朗弹道导弹链供应换取台海议程让步；贸易侧可能宣布中方对 Boeing/农产品采购+双边「Board of Trade」+部分关税调整。5/9 PLA 出动 8 架次军机环台、全部跨越海峡中线；台方官员仍观察到近期 PLA 战机环台架次「不可解释下降」、研判北京为峰会创造缓和气氛主动降温。PLA 南部战区维持反制——辽宁号航母编队自 4/20 起持续部署南海未见撤离，YJ-20 高超声速导弹海上试射延续。",
       "risk_impact": {
         "industries": [
           "半导体",
@@ -368,9 +368,9 @@
           "BDI航运指数"
         ],
         "channels": [
-          "5/14 峰会倒计时 1 天→台积电与台币估值再定价",
-          "中方推「反对台独」表述升级→半导体股波动率抬升",
-          "PLA 环台架次主动降温→台海溢价短线回落",
+          "习特峰会今日开幕→台积电与台币估值再定价",
+          "Trump 提对台军售议题→半导体股波动率抬升",
+          "中方推「反对台独」表述升级→台海溢价单边博弈",
           "稀土+AI+伊朗议题交换→人民币与铜双向波动"
         ]
       }
