@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-15T03:12:22+00:00",
+    "updated_at": "2026-05-18T03:37:39+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,9 +43,9 @@
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0939,
+      "probability_30d": 0.0966,
       "data_points": 5,
-      "composite_risk_score": 0.1441,
+      "composite_risk_score": 0.1474,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -53,23 +53,23 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
           "direction": "risk_increase",
-          "probability_30d": 0.0939,
+          "probability_30d": 0.0966,
           "data_points": 5,
-          "change_vs_yesterday": 0.0053,
-          "change_vs_7d_ago": 0.0325
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0062
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火第二阶段（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.0666,
+          "probability_30d": 0.0893,
           "data_points": 4,
-          "change_vs_yesterday": 0.0014,
-          "change_vs_7d_ago": -0.0563
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0026
         }
       ],
-      "situation_briefing": "黎巴嫩战事第 75 天，1983 年以来黎以首次直接谈判第三轮 5/14-15 Washington 第二日延续——4/23 黎以停火协议 5/16 到期，本轮谈判核心是协议续签与执行细则，首次有军方代表参与、专题讨论真主党解武具体执行措施。黎方代表团 Simon Karam 率领、以方 Ron Dermer + 副国安顾问 Yossi Draznin 率领。议题含真主党解武+以军撤出南黎+边界+战俘+流离失所+重建+黎以外交关系正常化；黎方主张「结束敌对+以军撤出」、以方坚持「真主党解武」为非协商前提。多方消息倾向延长停火窗口、不会立即促成以方停止南黎空袭。真主党脱钩信号实质化：领袖 5/12 公开呼吁黎政府退出直接谈判、改走「间接谈判」路径。5/10 以军对黎巴嫩多地发动自三周停火以来最猛烈一轮空袭、南黎单日至少 39 死、首次延伸至贝鲁特仅 20 公里以南。5/16 停火协议到期前 24 小时是关键节点。黎方累计 2700+ 死、超 120 万流离失所。加沙以哈第二阶段停火总体维持但破裂风险持续抬头。",
+      "situation_briefing": "美国斡旋下黎以停火协议在到期前完成 45 天延期：美国务院 5/15 宣布双方同意延期，第三轮华盛顿谈判（5/14-15）以「富有成效」收官，下一轮谈判定于 6/2-6/3。本轮黎以谈判由两国驻美大使以上级别官员入桌，覆盖以军撤出南黎、真主党解武等议题；真主党未参与谈判、领袖 Naim Qassem 5/12 公开表态「武装属于黎巴嫩内部事务、不在与敌人谈判桌上」，并称将「让以色列地狱」回应解武压力。停火虽延期、南黎空袭未停：以方 5/16 称过去 48 小时打击南黎 100 处目标，Nabatieh 与 Tyre 区多个村镇遭空袭、单日多人死亡。加沙端「和平委员会」特使 Mladenov 5/13 公开称停火因哈马斯解武僵局陷入瘫痪，重建被冻结；巴方卫生部 5/14 累计统计 857 死、2486 伤；以方将「黄色线」推至加沙约 64% 区域，UN 称每日 600 卡车援助承诺未达。第二阶段停火破裂风险持续抬头。",
       "risk_impact": {
         "industries": [
           "科技",
@@ -84,10 +84,10 @@
           "原油"
         ],
         "channels": [
-          "5/16 停火协议到期前 24 小时→谢克尔与黎债单边博弈",
-          "军方代表首次入桌讨论解武→中东保险与能源溢价上行",
-          "真主党呼吁退出直接谈判→区域避险溢价推升金价",
-          "加沙谈判破裂风险抬头→区域旅游与航运二次冲击"
+          "黎以停火 45 天延期→谢克尔与黎债短线压缩",
+          "南黎空袭持续+真主党拒解武→区域避险溢价推升金价",
+          "加沙重建因哈马斯解武僵局停摆→中东能源保险溢价",
+          "以方扩大「黄色线」至加沙 64%→区域旅游与航运冲击"
         ]
       }
     },
@@ -97,9 +97,9 @@
       "label_cn": "伊朗 - 美国/以色列",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0403,
+      "probability_30d": 0.0461,
       "data_points": 3,
-      "composite_risk_score": 0.1218,
+      "composite_risk_score": 0.119,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -107,43 +107,43 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "地面入侵/正式宣战/核试验",
           "direction": "risk_increase",
-          "probability_30d": 0.0403,
+          "probability_30d": 0.0461,
           "data_points": 3,
-          "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": 0.0121
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0097
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0256,
+          "probability_30d": 0.0296,
           "data_points": 4,
-          "change_vs_yesterday": -0.0011,
-          "change_vs_7d_ago": 0.0001
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0044
         },
         {
           "event_type": "diplomatic",
           "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
           "event_note": "美伊核协议",
           "direction": "neutral",
-          "probability_30d": 0.1394,
+          "probability_30d": 0.1368,
           "data_points": 3,
-          "change_vs_yesterday": -0.0123,
-          "change_vs_7d_ago": -0.0355
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0241
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
           "direction": "risk_decrease",
-          "probability_30d": 0.1968,
+          "probability_30d": 0.1678,
           "data_points": 13,
-          "change_vs_yesterday": -0.0241,
-          "change_vs_7d_ago": -0.2744
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0927
         }
       ],
-      "situation_briefing": "5/15 Trump 抵阿布扎比（中东行收官站），UAE 总统 Mohammed bin Zayed 授勋 National Medal of Honor，并承诺未来 10 年对美投资 $1.4 万亿（AI/半导体/能源/航空）。5/14 北京习特峰会公开声明两项核心共识：「霍尔木兹海峡必须保持开放」+「伊朗永远不能拥有核武器」，中方将协助劝伊。Trump 多哈段已签 $243B 商务+军售协议（含 Qatar Airways 购 210 架 Boeing+反无人机+MQ-9B+Al Udeid 空军基地）。Trump 5/15 在 UAE 公开表示「伊朗已大致同意条件」。美伊核心分歧仍未弥合：伊方反提案稀释高浓缩铀+剩余库存第三国托管+资产解冻+取消制裁；美方 14 点诉求维持高位（禁核武+全面停止浓缩 12 年+移交 440kg 60% 浓缩铀），伊方一周回应倒计时至 5/18。霍尔木兹仍实质封闭、通行量较冲突前下降 >90%，护航 Project Freedom 自 5/5 暂停后维持冻结。以色列担忧 Trump 达成「不完整协议」、留下伊方导弹+代理人网络隐患。",
+      "situation_briefing": "美伊战争僵局延续。Trump 5/16 向伊方递交新核谈提案，并警告须迅速取得进展、否则面临严重后果；此前他于 5/10 在白宫斥伊方反提案为「totally unacceptable」，并称美伊停火「处于生命维持状态」。伊方核心立场维持「优先结束战争、暂不谈核」，并提出愿稀释部分高浓缩铀+转移其余库存至第三国，拒绝拆除核设施。霍尔木兹自 2/28 美以联合空袭以来实质封闭：Saudi Aramco CEO 5/11 表示约 600 艘油轮被困波斯湾内、240 艘等待于另一侧；美参谋长联席会议主席 5/8 确认 1550+ 艘商船+22500 名船员滞留；Project Freedom 引导计划 5/4 启动、5/5 仅两船过峡后于 5/6 暂停。IRGC 海军 5 月将霍峡定义为「广阔作战区」、5/7 以导弹+无人机+突击艇袭击 3 艘过峡美驱逐舰，美方称已拦截并打击伊方相关军事设施。英国国防大臣 5/12 宣布派 HMS Dragon 驱逐舰+台风战机+Kraken 无人艇+猎雷无人装备加入多国护航。Trump 5/14-15 北京峰会就「施压伊方解除霍峡封锁」获 Xi 口头回应。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -160,54 +160,10 @@
           "航运指数"
         ],
         "channels": [
-          "中美就霍尔木兹必须开放达共识→油价单边方向再定价",
-          "UAE 承诺对美 $1.4T 投资→半导体/航空订单提振",
-          "Trump 称伊朗大致同意条件→金价与防御板块波动率压缩",
-          "霍尔木兹封闭未解→油运保险与绕行成本承压"
-        ]
-      }
-    },
-    {
-      "conflict_id": "india_pakistan",
-      "label": "India-Pakistan",
-      "label_cn": "印度 - 巴基斯坦",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0402,
-      "data_points": 2,
-      "composite_risk_score": 0.1073,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0402,
-          "data_points": 2,
-          "change_vs_yesterday": 0.001,
-          "change_vs_7d_ago": 0.0002
-        }
-      ],
-      "situation_briefing": "Operation Sindoor 周年第 9 日（周年为 5/7），舆论焦点延续在水资源结构性博弈与地区轴心重组。巴方总统 Zardari 5/10 公开指控印度对《印度河水条约》（IWT）的暂停构成「水恐怖主义」、寻求联合国与国际仲裁路径，目前未获实质支持。印方维持「IWT 将持续中止，直至巴方可信且不可逆地放弃对跨境恐怖主义的支持」，条件门槛升级为公开硬约束。印方同步加速 Indus/Jhelum/Chenab 流域水电项目，Baglihar 大坝 Chenab 段所有闸门继续关闭，事实上重塑水资源版图。印巴空域互禁延至 5/24 凌晨 5 时进入第二年，印度航司绕飞欧洲与中东航线、运营+燃料成本持续飙升。习特峰会闭幕后中方注意力重新分配回南亚轴心，「中-巴-土」轴心延伸节奏可能在 5 月下旬恢复，土耳其+中国对巴武器+水利项目支持仍是核心观察点。",
-      "risk_impact": {
-        "industries": [
-          "纺织",
-          "农业",
-          "IT外包",
-          "南亚贸易"
-        ],
-        "assets": [
-          "印度卢比",
-          "巴基斯坦卢比",
-          "黄金",
-          "棉花"
-        ],
-        "channels": [
-          "巴方控水恐怖主义→印巴卢比与南亚贸易避险升",
-          "Baglihar 闸门继续关闭→巴方农业水电承压加剧",
-          "空域互禁延至次年→欧亚航线绕飞燃料成本飙升",
-          "习特会后中方重置→中-巴-土轴心延伸有望恢复"
+          "伊方拒绝拆核设施→油价单边上行+避险溢价抬升",
+          "Trump 警告重启打击+提案僵局→金价+VIX+防御股波动率",
+          "IRGC 袭击美驱逐舰+Hormuz 实质封闭→油运保险与绕行成本上行",
+          "Project Freedom 暂停+1550+ 商船滞留→Brent 高位与航运指数承压"
         ]
       }
     },
@@ -215,11 +171,11 @@
       "conflict_id": "us_latam",
       "label": "US-Latin America",
       "label_cn": "美国 - 拉丁美洲",
-      "importance": "low",
+      "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0416,
+      "probability_30d": 0.0465,
       "data_points": 6,
-      "composite_risk_score": 0.1026,
+      "composite_risk_score": 0.1157,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -227,23 +183,33 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0416,
+          "probability_30d": 0.0465,
           "data_points": 6,
-          "change_vs_yesterday": 0.003,
-          "change_vs_7d_ago": 0.012
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0122
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0464,
+          "probability_30d": 0.0283,
           "data_points": 1,
-          "change_vs_yesterday": 0.0122,
-          "change_vs_7d_ago": 0.0223
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0039
+        },
+        {
+          "event_type": "other",
+          "event_description": "other",
+          "event_note": "",
+          "direction": "neutral",
+          "probability_30d": 0.2445,
+          "data_points": 1,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
         }
       ],
-      "situation_briefing": "5/14 古巴能源部公开承认全国「无任何燃油与柴油储备」、国家电网处于「危急状态」，民用+工业用电缺口同步扩大。美对古「制裁+人道操作+军事侦察+石油封锁」四轴复合施压阶段持续。Trump 5/1 签 EO 升级，将制裁范围扩至金属/矿业/能源/国防/金融/安全六大行业的外国实体；5/7 依 EO 14404 对 GAESA+12 名官员+3 艘运委油船只实施制裁。Sherritt 5/7 全面暂停古巴合资项目（含 Energas 1/3 股权 = 古巴约 10% 发电），多伦多股价单日跌 30%；Fort Saskatchewan 冶炼厂面临 6 月中旬原料断供风险。美军过去数周对古巴进行「数十次侦察机飞行」。UN 4 月报告：古巴已连续 3 个月燃油供应不足、电力缺口 >1700MW、积压约 96000 台手术。委内瑞拉端：美方切断委对古石油（断 25,000-30,000 桶/日，占古巴石油进口约 2/3）并施压墨西哥停止运输。Trump 中东行结束后是否升级对古/委政策表态是核心观察点。",
+      "situation_briefing": "古巴能源危机急剧恶化：能源部长 Vicente de la O Levy 5/13 公开承认全国「绝对没有燃油、没有柴油」，国家电网 5/14 凌晨在东部省份发生大规模故障，自 Guantánamo 至 Ciego de Ávila 全线停电、Havana 居民日均停电达 20-22 小时。美联社记者 5/14 晚目击 Havana 多个社区敲锅+焚烧垃圾抗议，5/15-5/17 抗议蔓延至 12 个城区与多家医院手术停摆。Rubio 5/7-5/8 公开为新一轮制裁辩护，并宣布对古 $1 亿人道援助计划（食品+医疗）、将阻塞责任归咎古方政府。新制裁覆盖 GAESA 军方控股集团+古巴-加拿大 Sherritt 合资 Moa Nickel；Sherritt 5/8 宣布暂停古巴直接合资业务、结束 32 年在古运营，其 Energas 业务贡献古巴约 10% 总发电装机。Trump 5/1 行政令将制裁扩至金属/矿业/能源/国防/金融/安全六大行业外国实体。美方自 2026 年 2 月起拦截驶往古巴的油轮，被《纽约时报》定性为古巴导弹危机后美方首次对古「事实封锁」。Trump 回美后是否升级对古政策为核心观察点。",
       "risk_impact": {
         "industries": [
           "石油",
@@ -258,10 +224,54 @@
           "糖/咖啡"
         ],
         "channels": [
-          "古巴燃料储备见底→加勒比能源与糖供给路径重塑",
-          "Sherritt 撤古巴业务→镍钴供应链溢价上行",
-          "北美冶炼厂 6 月断料→电池金属价格上行",
-          "美军侦察飞行密度上升→拉美主权债避险溢价上行"
+          "古巴燃料储备耗尽+东部断电→加勒比能源与糖供给路径重塑",
+          "Sherritt 暂停古巴合资业务→镍钴供应链溢价上行",
+          "美方对古油轮事实封锁→拉美避险溢价与糖价上行",
+          "GAESA+Moa Nickel 入制裁名单→金属供应链与古巴债承压"
+        ]
+      }
+    },
+    {
+      "conflict_id": "india_pakistan",
+      "label": "India-Pakistan",
+      "label_cn": "印度 - 巴基斯坦",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.039,
+      "data_points": 2,
+      "composite_risk_score": 0.1045,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.039,
+          "data_points": 2,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0019
+        }
+      ],
+      "situation_briefing": "印巴博弈核心仍在水资源与空域结构性僵局。海牙常设仲裁院 5/15 就 Ratle 与 Kishenganga 水电项目「最大蓄水量」（maximum pondage）争议作出补充裁决：巴方欢迎裁决、称强化了对印方西部河流水电项目的核查与审查权；印方 5/17 拒绝承认仲裁院管辖、重申将《印度河水条约》（IWT）继续置于「暂停」状态。印方自 2025-04-23 Pahalgam 恐袭后中止 IWT，至今未恢复。空域层面，巴基斯坦机场管理局新版 NOTAM 将禁止印度民航与军用航空器使用巴方空域延期至 2026-05-24，自 2025-04-23 起累计封禁满一周年；印方对等延禁巴航至 5/24，印度航司持续绕飞欧洲与中东航线、运营成本结构性抬升。两国在裁决与空域互禁双线对峙；5/24 空域到期前若无双边突破，封禁很可能再次自动续展。",
+      "risk_impact": {
+        "industries": [
+          "纺织",
+          "农业",
+          "IT外包",
+          "南亚贸易"
+        ],
+        "assets": [
+          "印度卢比",
+          "巴基斯坦卢比",
+          "黄金",
+          "棉花"
+        ],
+        "channels": [
+          "IWT 持续暂停+海牙补充裁决→巴方农业与水电承压",
+          "5/24 空域互禁到期临近→印度航司绕飞成本承压",
+          "印方拒绝仲裁院管辖→巴卢比+南亚贸易避险溢价",
+          "Chenab 水电项目争议未决→棉花与南亚水资源博弈"
         ]
       }
     },
@@ -271,9 +281,9 @@
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0229,
-      "data_points": 8,
-      "composite_risk_score": 0.0947,
+      "probability_30d": 0.0136,
+      "data_points": 9,
+      "composite_risk_score": 0.0876,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -281,33 +291,33 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "北约与俄罗斯直接军事冲突",
           "direction": "risk_increase",
-          "probability_30d": 0.0229,
-          "data_points": 8,
-          "change_vs_yesterday": 0.0074,
-          "change_vs_7d_ago": 0.0101
+          "probability_30d": 0.0136,
+          "data_points": 9,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0018
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "局部停火已达成，全面和平尚未确定",
           "direction": "risk_decrease",
-          "probability_30d": 0.0429,
-          "data_points": 8,
-          "change_vs_yesterday": -0.001,
-          "change_vs_7d_ago": 0.0036
+          "probability_30d": 0.045,
+          "data_points": 9,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0018
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.0135,
+          "probability_30d": 0.0137,
           "data_points": 1,
-          "change_vs_yesterday": 0.0003,
-          "change_vs_7d_ago": 0.0049
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0066
         }
       ],
-      "situation_briefing": "全面入侵第 1542 天，5/16 伊斯坦布尔俄乌直接谈判倒计时 1 天，层级正式确定为代表团级。5/15 泽连斯基与埃尔多安在安卡拉举行 3 小时双边会谈，会后宣布派遣由国防部长 Rustem Umerov 率领的代表团赴伊斯坦布尔，自己不与 Medinsky 同台；泽连斯基公开批俄方「严重不认真」「找不到任何真正决策者」。俄方代表团仍由总统助理 Vladimir Medinsky 任团长（2022 年伊斯坦布尔轮次同班子），普京缺席。Trump 5/15 表态愿亲赴伊斯坦布尔但仍以 UAE 行程优先，未确认实际出席；公开施压「Vladimir, STOP!」，Rubio 已派至土耳其辅佐 Umerov 团。5/11 24:00 三日停火窗口到期未续，普京已拒欧/美/乌「自 5/12 起 30 天无条件停火」要求。前线波克罗夫斯克轴心仍为主攻方向（5/11 单日 37 次俄军突击为全线最高强度），Lyman 轴俄军调动新步兵预备攻势。市场预期 5/16 不会出突破性成果，但仍是 2026 年至今最高规格直接接触。",
+      "situation_briefing": "5/16 伊斯坦布尔俄乌直接谈判落幕：双方会谈不足两小时，未就 30 天全面停火达成协议；唯一成果是双方同意「1000 换 1000」战俘交换，由土耳其外长 Fidan 定性为「建立信任之举」。乌方由国防部长 Rustem Umerov 率团，俄方由总统助理 Vladimir Medinsky 任团长，普京拒绝出席并拒绝 Zelensky 当面会谈邀请。俄方在桌上再次要求乌方完全撤出顿涅茨克、卢甘斯克、扎波罗热、赫尔松四州（俄方至今未实控全境）；乌方高层称俄方提出「不可接受的新要求」。Trump 未实际出席，事后称「在普京和我坐下之前什么也不会发生」，并轻描淡写普京缺席。前线持续高强度：5/17 全线 195 次战斗接触，波克罗夫斯克与 Huliaipole 仍为最热轴线；乌军总参谋部确认波克罗夫斯克方向俄军集结约 10.6 万兵力、推进至该城东南不足 10 公里。换俘的执行窗口安排于 5/23-5/25，本轮谈判被外界视为象征性接触、未触及战争结构性议题。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -323,10 +333,10 @@
           "铝/镍"
         ],
         "channels": [
-          "5/16 谈判降至代表团级→欧债与卢布单边博弈",
-          "Umerov 率乌团赴会+普京缺席→TTF 短线波动放大",
-          "三日停火到期未续→欧洲冬储缺口风险延续",
-          "波克罗夫斯克 37 次突击→粮食化肥走廊扰动"
+          "伊斯坦布尔谈判无停火→欧债与卢布单边博弈延续",
+          "俄方要求乌方撤出四州→TTF 波动放大+欧洲冬储缺口风险",
+          "波克罗夫斯克 10.6 万兵力推进→粮食化肥走廊持续扰动",
+          "1000 换 1000 换俘但无停火框架→欧元区避险溢价抬升"
         ]
       }
     },
@@ -336,9 +346,9 @@
       "label_cn": "中国 - 台海",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0113,
+      "probability_30d": 0.0108,
       "data_points": 11,
-      "composite_risk_score": 0.0809,
+      "composite_risk_score": 0.0741,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -346,13 +356,13 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0113,
+          "probability_30d": 0.0108,
           "data_points": 11,
-          "change_vs_yesterday": 0.0006,
-          "change_vs_7d_ago": 0.0013
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0002
         }
       ],
-      "situation_briefing": "5/14-15 北京习特峰会闭幕，双方确认建立「建设性的中美战略稳定关系」+共同声明霍尔木兹必须保持开放+伊朗永远不能拥有核武器。Xi 将台湾定性为「中美关系最重要的问题」、警告「处理不好两国将面临冲突甚至对抗」、公开表态「台独与两岸和平如冰炭难容」；美方公开 readout 完全未提及台湾，仅聚焦贸易+伊朗+「战略稳定」，沉默本身已被台北视为警讯。两国就稀土+AI 监管设立双边 Board，中方将增加 Boeing 与农产品采购及部分关税调整。Trump 5/11 已公开宣布将与 Xi 讨论对台军售，被解读为打破「六项保证」。5/9 PLA 出动 8 架次军机环台、全部跨越海峡中线；台方观察到近期环台架次「不可解释下降」、研判北京为峰会创造缓和气氛主动降温。辽宁号航母编队自 4/20 起持续部署南海未见撤离，YJ-20 高超声速导弹海上试射延续。",
+      "situation_briefing": "5/14-15 北京习特峰会闭幕进入发酵期，台北高度警觉。Xi 将台湾定性为「中美关系最重要的问题」，警告若处理不当两国将走向「冲突甚至对抗」；中国外交部长 Wang Yi 表示「美方理解中方立场、不支持也不接受台湾走向独立」。Trump 在中美战略稳定+贸易+伊朗+稀土+AI 议题之外，公开称尚未批准价值 $14B 对台军售包，称该笔军售「现在被搁置」、是「一张很好的谈判筹码」，并称台湾「应该冷静一点」。台湾方面将此解读为对台政策风险信号；台积电已与美方就在亚利桑那扩建 $165B 产能完成承诺。Trump 在峰会同步推动「施压伊方解除霍尔木兹封锁」议题，但峰会未公布在台海议题上的实质中方让步、亦无明确对台军售路径。Xi 已确认 2026 秋季回访华盛顿。区域层面，PLA 南部战区 4/24 在吕宋海峡以东开展驱护舰演练回应 Balikatan 2026 多国军演（4/20-5/8），辽宁号 4/20 编队南下航迹延续。",
       "risk_impact": {
         "industries": [
           "半导体",
@@ -368,10 +378,10 @@
           "BDI航运指数"
         ],
         "channels": [
-          "习特峰会美方 readout 略台湾→台积电与台币估值再定价",
-          "Xi 警告台独冲突→半导体股波动率抬升",
-          "中美建立稀土+AI 双边 Board→关键矿产与芯片估值博弈",
-          "Boeing/农产品采购+关税调整→人民币与铜双向波动"
+          "Trump 称对台军售为「谈判筹码」→台积电与台币估值再定价",
+          "$14B 对台军售搁置→半导体与防务股波动率抬升",
+          "Xi 警告台海处理不当将「冲突对抗」→区域避险溢价上行",
+          "PLA 南部战区演练+辽宁号南下→区域航运保险与铜价博弈"
         ]
       }
     }
