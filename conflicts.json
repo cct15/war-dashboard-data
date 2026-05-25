@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-22T05:58:20+00:00",
+    "updated_at": "2026-05-25T02:45:26+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -43,9 +43,9 @@
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.1182,
+      "probability_30d": 0.0886,
       "data_points": 5,
-      "composite_risk_score": 0.165,
+      "composite_risk_score": 0.135,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -53,23 +53,23 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
           "direction": "risk_increase",
-          "probability_30d": 0.1182,
+          "probability_30d": 0.0886,
           "data_points": 5,
-          "change_vs_yesterday": 0.003,
-          "change_vs_7d_ago": 0.0207
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.008
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "加沙停火第二阶段（不含黎巴嫩）",
           "direction": "risk_decrease",
-          "probability_30d": 0.0982,
+          "probability_30d": 0.1014,
           "data_points": 4,
-          "change_vs_yesterday": -0.0014,
-          "change_vs_7d_ago": 0.0315
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0121
         }
       ],
-      "situation_briefing": "黎以停火延期 45 天后南黎空袭密度抬升，加沙「Gideon's Chariots」攻势持续。黎以轨道：以方 5/21 在 Tyre 省 Toura 镇空袭致 4 死 8 伤（含 2 名女性）；同日 Kfar Chouba 附近一次空袭打死一名黎巴嫩民防救援员。以军 Arabic 发言人在空袭前对 Tyre 省 6 个村庄发出疏散令；当日下午真主党向以北以方境内发射一波火箭弹，以军称拦下其中 1 枚、其余落入空旷地区无伤亡。下一轮黎以谈判定于 6/2-3 召开，5/29 五角大楼另设军事安全分轨；真主党未参与谈判、对解武持反对立场。黎方累计死亡已逾 3020 人、9273 人受伤，停火生效以来另有 400+ 死亡。加沙轨道：以方 5/15 以空袭炸死哈马斯加沙领导人 al-Haddad，并于次日启动「Gideon's Chariots」全境地面攻势，目标控制加沙四分之三领土；5/20 加沙卫生部统计夜间空袭 49 死，5/21 进一步抬升至 82 死；以方公开称已对超过 670 个「哈马斯目标」实施打击。第二阶段框架谈判持续僵滞，区域人道压力与避险溢价同步抬头。",
+      "situation_briefing": "黎以停火协议 5/15 延期 45 天后南黎空袭密度居高。黎以轨道: 5/22 黎方在 Hanaway 与 Deir Qanoun an-Naher 两起以方袭击中失去 6 名民防医护人员；5/19 以军对 Deir Qanoun、Nabatieh 与 Kfar Sir 的空袭造成 22+ 人死亡（含妇女儿童）；5/21 Tyre 省 Toura 镇空袭致 4 死 8 伤。真主党公开称停火延期「毫无意义」、坚持反对解武，主张以军全面撤出为前提。下一轮黎以谈判定于 6/2-3 召开，5/29 五角大楼另设军事安全分轨；黎方累计死亡逾 3020 人、9273 人受伤，逾百万人流离失所。加沙轨道: 以方 5/15 空袭炸死哈马斯加沙领导人 al-Haddad，次日启动「Gideon's Chariots」全境地面攻势，目标控制加沙约四分之三领土；5/20-21 加沙卫生部统计夜间空袭单日死亡分别 49 与 82 人；以方公开称已对超过 670 个哈马斯目标实施打击。第二阶段框架谈判持续僵滞，区域人道压力与避险溢价同步抬头。",
       "risk_impact": {
         "industries": [
           "科技",
@@ -84,86 +84,10 @@
           "原油"
         ],
         "channels": [
-          "Toura 空袭+民防遇袭→谢克尔与黎债短线压缩",
-          "真主党拒解武+黎方破 3020 死→区域避险与金价上行",
-          "加沙全境地面攻势升级→中东能源保险溢价抬升",
-          "下一轮黎以谈判推迟至 6/2-3→区域旅游与航运冲击延续"
-        ]
-      }
-    },
-    {
-      "conflict_id": "iran_israel_us",
-      "label": "Iran-Israel/US",
-      "label_cn": "伊朗 - 美国/以色列",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0365,
-      "data_points": 3,
-      "composite_risk_score": 0.1223,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "地面入侵/正式宣战/核试验",
-          "direction": "risk_increase",
-          "probability_30d": 0.0365,
-          "data_points": 3,
-          "change_vs_yesterday": -0.0049,
-          "change_vs_7d_ago": -0.0038
-        },
-        {
-          "event_type": "regime_change",
-          "event_description": "Government or regime falls/changes",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0276,
-          "data_points": 4,
-          "change_vs_yesterday": -0.0014,
-          "change_vs_7d_ago": 0.002
-        },
-        {
-          "event_type": "diplomatic",
-          "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
-          "event_note": "美伊核协议",
-          "direction": "neutral",
-          "probability_30d": 0.2021,
-          "data_points": 3,
-          "change_vs_yesterday": -0.0463,
-          "change_vs_7d_ago": 0.0621
-        },
-        {
-          "event_type": "ceasefire",
-          "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
-          "direction": "risk_decrease",
-          "probability_30d": 0.4548,
-          "data_points": 21,
-          "change_vs_yesterday": 0.0274,
-          "change_vs_7d_ago": 0.2576
-        }
-      ],
-      "situation_briefing": "美伊战争延续 Trump 打击暂缓后的谈判窗口收紧期。Trump 5/19 在卡塔尔埃米尔、沙特王储与阿联酋总统三方请求下推迟原定 5/19 的攻击，称当时距下令攻击「仅一小时之遥」，并指示军方做好「随时进行全面大规模打击」的准备；5/20 公开表态愿再等「几天」以获取「正确答案」，同时强调美方「可能需要再次打击伊朗」。Witkoff 与 Kushner 牵头的一页 14 点 MOU 仍为桌面文本：宣布结束战争+开启 30 天后续详细谈判，覆盖霍尔木兹通航重启、伊方核浓缩暂停、美方解除制裁与解冻资产；核心分歧仍卡在境内浓缩去留、暂停期长度（美方提 20 年）、霍峡主权与战争赔偿。伊朗总统 Pezeshkian 公开表态「绝不低头」、谈判不等于让步；伊方提议稀释部分高浓缩铀+将剩余库存转运第三国，被 Trump 公开定性「完全不可接受」。普京-习 5/20 北京联合声明定调美以对伊打击「非法」，呼吁「全面停火刻不容缓」，并就「个别国家」对航运限制发出警告。霍峡通航长期承压，Brent 维持 $100+ 水平。",
-      "risk_impact": {
-        "industries": [
-          "能源",
-          "航运",
-          "保险",
-          "军工",
-          "电力"
-        ],
-        "assets": [
-          "原油",
-          "天然气",
-          "黄金",
-          "美元",
-          "航运指数"
-        ],
-        "channels": [
-          "Trump 称随时可重启打击→Brent 与黄金共振走高",
-          "伊方反提案被拒+浓缩期僵持→中东主权债波动放大",
-          "霍峡通航长期承压→油运保险与绕行成本继续抬升",
-          "中俄联合声明定调打击「非法」→避险溢价与防御股共振"
+          "5/22 黎方民防医护遇袭→谢克尔与黎债短线压缩",
+          "真主党称延期「毫无意义」→区域避险与金价上行",
+          "加沙全境攻势持续→中东能源保险溢价抬升",
+          "下一轮黎以谈判 6/2-3 召开→区域旅游与航运冲击延续"
         ]
       }
     },
@@ -173,9 +97,9 @@
       "label_cn": "美国 - 拉丁美洲",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0569,
+      "probability_30d": 0.0526,
       "data_points": 6,
-      "composite_risk_score": 0.1215,
+      "composite_risk_score": 0.1166,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -183,33 +107,33 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0569,
+          "probability_30d": 0.0526,
           "data_points": 6,
-          "change_vs_yesterday": 0.0051,
-          "change_vs_7d_ago": 0.0153
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0061
         },
         {
           "event_type": "regime_change",
           "event_description": "Government or regime falls/changes",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0371,
+          "probability_30d": 0.042,
           "data_points": 1,
-          "change_vs_yesterday": 0.0068,
-          "change_vs_7d_ago": -0.0066
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0137
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.2038,
+          "probability_30d": 0.1832,
           "data_points": 1,
-          "change_vs_yesterday": 0.0371,
-          "change_vs_7d_ago": null
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0613
         }
       ],
-      "situation_briefing": "古巴能源危机持续恶化、人道压力上行，美方制裁双轨加压并附 $100M 援助提议。能源与矿业部长 Vicente de la O Levy 5/14 公开称古巴「彻底没有燃料、油与柴油」；4 月一艘约 10 万吨原油的俄罗斯油轮短暂缓解供给，但库存现已耗尽。Havana 多个城区上周单日停电延长至 20-22 小时，部分地区出现 24 小时全断电；4-5 月超过 55% 国土记录到日停电高达 25 小时。美方自 1 月累计对古制裁逾 240 项、并拦截至少 7 艘运古油轮，致古能源进口减少 80-90%。Rubio 5/7 宣布对军控 GAESA、其总裁 Lastres Morera 以及 Sherritt 与古方合资的 Moa Nickel 实施制裁；外企须于 6/5 前停止与 GAESA 业务、否则触发二级制裁。Sherritt 5/19 反转此前解散 Moa 合资公司的决定、暂停在古直接参与合资业务；其运营的 Energas 电厂占古电力 10-15%。Rubio 5 月向古方提出 $100M 人道援助。Trump 1 月行政令威胁对运油国加征关税后，墨西哥与委内瑞拉年内未再输油。",
+      "situation_briefing": "古巴能源危机持续深化，美方制裁双轨加压并附 $100M 援助提议。能矿部长 O Levy 5/14 公开称古巴「彻底没有燃料、油与柴油」；4 月一艘约 10 万吨原油的俄油轮短暂缓解，但库存已耗尽。Havana 5/14 出现示威者点火抗议长时停电，全国 55%+ 国土记录到日停电高达 24 小时；3/16 全国电网总崩溃 29 小时 29 分为 18 个月内第七次 SEN 崩盘。Trump 5/1 行政令引入二级制裁；Rubio 5/7 宣布对军控 GAESA、总裁 Lastres Morera、合资 Moa Nickel 及 12 名官员实施制裁，外企须于 6/5 前停止与 GAESA 业务、否则触发二级制裁。Sherritt 5/7 暂停在古运营+遣返驻外员工+3 名董事辞职，5/12 审计 Deloitte 辞任，5/15 宣布正式解散，5/19 反转决定，暂停在古直接参与合资业务；其运营 Energas 电厂占古电力 10-15%、是冷启动备用产能。委内瑞拉自 2025-11、俄罗斯自 2025-10、墨西哥自 2026-01 起均已停止对古输油。",
       "risk_impact": {
         "industries": [
           "石油",
@@ -225,76 +149,10 @@
           "镍"
         ],
         "channels": [
-          "古巴燃料耗尽+25 小时停电→加勒比能源与糖供给重塑",
+          "古巴燃料耗尽+24 小时停电→加勒比能源与糖供给重塑",
           "Sherritt 暂停 Moa 参与→镍钴供应链溢价上行",
           "GAESA 6/5 二级制裁截止→外企撤离潮与古巴债承压",
-          "美方拦截 7 艘运古油轮→加勒比航运保险与人道物流再定价"
-        ]
-      }
-    },
-    {
-      "conflict_id": "russia_ukraine",
-      "label": "Russia-Ukraine",
-      "label_cn": "俄罗斯 - 乌克兰",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.02,
-      "data_points": 9,
-      "composite_risk_score": 0.1009,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "北约与俄罗斯直接军事冲突",
-          "direction": "risk_increase",
-          "probability_30d": 0.02,
-          "data_points": 9,
-          "change_vs_yesterday": -0.0005,
-          "change_vs_7d_ago": -0.0022
-        },
-        {
-          "event_type": "ceasefire",
-          "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "局部停火已达成，全面和平尚未确定",
-          "direction": "risk_decrease",
-          "probability_30d": 0.0445,
-          "data_points": 9,
-          "change_vs_yesterday": -0.0014,
-          "change_vs_7d_ago": 0.0017
-        },
-        {
-          "event_type": "other",
-          "event_description": "other",
-          "event_note": "",
-          "direction": "neutral",
-          "probability_30d": 0.0081,
-          "data_points": 1,
-          "change_vs_yesterday": -0.0081,
-          "change_vs_7d_ago": -0.0054
-        }
-      ],
-      "situation_briefing": "俄乌战争进入第 1549 天（5/22），远程打击升级、外交僵局延续。乌军 5/21 公开宣布无人机击中俄罗斯境内 800 公里深处的 Syzran 炼油厂引发大火；Zelensky 称「五月远程打击计划基本按部就班执行」，目标锁定俄炼油厂、油库与油气收入基础设施，部分打击纵深已达 1500 公里。前线层面，5/21 哈尔科夫地区 1 死 15 伤，苏梅州 Konotop 一名 94 岁老妇遇难；当日俄乌交火合计至少 7 死、50+ 伤。外交轨道：普京-习 5/19-20 北京峰会签署约 20 份合作文件并发表联合声明、延长《中俄睦邻友好合作条约》，但 Power of Siberia 2 仅在「路线与建设流程基本参数」达成共识，定价与时间表仍未敲定。Lavrov 重申拒绝梵蒂冈作为谈判地点，主张回到伊斯坦布尔轨道，并称俄方代表团 Medinsky 准备在 6/2 伊斯坦布尔第二轮直接谈判呈交涵盖「危机根源」的备忘录；乌方 Umerov 已先行提交己方备忘录、要求俄方立即出文。1000 换 1000 战俘交换持续推进，5/15 首批 205+205 已完成。",
-      "risk_impact": {
-        "industries": [
-          "能源",
-          "粮食",
-          "化肥",
-          "欧洲制造业",
-          "航运"
-        ],
-        "assets": [
-          "欧洲天然气(TTF)",
-          "小麦",
-          "欧元",
-          "卢布",
-          "铝/镍"
-        ],
-        "channels": [
-          "PoS 2 价格时间表未定→TTF 与冬储再定价",
-          "Lavrov 锁定伊斯坦布尔轨道→欧元与避险资产短线博弈",
-          "乌军打击纵深 1500 公里炼油→俄油出口与航运保险承压",
-          "Syzran 炼油厂起火→俄成品油裂解价差与运费上行"
+          "委俄墨三国停止对古输油→加勒比航运保险再定价"
         ]
       }
     },
@@ -304,9 +162,9 @@
       "label_cn": "印度 - 巴基斯坦",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0321,
+      "probability_30d": 0.035,
       "data_points": 2,
-      "composite_risk_score": 0.1008,
+      "composite_risk_score": 0.1112,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -314,13 +172,13 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0321,
+          "probability_30d": 0.035,
           "data_points": 2,
-          "change_vs_yesterday": -0.0066,
-          "change_vs_7d_ago": -0.0081
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.004
         }
       ],
-      "situation_briefing": "印巴在水资源与空域两条结构性战线持续对峙，原 5/24 到期的 NOTAM 已再度延展。巴基斯坦机场管理局 5/19 发布新一轮 NOTAM，将禁止印度民航与军用航空器使用巴方空域的期限自 5/24 起再延长一个月至 2026-06-24；自 2025-04-24 起累计封禁已满一年，印度航司绕飞欧洲与中东航线累计损失达数十亿卢比。水资源轨道未见缓和：海牙常设仲裁院 5/15 就 Ratle（330 MW）与 Kishenganga（850 MW）两座水电项目「最大蓄水量」作出补充裁决，明确印方「不得单方面暂停或搁置《印度河水条约》」；巴方欢迎该裁决为「国际法与条约义务的胜利」；印方再度公开拒绝、定性仲裁庭「非法组成」，并重申自 2025-04 Pahalgam 恐袭后条约「暂停」状态延续。此前 5/10 美方斡旋下双方达成停火，但生效数小时内印方即指控巴方违约、印巴克什米尔双侧出现爆炸；克什米尔对话呼声升温（印控前首席部长 Abdullah、Mufti 与印度 RSS 秘书长 Hosabale 公开支持双边对话），但水与空域两轨结构性僵局未解，绕飞成本与南亚航运不确定性进一步固化。",
+      "situation_briefing": "印巴在水资源与空域两条结构性战线持续对峙。巴基斯坦机场管理局 5/19 发布新一轮 NOTAM，将禁止印度民航与军用航空器使用巴方空域的期限自 5/24 起再延长一个月至 2026-06-24；自 2025-04-24 起累计封禁已满一年，印度航司绕飞欧洲与中东航线累计损失达数十亿卢比，禁令覆盖所有印度商业航司、军用航空器、租赁机与私人飞机。水资源轨道: 海牙常设仲裁院 5/15 就 Ratle（330 MW）与 Kishenganga（850 MW）两座水电项目「最大蓄水量」作出补充裁决，确认印方「不得单方面暂停或搁置《印度河水条约》」；巴方欢迎该裁决为「国际法与条约义务的胜利」；印方再度公开拒绝、定性仲裁庭「非法组成」，并重申自 2025-04 Pahalgam 恐袭后条约「暂停」状态延续。5/10 美方斡旋达成的停火生效数小时内即出现互指违约；克什米尔对话呼声升温（印控前首席部长 Abdullah、Mufti 与印度 RSS 秘书长 Hosabale 公开支持双边对话），但水与空域两轨结构性僵局未解，绕飞成本与南亚航运不确定性进一步固化。",
       "risk_impact": {
         "industries": [
           "纺织",
@@ -344,14 +202,156 @@
       }
     },
     {
+      "conflict_id": "iran_israel_us",
+      "label": "Iran-Israel/US",
+      "label_cn": "伊朗 - 美国/以色列",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.0271,
+      "data_points": 3,
+      "composite_risk_score": 0.1033,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "地面入侵/正式宣战/核试验",
+          "direction": "risk_increase",
+          "probability_30d": 0.0271,
+          "data_points": 3,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.019
+        },
+        {
+          "event_type": "regime_change",
+          "event_description": "Government or regime falls/changes",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0238,
+          "data_points": 4,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0058
+        },
+        {
+          "event_type": "diplomatic",
+          "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
+          "event_note": "美伊核协议",
+          "direction": "neutral",
+          "probability_30d": 0.404,
+          "data_points": 3,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.2672
+        },
+        {
+          "event_type": "ceasefire",
+          "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
+          "direction": "risk_decrease",
+          "probability_30d": 0.6234,
+          "data_points": 25,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.4556
+        }
+      ],
+      "situation_briefing": "美伊战争谈判窗口急剧收紧。Trump 5/21 给伊朗「5 到 7 天」时间敲定核协议，警告若不达成将「打击得比以往任何时候都狠」；5/23 与沙特、卡塔尔、阿联酋、巴林、科威特、阿曼、埃及、约旦、土耳其九国领导人进行峰会式电话沟通最新一版临时协议草案，公开称协议「基本谈成」并涵盖霍峡重启，同时指示团队「不要急于签署」。初版框架: 延长现有停火 60 天 + 开放霍峡，核活动议题留到 60 天窗口内续谈，不要求伊方出口高浓缩铀库存；Trump 同步开出五项前置条件，含交付 400 公斤浓缩铀+保留 1 座可运行核设施。Pezeshkian 5/23 在德黑兰与巴基斯坦陆军参谋长 Asim Munir 会晤，巴方继续牵头斡旋；Pezeshkian 对国家电视台表态「愿向世界保证我们不追求核武」。分歧仍卡在 HEU 处置方式与霍峡主权——伊朗官媒 5/23 公开反驳 Trump 称霍峡「将继续由伊朗管理」。5/24 伊方称击落以色列侦察无人机, IDF 称不知情。Brent 维持 $100+ 水平, 霍峡通航长期承压。",
+      "risk_impact": {
+        "industries": [
+          "能源",
+          "航运",
+          "保险",
+          "军工",
+          "电力"
+        ],
+        "assets": [
+          "原油",
+          "天然气",
+          "黄金",
+          "美元",
+          "航运指数"
+        ],
+        "channels": [
+          "Trump 5-7 天最后通牒→Brent 与黄金共振走高",
+          "HEU 处置方式仍未弥合→中东主权债波动放大",
+          "霍峡主权争议未解→油运保险与绕行成本继续抬升",
+          "巴方主导斡旋取代美直谈→区域避险溢价节奏切换"
+        ]
+      }
+    },
+    {
+      "conflict_id": "russia_ukraine",
+      "label": "Russia-Ukraine",
+      "label_cn": "俄罗斯 - 乌克兰",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.019,
+      "data_points": 9,
+      "composite_risk_score": 0.0839,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "北约与俄罗斯直接军事冲突",
+          "direction": "risk_increase",
+          "probability_30d": 0.019,
+          "data_points": 9,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0054
+        },
+        {
+          "event_type": "ceasefire",
+          "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "局部停火已达成，全面和平尚未确定",
+          "direction": "risk_decrease",
+          "probability_30d": 0.0486,
+          "data_points": 9,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0036
+        },
+        {
+          "event_type": "other",
+          "event_description": "other",
+          "event_note": "",
+          "direction": "neutral",
+          "probability_30d": 0.0121,
+          "data_points": 1,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": -0.0016
+        }
+      ],
+      "situation_briefing": "俄乌战争进入第 1551 天（5/24），远程打击与外交博弈双线升级。5/24 凌晨俄方对基辅及周边发动近一年最大规模联合空袭，发射 50+ 枚导弹与 700+ 架无人机，包括核能力的 Oreshnik 高超音速中程导弹一枚；至少 2-4 人死亡，市长 Klitschko 称 56 伤 30 入院；乌空防称拦截或干扰 549 架无人机+55 枚导弹。Putin 公开称此轮系对乌军前日袭击 Starobilsk 一所学院的报复。过去一月俄全境共承受 8000+ 架次乌方无人机袭击，创开战以来月度新高；前线 4/14-5/12 俄军净失土 45 平方英里。外交轨道: 第二轮伊斯坦布尔直接谈判定于 6/2 召开，俄方代表团 Medinsky 准备提交涵盖「危机根源」的备忘录，乌方 Umerov 已先行提交己方文本要求俄方对等出文；Lavrov 重申拒绝梵蒂冈作为谈判地点。1000 换 1000 战俘交换持续推进。普京-习 5/19-20 北京峰会延长《中俄睦邻友好合作条约》，PoS 2 定价与时间表仍未敲定。",
+      "risk_impact": {
+        "industries": [
+          "能源",
+          "粮食",
+          "化肥",
+          "欧洲制造业",
+          "航运"
+        ],
+        "assets": [
+          "欧洲天然气(TTF)",
+          "小麦",
+          "欧元",
+          "卢布",
+          "铝/镍"
+        ],
+        "channels": [
+          "Oreshnik 高超音速首落基辅→欧防空与避险资产共振走高",
+          "俄月度无人机量破 8000 创新高→欧防务股与拦截弹订单上行",
+          "6/2 伊斯坦布尔第二轮谈判定档→TTF 与欧元短线博弈",
+          "乌军远程打击俄炼油持续→俄油出口与航运保险承压"
+        ]
+      }
+    },
+    {
       "conflict_id": "china_taiwan",
       "label": "China-Taiwan",
       "label_cn": "中国 - 台海",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0108,
+      "probability_30d": 0.0119,
       "data_points": 11,
-      "composite_risk_score": 0.076,
+      "composite_risk_score": 0.0826,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -359,13 +359,13 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0108,
+          "probability_30d": 0.0119,
           "data_points": 11,
-          "change_vs_yesterday": 0.0,
-          "change_vs_7d_ago": -0.0004
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": 0.0011
         }
       ],
-      "situation_briefing": "Trump 5/20 公开称将与赖清德通话，台海议题被推到政策摆动核心。Trump 在 Joint Base Andrews 对记者表示，是否签署国会 1 月已通过的 $14B 对台军售包将取决于与赖的通话；如成行，将是 1979 年华盛顿与台北断交以来美台元首首次直接对话。台湾外交部 5/21 回应「赖总统乐意与 Trump 通话」。Beijing 5/21 由外交部发言人郭嘉昆作出反应，重申「中方坚决反对美台官方交往与美对台军售」，敦促美方「认真落实两国元首重要共识」；据 FT 等媒体披露，Beijing 已暂缓批准五角大楼政策副部长 Elbridge Colby 的夏季访华，将其与军售决定挂钩。Trump 同步以伊朗战事弹药库存为由暂停推进 $14B 包（含 Patriot 拦截弹与 NASAMS 等系统），称需先「确保美军够用」。普京 5/19-20 访华峰会延长《中俄睦邻友好合作条约》、联合声明涵盖核安全与台湾议题，并就「个别国家」对航运限制发出警告。美中俄三角博弈加剧，使台海议题在 Beijing 议程上权重持续上升。",
+      "situation_briefing": "Trump-Lai 通话尚未实际发生，但台海政策摆动持续放大。Trump 5/20-21 多次公开表态愿与赖清德通话，称是否签署国会 1 月已通过的 $14B 对台军售包将取决于该通话；如成行，将是 1979 年华盛顿与台北断交以来美台元首首次直接对话。台外交部 5/21 回应「赖总统乐意与 Trump 通话」。Beijing 5/21 由外交部发言人郭嘉昆作出反应，重申「中方坚决反对美台官方交往与美对台军售」立场「一致、明确、坚定」，并将 Beijing 暂缓批准五角大楼政策副部长 Elbridge Colby 的夏季访华与军售决定挂钩。Trump-Xi 5/13-15 北京峰会刚落幕，5/23 WaPo 引用高级美军官员称 $14B 军售包已被暂停，加深盟友对 Trump 对台支持的担忧；Trump 同步以伊朗战事弹药库存为由暂缓推进 Patriot 拦截弹与 NASAMS 等系统，称需先「确保美军够用」。普京-习 5/19-20 北京联合声明涵盖核安全与台湾议题，并就「个别国家」对航运限制发出警告。美中俄三角博弈加剧，使台海议题在 Beijing 议程上权重持续上升。",
       "risk_impact": {
         "industries": [
           "半导体",
@@ -382,9 +382,9 @@
         ],
         "channels": [
           "Trump 称将与赖通话→台积电与台币短线再定价",
-          "$14B 军售包因伊朗弹药库存暂停→防务股节奏受扰",
-          "Colby 访华被暂缓→中美军事沟通中断风险上行",
-          "中俄联合声明覆盖台湾议题→区域航运保险再定价"
+          "$14B 军售包暂停→防务股节奏受扰+盟友信心下行",
+          "Beijing 暂缓 Colby 访华→中美军事沟通中断上行",
+          "普京-习联合声明覆盖台湾→区域航运保险再定价"
         ]
       }
     }
