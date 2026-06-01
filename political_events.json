@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-05-29T03:07:47+00:00",
+    "updated_at": "2026-06-01T01:46:57+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,16 +15,7 @@
       "event_summary": "Next Prime Minister of Denmark",
       "event_summary_en": "Next Prime Minister of Denmark?",
       "category": "political",
-      "probability": 0.88,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
-      "event_summary": "Peru Presidential Election Winner",
-      "event_summary_en": "Peru Presidential Election Winner",
-      "category": "political",
-      "probability": 0.765,
+      "probability": 0.9,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -33,7 +24,25 @@
       "event_summary": "2026 Seoul Mayoral Election Winner",
       "event_summary_en": "2026 Seoul Mayoral Election Winner",
       "category": "political",
-      "probability": 0.765,
+      "probability": 0.825,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
+      "event_summary": "Colombia Presidential Election",
+      "event_summary_en": "Colombia Presidential Election",
+      "category": "political",
+      "probability": 0.805,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
+      "event_summary": "Peru Presidential Election Winner",
+      "event_summary_en": "Peru Presidential Election Winner",
+      "category": "political",
+      "probability": 0.755,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -42,7 +51,7 @@
       "event_summary": "英国首相斯塔默年内下台",
       "event_summary_en": "Starmer out by...?",
       "category": "political",
-      "probability": 0.695,
+      "probability": 0.74,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -63,19 +72,10 @@
       }
     },
     {
-      "event_summary": "California Governor Election Winner",
-      "event_summary_en": "California Governor Election Winner",
-      "category": "political",
-      "probability": 0.6825,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.6685,
+      "probability": 0.6845,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -98,11 +98,11 @@
       }
     },
     {
-      "event_summary": "Colombia Presidential Election",
-      "event_summary_en": "Colombia Presidential Election",
+      "event_summary": "California Governor Election Winner",
+      "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.655,
-      "deadline": null,
+      "probability": 0.6775,
+      "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
     },
@@ -110,7 +110,7 @@
       "event_summary": "内塔尼亚胡年内下台",
       "event_summary_en": "Netanyahu out by...?",
       "category": "political",
-      "probability": 0.575,
+      "probability": 0.6,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -131,10 +131,19 @@
       }
     },
     {
+      "event_summary": "Next UK Prime Minister in 2026",
+      "event_summary_en": "Next UK Prime Minister in 2026?",
+      "category": "political",
+      "probability": 0.5655,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "俄罗斯9月议会选举：统一俄罗斯党获最多席位概率",
       "event_summary_en": "Which party will gain most seats in Russian Parliamentary Election?",
       "category": "political",
-      "probability": 0.57,
+      "probability": 0.555,
       "deadline": null,
       "data_confidence": "high",
       "importance": "high",
@@ -155,15 +164,6 @@
           "反对派席位突破可能改变对乌战争政策走向"
         ]
       }
-    },
-    {
-      "event_summary": "Next UK Prime Minister in 2026",
-      "event_summary_en": "Next UK Prime Minister in 2026?",
-      "category": "political",
-      "probability": 0.5255,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "low"
     },
     {
       "event_summary": "Republican Presidential Nominee 2028",
@@ -200,45 +200,10 @@
       }
     },
     {
-      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
-      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
-      "category": "political",
-      "probability": 0.375,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
-      "event_summary": "Fed rate cut by...",
-      "event_summary_en": "Fed rate cut by...?",
-      "category": "economic",
-      "probability": 0.33,
-      "deadline": "2026-12-20",
-      "data_confidence": "high",
-      "importance": "low",
-      "risk_impact": {
-        "industries": [
-          "金融",
-          "房地产",
-          "科技"
-        ],
-        "assets": [
-          "美债(10Y)",
-          "美股(SPX)",
-          "黄金",
-          "美元指数"
-        ],
-        "channels": [
-          "降息节奏决定流动性拐点，直接影响估值中枢",
-          "降息不及预期则高杠杆资产承压"
-        ]
-      }
-    },
-    {
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.315,
+      "probability": 0.355,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low",
@@ -261,10 +226,54 @@
       }
     },
     {
+      "event_summary": "Who will be the next Prime Minister of Israel after the next election",
+      "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
+      "category": "political",
+      "probability": 0.335,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
+      "event_summary": "Fed rate cut by...",
+      "event_summary_en": "Fed rate cut by...?",
+      "category": "economic",
+      "probability": 0.29,
+      "deadline": "2026-12-20",
+      "data_confidence": "high",
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "科技"
+        ],
+        "assets": [
+          "美债(10Y)",
+          "美股(SPX)",
+          "黄金",
+          "美元指数"
+        ],
+        "channels": [
+          "降息节奏决定流动性拐点，直接影响估值中枢",
+          "降息不及预期则高杠杆资产承压"
+        ]
+      }
+    },
+    {
+      "event_summary": "Democratic Presidential Nominee 2028",
+      "event_summary_en": "Democratic Presidential Nominee 2028",
+      "category": "political",
+      "probability": 0.2545,
+      "deadline": null,
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "Next French Presidential Election",
       "event_summary_en": "Next French Presidential Election",
       "category": "political",
-      "probability": 0.255,
+      "probability": 0.235,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -286,19 +295,10 @@
       }
     },
     {
-      "event_summary": "Democratic Presidential Nominee 2028",
-      "event_summary_en": "Democratic Presidential Nominee 2028",
-      "category": "political",
-      "probability": 0.2405,
-      "deadline": null,
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "美国2026年底前陷入衰退",
       "event_summary_en": "US recession by end of 2026?",
       "category": "economic",
-      "probability": 0.215,
+      "probability": 0.21,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -326,7 +326,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1835,
+      "probability": 0.1825,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -335,7 +335,7 @@
       "event_summary": "2026 年内汉坦病毒大流行",
       "event_summary_en": "Hantavirus pandemic in 2026?",
       "category": "health_pandemic",
-      "probability": 0.0635,
+      "probability": 0.0545,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -360,7 +360,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.7995,
+      "probability": 0.8095,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -369,7 +369,7 @@
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "event_summary_en": "Will any Category 4 hurricane make landfall in the US in before 2027?",
       "category": "natural_disaster",
-      "probability": 0.31,
+      "probability": 0.32,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -387,7 +387,7 @@
       "event_summary": "Ebola pandemic in 2026",
       "event_summary_en": "Ebola pandemic in 2026?",
       "category": "health_pandemic",
-      "probability": 0.105,
+      "probability": 0.085,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -420,7 +420,7 @@
       "event_summary": "Hantavirus lab leak confirmed by June 30",
       "event_summary_en": "Hantavirus lab leak confirmed by June 30?",
       "category": "health_pandemic",
-      "probability": 0.0145,
+      "probability": 0.012,
       "deadline": "2026-06-30",
       "data_confidence": "medium",
       "importance": "low"
