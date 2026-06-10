@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-06-09T03:47:37+00:00",
+    "updated_at": "2026-06-10T02:05:31+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.905,
+      "probability": 0.935,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -24,7 +24,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.8825,
+      "probability": 0.8735,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -42,7 +42,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.7995,
+      "probability": 0.7985,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -68,7 +68,7 @@
       "event_summary": "英国首相斯塔默年内下台",
       "event_summary_en": "Starmer out by...?",
       "category": "political",
-      "probability": 0.765,
+      "probability": 0.755,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -89,10 +89,19 @@
       }
     },
     {
+      "event_summary": "Next UK Prime Minister in 2026",
+      "event_summary_en": "Next UK Prime Minister in 2026?",
+      "category": "political",
+      "probability": 0.6545,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "low"
+    },
+    {
       "event_summary": "Brazil Presidential Election First Round: 2nd Place",
       "event_summary_en": "Brazil Presidential Election First Round: 2nd Place",
       "category": "political",
-      "probability": 0.635,
+      "probability": 0.61,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -114,19 +123,10 @@
       }
     },
     {
-      "event_summary": "Next UK Prime Minister in 2026",
-      "event_summary_en": "Next UK Prime Minister in 2026?",
-      "category": "political",
-      "probability": 0.6285,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "low"
-    },
-    {
       "event_summary": "Los Angeles Mayoral Election",
       "event_summary_en": "Los Angeles Mayoral Election",
       "category": "political",
-      "probability": 0.555,
+      "probability": 0.595,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -135,7 +135,7 @@
       "event_summary": "俄罗斯9月议会选举：统一俄罗斯党获最多席位概率",
       "event_summary_en": "Which party will gain most seats in Russian Parliamentary Election?",
       "category": "political",
-      "probability": 0.555,
+      "probability": 0.55,
       "deadline": null,
       "data_confidence": "high",
       "importance": "high",
@@ -254,7 +254,7 @@
       "event_summary": "Next French Presidential Election",
       "event_summary_en": "Next French Presidential Election",
       "category": "political",
-      "probability": 0.265,
+      "probability": 0.275,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -279,7 +279,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2425,
+      "probability": 0.2375,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -288,7 +288,7 @@
       "event_summary": "Fed rate cut by...",
       "event_summary_en": "Fed rate cut by...?",
       "category": "economic",
-      "probability": 0.225,
+      "probability": 0.23,
       "deadline": "2026-12-20",
       "data_confidence": "high",
       "importance": "low",
@@ -342,7 +342,7 @@
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.162,
+      "probability": 0.1615,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -376,7 +376,7 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.8135,
+      "probability": 0.813,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -385,7 +385,7 @@
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
       "event_summary_en": "Will any Category 4 hurricane make landfall in the US in before 2027?",
       "category": "natural_disaster",
-      "probability": 0.31,
+      "probability": 0.3,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -409,34 +409,10 @@
       "importance": "low"
     },
     {
-      "event_summary": "9.0 or above earthquake before 2027",
-      "event_summary_en": "9.0 or above earthquake before 2027?",
-      "category": "natural_disaster",
-      "probability": 0.0725,
-      "deadline": "2026-12-31",
-      "data_confidence": "medium",
-      "importance": "low",
-      "risk_impact": {
-        "industries": [
-          "保险",
-          "建筑",
-          "基础设施"
-        ],
-        "assets": [
-          "再保险股",
-          "大宗商品"
-        ],
-        "channels": [
-          "大型地震可能造成局部供应链中断",
-          "灾后重建推动建材和基础设施需求"
-        ]
-      }
-    },
-    {
       "event_summary": "10.0 or above earthquake before 2027",
       "event_summary_en": "10.0 or above earthquake before 2027?",
       "category": "natural_disaster",
-      "probability": 0.0515,
+      "probability": 0.046,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
