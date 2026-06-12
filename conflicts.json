@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-06-11T04:13:36+00:00",
+    "updated_at": "2026-06-12T10:14:25+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -38,219 +38,14 @@
   },
   "conflicts": [
     {
-      "conflict_id": "israel_palestine",
-      "label": "Israel-Palestine",
-      "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0862,
-      "data_points": 5,
-      "composite_risk_score": 0.1285,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "ceasefire_cancel",
-          "event_description": "Existing ceasefire breaks down or is cancelled",
-          "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
-          "direction": "risk_increase",
-          "probability_30d": 0.0862,
-          "data_points": 5,
-          "change_vs_yesterday": 0.0192,
-          "change_vs_7d_ago": -0.0232
-        },
-        {
-          "event_type": "ceasefire",
-          "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "加沙停火第二阶段（不含黎巴嫩）",
-          "direction": "risk_decrease",
-          "probability_30d": 0.1576,
-          "data_points": 4,
-          "change_vs_yesterday": -0.0323,
-          "change_vs_7d_ago": 0.1333
-        }
-      ],
-      "situation_briefing": "黎南打击-反击循环延续至 6/10。据黎方消息，6/10 以军对南黎多地空袭至少致 13 死，其中 9 人在 Tyre 以东约 8 公里的 Dayr Debba 村遇难。以国防部长 Katz 称 IDF 对真主党「予以重创」、清剿 Tyre 一基督教社区并打击当地武装人员、命中一处武器库，并称「不要以为战争已结束」。IDF 此前已对 Tyre 港区及周边发出疏散令，多个家庭逃离贝鲁特，联合国通报黎民众因以方扬言再袭而流离。真主党 6/4 拒绝黎以双方在华盛顿支持下达成的方案，坚持要求全面停火 + 以军完全撤出黎巴嫩。伊朗警告任何对南黎的持续打击都将被视为破坏 4 月伊美停火，使黎以战线与伊以停火相互捆绑。背景: 6/7 IDF 空袭贝鲁特南郊 Dahieh 真主党目标后，黎以南郊已转入连日报复循环。",
-      "risk_impact": {
-        "industries": [
-          "科技",
-          "航运",
-          "能源",
-          "旅游"
-        ],
-        "assets": [
-          "以色列谢克尔",
-          "黎巴嫩主权债",
-          "黄金",
-          "原油"
-        ],
-        "channels": [
-          "Tyre 连日空袭→ 黎南旅游业承压",
-          "真主党拒停火方案→ 黎主权债利差走宽",
-          "黎以战线捆绑伊停火→ 谢克尔短线波动",
-          "Katz 称战争未结束→ 区域避险升温"
-        ]
-      }
-    },
-    {
-      "conflict_id": "iran_israel_us",
-      "label": "Iran-Israel/US",
-      "label_cn": "伊朗 - 美国/以色列",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0328,
-      "data_points": 3,
-      "composite_risk_score": 0.1146,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "地面入侵/正式宣战/核试验",
-          "direction": "risk_increase",
-          "probability_30d": 0.0328,
-          "data_points": 3,
-          "change_vs_yesterday": 0.0053,
-          "change_vs_7d_ago": 0.0077
-        },
-        {
-          "event_type": "regime_change",
-          "event_description": "Government or regime falls/changes",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0248,
-          "data_points": 3,
-          "change_vs_yesterday": 0.0026,
-          "change_vs_7d_ago": -0.0012
-        },
-        {
-          "event_type": "diplomatic",
-          "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
-          "event_note": "美伊核协议",
-          "direction": "neutral",
-          "probability_30d": 0.2345,
-          "data_points": 3,
-          "change_vs_yesterday": -0.0151,
-          "change_vs_7d_ago": -0.0633
-        },
-        {
-          "event_type": "ceasefire",
-          "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "美伊停火协议达成",
-          "direction": "risk_decrease",
-          "probability_30d": 0.2368,
-          "data_points": 17,
-          "change_vs_yesterday": 0.0005,
-          "change_vs_7d_ago": -0.0457
-        },
-        {
-          "event_type": "other",
-          "event_description": "other",
-          "event_note": "",
-          "direction": "neutral",
-          "probability_30d": 0.2852,
-          "data_points": 1,
-          "change_vs_yesterday": -0.073,
-          "change_vs_7d_ago": null
-        }
-      ],
-      "situation_briefing": "6/7-6/8 互打后，以伊双向暂停维持至 6/10-6/11。以色列已停止对伊打击，伊朗亦暂停对以行动，但伊方警告若以方持续打击南黎将恢复反击；伊朗外长重申「伊美停火是涵盖所有战线（含黎巴嫩）的全面停火」。据 Times of Israel/Al Jazeera，Netanyahu 6/8 在战机已上跑道时叫停一次对伊大规模打击，系应 Trump 要求；Trump 警告「Bibi，你最好小心，否则很快将孤军作战」。Netanyahu 称对伊打击「暂时」停止，但若再遭攻击将同时打击伊朗与真主党，强调「以色列有完整自卫权」。6/10 一名以方官员抱怨美方要求耶路撒冷对伊「克制」、而 Trump 自己并未收手；防长 Katz 称「不要以为战争已结束」。伊朗最高领袖 Mojtaba Khamenei 自战争爆发未公开露面。60 天停火延期谅解备忘录仍待 Trump 终签，Hormuz 重开、浓缩铀限制、制裁解除时点未决。",
-      "risk_impact": {
-        "industries": [
-          "能源",
-          "航运",
-          "保险",
-          "军工",
-          "电力"
-        ],
-        "assets": [
-          "原油",
-          "天然气",
-          "黄金",
-          "美元",
-          "航运指数"
-        ],
-        "channels": [
-          "以伊双向暂停→ 避险溢价回落",
-          "伊方警告南黎反击→ Brent 区间波动",
-          "美施压以方克制→ 油价上行风险缓和",
-          "停火 MOU 待签→ 黄金区间震荡"
-        ]
-      }
-    },
-    {
-      "conflict_id": "us_latam",
-      "label": "US-Latin America",
-      "label_cn": "美国 - 拉丁美洲",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0496,
-      "data_points": 6,
-      "composite_risk_score": 0.1067,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0496,
-          "data_points": 6,
-          "change_vs_yesterday": -0.0006,
-          "change_vs_7d_ago": 0.0071
-        },
-        {
-          "event_type": "regime_change",
-          "event_description": "Government or regime falls/changes",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.0388,
-          "data_points": 1,
-          "change_vs_yesterday": 0.0047,
-          "change_vs_7d_ago": 0.0065
-        },
-        {
-          "event_type": "other",
-          "event_description": "other",
-          "event_note": "",
-          "direction": "neutral",
-          "probability_30d": 0.132,
-          "data_points": 1,
-          "change_vs_yesterday": -0.0076,
-          "change_vs_7d_ago": -0.0342
-        }
-      ],
-      "situation_briefing": "古巴 GAESA 二级制裁 6/5 deadline 生效后连锁撤退继续推进。支付层: 6/2 一家外资银行正式终止与 GAESA 金融臂 Fincimex 的关系，古巴央行宣布自 6/6 起全岛 Visa/Mastercard 交易完全停用，跨境结算仅剩 Mir、UnionPay 与现金通道。旅游层: 6/3 公布 Meliá 在岛上 34 家酒店中关闭 15 家、Iberostar 在 18 家中仅保留 6 家、Blue Diamond 全部退出运营；1-4 月入境游客累计 32.86 万人次、同比骤降 55.8%，4 月单月入境量仅 3.05 万人次、同比降 82%。能源层: 部分省份单日停电仍达 18-22 小时，5/13-14 夜 Havana 再现 cacerolazo 敲锅抗议，背景为 2025-12 美方扣押委内瑞拉运古油轮并对委油出口实施封锁。民生层: 全国发电能力不足需求一半，加方持续警告国民非必要不前往古巴，燃料、电力、食品、水与药品多重短缺。",
-      "risk_impact": {
-        "industries": [
-          "石油",
-          "矿业",
-          "农业",
-          "金融"
-        ],
-        "assets": [
-          "委内瑞拉原油",
-          "古巴债券",
-          "拉美货币",
-          "糖/咖啡",
-          "镍"
-        ],
-        "channels": [
-          "Visa/MC 6/6 停用→ 古巴跨境支付断流",
-          "Meliá 关 15 家酒店→ 入境 -55.8%",
-          "停电 18-22 小时+敲锅抗议→ 政治稳定性承压",
-          "4 月入境同比 -82%→ 古巴外汇缺口扩大"
-        ]
-      }
-    },
-    {
       "conflict_id": "india_pakistan",
       "label": "India-Pakistan",
       "label_cn": "印度 - 巴基斯坦",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.037,
+      "probability_30d": 0.0354,
       "data_points": 2,
-      "composite_risk_score": 0.1061,
+      "composite_risk_score": 0.114,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -258,10 +53,10 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.037,
+          "probability_30d": 0.0354,
           "data_points": 2,
-          "change_vs_yesterday": -0.0044,
-          "change_vs_7d_ago": -0.0061
+          "change_vs_yesterday": -0.0016,
+          "change_vs_7d_ago": -0.0051
         }
       ],
       "situation_briefing": "未现新一轮重大军事升级，2025-05 Operation Sindoor 后的脆弱停火延续。水资源轨道: 印方维持《印度河水条约》abeyance 立场，要求巴方「以可信、不可逆方式停止支持跨境恐怖主义」前不解冻；巴基斯坦总统 Zardari 近日呼吁印度立即恢复条约、谴责将共享水资源「武器化」，巴方重申任何改变印度河水流的企图将被视为「战争行为」。空域轨道: 双方禁飞令再度延长——巴方对印度航司、军机、租赁与私人飞机的禁飞延至 6/24，印方对巴方航司的对等禁令延至 6/23；Air India、IndiGo、Air India Express、SpiceJet 持续绕飞阿拉伯海，飞欧美航班单程增 2-2.5 小时燃油与时长成本。外交轨道: 巴基斯坦内政部长 Naqvi 6/7 担任美伊调停渠道为伊朗最高领袖 Mojtaba Khamenei 转交书面口信，巴方在美伊核谈中角色继续上升。",
@@ -288,14 +83,219 @@
       }
     },
     {
+      "conflict_id": "iran_israel_us",
+      "label": "Iran-Israel/US",
+      "label_cn": "伊朗 - 美国/以色列",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.0287,
+      "data_points": 3,
+      "composite_risk_score": 0.1137,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "地面入侵/正式宣战/核试验",
+          "direction": "risk_increase",
+          "probability_30d": 0.0287,
+          "data_points": 3,
+          "change_vs_yesterday": -0.0041,
+          "change_vs_7d_ago": 0.0051
+        },
+        {
+          "event_type": "regime_change",
+          "event_description": "Government or regime falls/changes",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0208,
+          "data_points": 3,
+          "change_vs_yesterday": -0.004,
+          "change_vs_7d_ago": -0.0012
+        },
+        {
+          "event_type": "diplomatic",
+          "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
+          "event_note": "美伊核协议",
+          "direction": "neutral",
+          "probability_30d": 0.5848,
+          "data_points": 3,
+          "change_vs_yesterday": 0.3503,
+          "change_vs_7d_ago": 0.3113
+        },
+        {
+          "event_type": "ceasefire",
+          "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "美伊停火协议达成",
+          "direction": "risk_decrease",
+          "probability_30d": 0.4049,
+          "data_points": 17,
+          "change_vs_yesterday": 0.1681,
+          "change_vs_7d_ago": 0.124
+        },
+        {
+          "event_type": "other",
+          "event_description": "other",
+          "event_note": "",
+          "direction": "neutral",
+          "probability_30d": 0.6884,
+          "data_points": 2,
+          "change_vs_yesterday": 0.4032,
+          "change_vs_7d_ago": null
+        }
+      ],
+      "situation_briefing": "伊以停火维持，外交轨道现进展但分歧公开化。Trump 6/11 宣布与伊朗达成初步框架，但承认该谅解备忘录仅「概念性」处理伊核材料问题、为后续正式谈判铺路；他称「我们刚就对伊战争达成重大和解，待文件最终敲定，未来几天完成」，签约仪式或本周末在欧洲举行，副总统 Vance 与谈判代表 Witkoff、Kushner 拟出席。Netanyahu 同日明确表示以色列「不是这份新协议的当事方」并淡化其意义，重申若再遭攻击将对伊朗与真主党「以武力回应」。停火本身脆弱：6/6 伊方称美方夜袭一处雷达站为「公然」违反停火，6/10 美方称已结束最新一轮对伊打击并否认封锁 Hormuz。核心分歧仍在伊核计划暂停与移交高浓缩铀库存两点未决。伊朗最高领袖 Mojtaba Khamenei 战争爆发后仍未公开露面。",
+      "risk_impact": {
+        "industries": [
+          "能源",
+          "航运",
+          "保险",
+          "军工",
+          "电力"
+        ],
+        "assets": [
+          "原油",
+          "天然气",
+          "黄金",
+          "美元",
+          "航运指数"
+        ],
+        "channels": [
+          "Trump 宣布对伊框架→ 避险溢价回落",
+          "Netanyahu 撇清新协议→ 中东不确定性犹存",
+          "停火脆弱+雷达站争议→ Brent 区间波动",
+          "高浓缩铀移交未决→ 黄金区间震荡"
+        ]
+      }
+    },
+    {
+      "conflict_id": "israel_palestine",
+      "label": "Israel-Palestine",
+      "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.054,
+      "data_points": 5,
+      "composite_risk_score": 0.1136,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "ceasefire_cancel",
+          "event_description": "Existing ceasefire breaks down or is cancelled",
+          "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
+          "direction": "risk_increase",
+          "probability_30d": 0.054,
+          "data_points": 5,
+          "change_vs_yesterday": -0.0322,
+          "change_vs_7d_ago": -0.0605
+        },
+        {
+          "event_type": "ceasefire",
+          "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "加沙停火第二阶段（不含黎巴嫩）",
+          "direction": "risk_decrease",
+          "probability_30d": 0.1575,
+          "data_points": 4,
+          "change_vs_yesterday": -0.0001,
+          "change_vs_7d_ago": 0.1265
+        }
+      ],
+      "situation_briefing": "黎南战线从空袭升级为地面作战。IDF 6/11 宣布对距边境约 10 公里的 Wadi Saluki 河谷取得「作战控制」：第 7 装甲旅与 Egoz 突击队完成清剿 Saluki 河以北真主党设施，地面部队与空军摧毁「数百处真主党据点」、击毙逾 50 名成员，缴获反坦克导弹与炸药；该河谷此前被真主党用于操作爆炸无人机及对以军发射火箭弹。IDF 同时备战对真主党重镇 Nabatieh 发起进攻，第 36 师已推进至附近 Arnoun 外围。当日一架真主党无人机致一名以军士兵中度受伤，真主党 2 枚火箭弹落在以军作战区附近。背景: 6/9-6/10 以军对 Tyre 及周边连日空袭致 11 死、并对全城（含基督教区）发疏散令；黎方称 3 月以来以方攻击已致 3666 死、逾百万人流离。",
+      "risk_impact": {
+        "industries": [
+          "科技",
+          "航运",
+          "能源",
+          "旅游"
+        ],
+        "assets": [
+          "以色列谢克尔",
+          "黎巴嫩主权债",
+          "黄金",
+          "原油"
+        ],
+        "channels": [
+          "IDF 地面控制 Saluki→ 黎南冲突升级",
+          "备战进攻 Nabatieh→ 黎主权债利差走宽",
+          "真主党火箭弹反击→ 谢克尔短线波动",
+          "黎以战线捆绑伊停火→ 区域避险升温"
+        ]
+      }
+    },
+    {
+      "conflict_id": "us_latam",
+      "label": "US-Latin America",
+      "label_cn": "美国 - 拉丁美洲",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.0551,
+      "data_points": 6,
+      "composite_risk_score": 0.1017,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0551,
+          "data_points": 6,
+          "change_vs_yesterday": 0.0055,
+          "change_vs_7d_ago": 0.0131
+        },
+        {
+          "event_type": "regime_change",
+          "event_description": "Government or regime falls/changes",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.0354,
+          "data_points": 1,
+          "change_vs_yesterday": -0.0034,
+          "change_vs_7d_ago": 0.0021
+        },
+        {
+          "event_type": "other",
+          "event_description": "other",
+          "event_note": "",
+          "direction": "neutral",
+          "probability_30d": 0.1407,
+          "data_points": 1,
+          "change_vs_yesterday": 0.0087,
+          "change_vs_7d_ago": 0.0143
+        }
+      ],
+      "situation_briefing": "古巴 GAESA 二级制裁 6/5 deadline 生效后连锁撤退继续推进。支付层: 6/2 一家外资银行正式终止与 GAESA 金融臂 Fincimex 的关系，古巴央行宣布自 6/6 起全岛 Visa/Mastercard 交易完全停用，跨境结算仅剩 Mir、UnionPay 与现金通道。旅游层: 6/3 公布 Meliá 在岛上 34 家酒店中关闭 15 家、Iberostar 在 18 家中仅保留 6 家、Blue Diamond 全部退出运营；1-4 月入境游客累计 32.86 万人次、同比骤降 55.8%，4 月单月入境量仅 3.05 万人次、同比降 82%。能源层: 部分省份单日停电仍达 18-22 小时，5/13-14 夜 Havana 再现 cacerolazo 敲锅抗议，背景为 2025-12 美方扣押委内瑞拉运古油轮并对委油出口实施封锁。民生层: 全国发电能力不足需求一半，加方持续警告国民非必要不前往古巴，燃料、电力、食品、水与药品多重短缺。",
+      "risk_impact": {
+        "industries": [
+          "石油",
+          "矿业",
+          "农业",
+          "金融"
+        ],
+        "assets": [
+          "委内瑞拉原油",
+          "古巴债券",
+          "拉美货币",
+          "糖/咖啡",
+          "镍"
+        ],
+        "channels": [
+          "Visa/MC 6/6 停用→ 古巴跨境支付断流",
+          "Meliá 关 15 家酒店→ 入境 -55.8%",
+          "停电 18-22 小时+敲锅抗议→ 政治稳定性承压",
+          "4 月入境同比 -82%→ 古巴外汇缺口扩大"
+        ]
+      }
+    },
+    {
       "conflict_id": "russia_ukraine",
       "label": "Russia-Ukraine",
       "label_cn": "俄罗斯 - 乌克兰",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0192,
-      "data_points": 9,
-      "composite_risk_score": 0.0941,
+      "probability_30d": 0.0191,
+      "data_points": 10,
+      "composite_risk_score": 0.0971,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -303,33 +303,33 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "北约与俄罗斯直接军事冲突",
           "direction": "risk_increase",
-          "probability_30d": 0.0192,
-          "data_points": 9,
-          "change_vs_yesterday": -0.0011,
-          "change_vs_7d_ago": 0.0024
+          "probability_30d": 0.0191,
+          "data_points": 10,
+          "change_vs_yesterday": -0.0001,
+          "change_vs_7d_ago": -0.0012
         },
         {
           "event_type": "ceasefire",
           "event_description": "Ceasefire or peace agreement is reached",
           "event_note": "",
           "direction": "risk_decrease",
-          "probability_30d": 0.0602,
+          "probability_30d": 0.0587,
           "data_points": 9,
           "change_vs_yesterday": -0.0015,
-          "change_vs_7d_ago": 0.0041
+          "change_vs_7d_ago": -0.0127
         },
         {
           "event_type": "other",
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.013,
+          "probability_30d": 0.0157,
           "data_points": 2,
-          "change_vs_yesterday": -0.0013,
-          "change_vs_7d_ago": -0.0015
+          "change_vs_yesterday": 0.0027,
+          "change_vs_7d_ago": 0.0011
         }
       ],
-      "situation_briefing": "俄方延续大规模无人机+导弹突袭节奏。6/10 凌晨俄军无人机袭击 Kharkiv 市，致至少 6 人受伤、多个城区住宅楼起火；过去 24 小时俄方对 Kharkiv 州及 26 个定居点的无人机攻击共致 1 死 15 伤（含一名儿童）。前线方面，6/10 全线录得 196 次战斗接触，Pokrovsk 方向最烈、单日 37 次进攻，俄军向 Rodynske、Hryshyne、Vasylivka、Kotlyne、Udachne 等多个定居点推进；当日俄方实施 103 次空袭、投掷 317 枚制导炸弹、使用逾 5600 架次自杀式无人机、对乌方阵地与居民点发动 2123 次攻击。背景: 6/2 夜俄方曾单次发射逾 700 件空中武器袭击 Kyiv 等五城、造成全国 22 死逾百伤；外交轨道上 Putin 此前在 SPIEF 拒绝 Zelenskyy 第三国会晤提议，仅在协议可签署时见面。",
+      "situation_briefing": "俄乌互袭延续，乌方加大对俄能源设施纵深打击。6/11 俄军无人机袭击 Kharkiv 市及该州 21 个定居点，致地区首府 11 人受伤；Kherson 一名正在抢修的电工被敌方无人机炸死；Dnipropetrovsk 4 个区遭近 30 次无人机与航弹袭击、致 1 死 16 伤。乌防空自 6/10 夜从 221 架来袭无人机中击落 195 架。乌方反击层面，俄罗斯最大炼油厂之一 Afipsky 夜间遭乌无人机袭击起火，被占克里米亚多地报告爆炸。前线方面，最新可得的 6/10 全线录得 196 次战斗接触、Pokrovsk 方向最烈（单日 37 次进攻）。背景: 6/2 夜俄方曾以 73 枚导弹+656 架无人机袭击 Kyiv 等城、造成全国 22 死；外交轨道上 Putin 在 SPIEF 拒绝 Zelenskyy 第三国会晤提议，仅在协议可签署时见面。",
       "risk_impact": {
         "industries": [
           "能源",
@@ -346,8 +346,8 @@
           "铝/镍"
         ],
         "channels": [
+          "乌袭 Afipsky 炼油厂→ 俄油出口扰动",
           "Kharkiv 无人机夜袭→ TTF 走高",
-          "导弹突袭多城→ 欧洲再保溢价上行",
           "Putin 拒 Zelenskyy 会晤→ 停火预期回落",
           "Pokrovsk 攻势最烈→ 小麦避险溢价上行"
         ]
@@ -359,9 +359,9 @@
       "label_cn": "中国 - 台海",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0109,
+      "probability_30d": 0.0102,
       "data_points": 11,
-      "composite_risk_score": 0.0732,
+      "composite_risk_score": 0.0756,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -369,13 +369,13 @@
           "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
           "event_note": "",
           "direction": "risk_increase",
-          "probability_30d": 0.0109,
+          "probability_30d": 0.0102,
           "data_points": 11,
-          "change_vs_yesterday": -0.0004,
-          "change_vs_7d_ago": 0.0009
+          "change_vs_yesterday": -0.0007,
+          "change_vs_7d_ago": 0.0
         }
       ],
-      "situation_briefing": "PLA 对台活动维持低位。台湾国防部 6/11 通报（截至当日 6 时）侦获 2 架次共机、6 艘共舰、7 艘公务船，2 架次进入东部 ADIZ；6/10 为 1 架次共机、6 艘共舰、9 艘公务船，1 架次进入东南 ADIZ；6/9 为 1 架次共机、6 艘共舰、9 艘公务船。一周架次较 6/6 的 22 架次高位明显回落、连日维持个位数。美方注意力高度集中于伊以与黎南战线，台海议题 6/10-6/11 未现新增重大表态。$14B 整包对台军售仍处「abeyance」，防长 Hegseth 5/30 在 Shangri-La Dialogue 通篇未提 Taiwan、称美对台「立场未变」、未来军售「将由总统决定」；官方层面 6/10-6/11 亦无新增军售或高层访问消息。",
+      "situation_briefing": "PLA 对台活动近日维持低位、连日个位数共机架次。台湾国防部通报: 6/11 为 2 架次共机、6 艘共舰、7 艘公务船（2 架次进入东部 ADIZ），6/10 为 1 架次共机、6 艘共舰、9 艘公务船（1 架次进入东南 ADIZ），6/9 为 1 架次共机、6 艘共舰、9 艘公务船，整体较 6/6 的 22 架次高位明显回落。美方注意力高度集中于伊以停火、对伊新协议文本敲定与黎南地面战线，台海议题近日未现新增重大表态。$14B 整包对台军售仍处「abeyance」，防长 Hegseth 5/30 在 Shangri-La Dialogue 通篇未提 Taiwan、称美对台「立场未变」、未来军售「将由总统决定」；官方层面亦无新增军售或高层访问消息。",
       "risk_impact": {
         "industries": [
           "半导体",
