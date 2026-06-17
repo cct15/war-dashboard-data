@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-06-17T02:23:44+00:00",
+    "updated_at": "2026-06-17T02:39:16+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.9855,
+      "probability": 0.984,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -101,7 +101,7 @@
       "event_summary": "Next UK Prime Minister in 2026",
       "event_summary_en": "Next UK Prime Minister in 2026?",
       "category": "political",
-      "probability": 0.6895,
+      "probability": 0.69,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -203,7 +203,7 @@
       "event_summary": "Who will be the next Prime Minister of Israel after the next election",
       "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
       "category": "political",
-      "probability": 0.362,
+      "probability": 0.361,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -212,7 +212,7 @@
       "event_summary": "Fed rate hike in 2026",
       "event_summary_en": "Fed rate hike in 2026?",
       "category": "economic",
-      "probability": 0.355,
+      "probability": 0.345,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low",
@@ -289,7 +289,7 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2435,
+      "probability": 0.2505,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -378,7 +378,7 @@
       "event_summary": "New pandemic in 2026",
       "event_summary_en": "New pandemic in 2026?",
       "category": "health_pandemic",
-      "probability": 0.115,
+      "probability": 0.11,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-06-17T02:23:44+00:00",
+    "updated_at": "2026-06-17T02:39:16+00:00",
     "update_frequency": "daily",
     "description": "Geopolitical conflict risk probabilities derived from proprietary multi-source modeling.",
     "conflict_ids": [
@@ -73,10 +73,10 @@
           "event_description": "other",
           "event_note": "",
           "direction": "neutral",
-          "probability_30d": 0.2373,
+          "probability_30d": 0.2375,
           "data_points": 1,
-          "change_vs_yesterday": 0.0225,
-          "change_vs_7d_ago": 0.0977
+          "change_vs_yesterday": 0.0227,
+          "change_vs_7d_ago": 0.0979
         }
       ],
       "situation_briefing": "古巴 GAESA 二级制裁 6/5 deadline 生效后连锁撤退继续推进。支付层: 6/2 一家外资银行正式终止与 GAESA 金融臂 Fincimex 的关系，古巴央行宣布自 6/6 起全岛 Visa/Mastercard 交易完全停用，跨境结算仅剩 Mir、UnionPay 与现金通道。旅游层: 6/3 公布 Meliá 在岛上 34 家酒店中关闭 15 家、Iberostar 在 18 家中仅保留 6 家、Blue Diamond 全部退出运营；1-4 月入境游客累计 32.86 万人次、同比骤降 55.8%，4 月单月入境量仅 3.05 万人次、同比降 82%。能源层: 部分省份单日停电仍达 18-22 小时，5/13-14 夜 Havana 再现 cacerolazo 敲锅抗议，背景为 2025-12 美方扣押委内瑞拉运古油轮并对委油出口实施封锁。民生层: 全国发电能力不足需求一半，加方持续警告国民非必要不前往古巴，燃料、电力、食品、水与药品多重短缺。",
@@ -103,14 +103,110 @@
       }
     },
     {
+      "conflict_id": "iran_israel_us",
+      "label": "Iran-Israel/US",
+      "label_cn": "伊朗 - 美国/以色列",
+      "importance": "high",
+      "risk_level": "low",
+      "probability_30d": 0.0199,
+      "data_points": 3,
+      "composite_risk_score": 0.1095,
+      "anomaly_detected": false,
+      "risk_events": [
+        {
+          "event_type": "escalation",
+          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
+          "event_note": "地面入侵/正式宣战/核试验",
+          "direction": "risk_increase",
+          "probability_30d": 0.0199,
+          "data_points": 3,
+          "change_vs_yesterday": 0.0001,
+          "change_vs_7d_ago": -0.0076
+        },
+        {
+          "event_type": "ceasefire_cancel",
+          "event_description": "Existing ceasefire breaks down or is cancelled",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.1005,
+          "data_points": 1,
+          "change_vs_yesterday": null,
+          "change_vs_7d_ago": null
+        },
+        {
+          "event_type": "regime_change",
+          "event_description": "Government or regime falls/changes",
+          "event_note": "",
+          "direction": "risk_increase",
+          "probability_30d": 0.1506,
+          "data_points": 3,
+          "change_vs_yesterday": 0.1378,
+          "change_vs_7d_ago": 0.1284
+        },
+        {
+          "event_type": "diplomatic",
+          "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
+          "event_note": "已确认事件",
+          "direction": "neutral",
+          "probability_30d": 1.0,
+          "data_points": 3,
+          "change_vs_yesterday": 0.0,
+          "change_vs_7d_ago": 0.7504
+        },
+        {
+          "event_type": "ceasefire",
+          "event_description": "Ceasefire or peace agreement is reached",
+          "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
+          "direction": "risk_decrease",
+          "probability_30d": 1.0,
+          "data_points": 15,
+          "change_vs_yesterday": 0.0011,
+          "change_vs_7d_ago": 0.7637
+        },
+        {
+          "event_type": "other",
+          "event_description": "other",
+          "event_note": "部分事件已确认",
+          "direction": "neutral",
+          "probability_30d": 0.932,
+          "data_points": 2,
+          "change_vs_yesterday": -0.0315,
+          "change_vs_7d_ago": 0.5738
+        }
+      ],
+      "situation_briefing": "伊以美停火持续，正式签约进入倒计时。6/14 美伊达成结束近四个月战争的协议，巴方调停确认 6/19 将在瑞士正式签署 14 页谅解备忘录: 终止直接敌对、重开 Strait of Hormuz、解除美军海上封锁，并设 60 天窗口就伊核计划、高浓缩铀库存与制裁解除续谈。Trump 此前已下令停止对伊封锁；副总统 Vance 拟出席签约、称或开启中东「新时代」。停火宣布后全球市场走高、Brent 原油较高位回落。调停方称协议涵盖黎巴嫩冲突，但黎以与加沙的单独停火轨道仍各自承压（见以巴板块）。伊朗最高领袖 Mojtaba Khamenei 战争爆发后仍未公开露面；核计划细节谈判将在签约后的 60 天窗口推进。",
+      "risk_impact": {
+        "industries": [
+          "能源",
+          "航运",
+          "保险",
+          "军工",
+          "电力"
+        ],
+        "assets": [
+          "原油",
+          "天然气",
+          "黄金",
+          "美元",
+          "航运指数"
+        ],
+        "channels": [
+          "正式签约倒计时→ 避险溢价低位企稳",
+          "Hormuz 重开在即→ 油价/航运保险回落",
+          "美军解除封锁→ 海运风险下降",
+          "核谈 60 天窗口→ 不确定性后置"
+        ]
+      }
+    },
+    {
       "conflict_id": "israel_palestine",
       "label": "Israel-Palestine",
       "label_cn": "以色列 - 巴勒斯坦/黎巴嫩",
       "importance": "high",
       "risk_level": "low",
-      "probability_30d": 0.0515,
+      "probability_30d": 0.0516,
       "data_points": 5,
-      "composite_risk_score": 0.1106,
+      "composite_risk_score": 0.1091,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -118,10 +214,10 @@
           "event_description": "Existing ceasefire breaks down or is cancelled",
           "event_note": "以色列-哈马斯加沙停火被正式取消（不含黎巴嫩）",
           "direction": "risk_increase",
-          "probability_30d": 0.0515,
+          "probability_30d": 0.0516,
           "data_points": 5,
-          "change_vs_yesterday": -0.0604,
-          "change_vs_7d_ago": -0.0155
+          "change_vs_yesterday": -0.0603,
+          "change_vs_7d_ago": -0.0154
         },
         {
           "event_type": "ceasefire",
@@ -157,92 +253,6 @@
       }
     },
     {
-      "conflict_id": "iran_israel_us",
-      "label": "Iran-Israel/US",
-      "label_cn": "伊朗 - 美国/以色列",
-      "importance": "high",
-      "risk_level": "low",
-      "probability_30d": 0.0199,
-      "data_points": 3,
-      "composite_risk_score": 0.1088,
-      "anomaly_detected": false,
-      "risk_events": [
-        {
-          "event_type": "escalation",
-          "event_description": "Military escalation occurs (e.g., airstrikes, ground invasion, nuclear test, naval blockade)",
-          "event_note": "地面入侵/正式宣战/核试验",
-          "direction": "risk_increase",
-          "probability_30d": 0.0199,
-          "data_points": 3,
-          "change_vs_yesterday": 0.0001,
-          "change_vs_7d_ago": -0.0076
-        },
-        {
-          "event_type": "regime_change",
-          "event_description": "Government or regime falls/changes",
-          "event_note": "",
-          "direction": "risk_increase",
-          "probability_30d": 0.1505,
-          "data_points": 3,
-          "change_vs_yesterday": 0.1377,
-          "change_vs_7d_ago": 0.1283
-        },
-        {
-          "event_type": "diplomatic",
-          "event_description": "Major diplomatic event (e.g., nuclear deal, treaty withdrawal)",
-          "event_note": "已确认事件",
-          "direction": "neutral",
-          "probability_30d": 1.0,
-          "data_points": 3,
-          "change_vs_yesterday": 0.0,
-          "change_vs_7d_ago": 0.7504
-        },
-        {
-          "event_type": "ceasefire",
-          "event_description": "Ceasefire or peace agreement is reached",
-          "event_note": "短期停火协议达成，但军事冲突可能随时重燃",
-          "direction": "risk_decrease",
-          "probability_30d": 0.275,
-          "data_points": 18,
-          "change_vs_yesterday": -0.7239,
-          "change_vs_7d_ago": 0.0387
-        },
-        {
-          "event_type": "other",
-          "event_description": "other",
-          "event_note": "部分事件已确认",
-          "direction": "neutral",
-          "probability_30d": 0.9318,
-          "data_points": 2,
-          "change_vs_yesterday": -0.0317,
-          "change_vs_7d_ago": 0.5736
-        }
-      ],
-      "situation_briefing": "伊以美停火持续，正式签约进入倒计时。6/14 美伊达成结束近四个月战争的协议，巴方调停确认 6/19 将在瑞士正式签署 14 页谅解备忘录: 终止直接敌对、重开 Strait of Hormuz、解除美军海上封锁，并设 60 天窗口就伊核计划、高浓缩铀库存与制裁解除续谈。Trump 此前已下令停止对伊封锁；副总统 Vance 拟出席签约、称或开启中东「新时代」。停火宣布后全球市场走高、Brent 原油较高位回落。调停方称协议涵盖黎巴嫩冲突，但黎以与加沙的单独停火轨道仍各自承压（见以巴板块）。伊朗最高领袖 Mojtaba Khamenei 战争爆发后仍未公开露面；核计划细节谈判将在签约后的 60 天窗口推进。",
-      "risk_impact": {
-        "industries": [
-          "能源",
-          "航运",
-          "保险",
-          "军工",
-          "电力"
-        ],
-        "assets": [
-          "原油",
-          "天然气",
-          "黄金",
-          "美元",
-          "航运指数"
-        ],
-        "channels": [
-          "正式签约倒计时→ 避险溢价低位企稳",
-          "Hormuz 重开在即→ 油价/航运保险回落",
-          "美军解除封锁→ 海运风险下降",
-          "核谈 60 天窗口→ 不确定性后置"
-        ]
-      }
-    },
-    {
       "conflict_id": "india_pakistan",
       "label": "India-Pakistan",
       "label_cn": "印度 - 巴基斯坦",
@@ -250,7 +260,7 @@
       "risk_level": "low",
       "probability_30d": 0.0298,
       "data_points": 2,
-      "composite_risk_score": 0.1044,
+      "composite_risk_score": 0.1036,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -295,7 +305,7 @@
       "risk_level": "low",
       "probability_30d": 0.0112,
       "data_points": 11,
-      "composite_risk_score": 0.0816,
+      "composite_risk_score": 0.0817,
       "anomaly_detected": false,
       "risk_events": [
         {
@@ -340,7 +350,7 @@
       "risk_level": "low",
       "probability_30d": 0.0151,
       "data_points": 10,
-      "composite_risk_score": 0.0775,
+      "composite_risk_score": 0.0787,
       "anomaly_detected": false,
       "risk_events": [
         {
