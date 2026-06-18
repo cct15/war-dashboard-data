@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Futuristic Risk Intelligence",
-    "updated_at": "2026-06-17T02:39:16+00:00",
+    "updated_at": "2026-06-18T03:08:41+00:00",
     "update_frequency": "daily",
     "description": "High-impact political, economic, and natural disaster events with probability estimates.",
     "categories": [
@@ -15,7 +15,7 @@
       "event_summary": "Peru Presidential Election Winner",
       "event_summary_en": "Peru Presidential Election Winner",
       "category": "political",
-      "probability": 0.984,
+      "probability": 0.9845,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -24,7 +24,7 @@
       "event_summary": "Next Prime Minister of Ethiopia",
       "event_summary_en": "Next Prime Minister of Ethiopia?",
       "category": "political",
-      "probability": 0.97,
+      "probability": 0.977,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -33,7 +33,7 @@
       "event_summary": "California Governor Election Winner",
       "event_summary_en": "California Governor Election Winner",
       "category": "political",
-      "probability": 0.8835,
+      "probability": 0.887,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -51,7 +51,7 @@
       "event_summary": "英国首相斯塔默年内下台",
       "event_summary_en": "Starmer out by...?",
       "category": "political",
-      "probability": 0.795,
+      "probability": 0.86,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -75,7 +75,7 @@
       "event_summary": "美联储2026年全年不降息",
       "event_summary_en": "How many Fed rate cuts in 2026?",
       "category": "economic",
-      "probability": 0.6975,
+      "probability": 0.8255,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -101,7 +101,7 @@
       "event_summary": "Next UK Prime Minister in 2026",
       "event_summary_en": "Next UK Prime Minister in 2026?",
       "category": "political",
-      "probability": 0.69,
+      "probability": 0.7655,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "low"
@@ -143,7 +143,7 @@
       "event_summary": "俄罗斯9月议会选举：统一俄罗斯党获最多席位概率",
       "event_summary_en": "Which party will gain most seats in Russian Parliamentary Election?",
       "category": "political",
-      "probability": 0.575,
+      "probability": 0.565,
       "deadline": null,
       "data_confidence": "high",
       "importance": "high",
@@ -166,10 +166,36 @@
       }
     },
     {
+      "event_summary": "Fed rate hike in 2026",
+      "event_summary_en": "Fed rate hike in 2026?",
+      "category": "economic",
+      "probability": 0.515,
+      "deadline": "2026-12-31",
+      "data_confidence": "high",
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "科技"
+        ],
+        "assets": [
+          "美债(10Y)",
+          "美股(SPX)",
+          "黄金",
+          "美元指数"
+        ],
+        "channels": [
+          "油价通胀冲击逆转降息预期，加息概率从6%升至24%",
+          "债市'叛变'——长端利率飙升冲击估值"
+        ]
+      }
+    },
+    {
       "event_summary": "Brazil Presidential Election",
       "event_summary_en": "Brazil Presidential Election",
       "category": "political",
-      "probability": 0.515,
+      "probability": 0.505,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low",
@@ -203,62 +229,10 @@
       "event_summary": "Who will be the next Prime Minister of Israel after the next election",
       "event_summary_en": "Who will be the next Prime Minister of Israel after the next election?",
       "category": "political",
-      "probability": 0.361,
+      "probability": 0.377,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
-    },
-    {
-      "event_summary": "Fed rate hike in 2026",
-      "event_summary_en": "Fed rate hike in 2026?",
-      "category": "economic",
-      "probability": 0.345,
-      "deadline": "2026-12-31",
-      "data_confidence": "high",
-      "importance": "low",
-      "risk_impact": {
-        "industries": [
-          "金融",
-          "房地产",
-          "科技"
-        ],
-        "assets": [
-          "美债(10Y)",
-          "美股(SPX)",
-          "黄金",
-          "美元指数"
-        ],
-        "channels": [
-          "油价通胀冲击逆转降息预期，加息概率从6%升至24%",
-          "债市'叛变'——长端利率飙升冲击估值"
-        ]
-      }
-    },
-    {
-      "event_summary": "Fed rate cut by...",
-      "event_summary_en": "Fed rate cut by...?",
-      "category": "economic",
-      "probability": 0.28,
-      "deadline": "2026-12-20",
-      "data_confidence": "high",
-      "importance": "low",
-      "risk_impact": {
-        "industries": [
-          "金融",
-          "房地产",
-          "科技"
-        ],
-        "assets": [
-          "美债(10Y)",
-          "美股(SPX)",
-          "黄金",
-          "美元指数"
-        ],
-        "channels": [
-          "降息节奏决定流动性拐点，直接影响估值中枢",
-          "降息不及预期则高杠杆资产承压"
-        ]
-      }
     },
     {
       "event_summary": "Next French Presidential Election",
@@ -289,16 +263,42 @@
       "event_summary": "Democratic Presidential Nominee 2028",
       "event_summary_en": "Democratic Presidential Nominee 2028",
       "category": "political",
-      "probability": 0.2505,
+      "probability": 0.2435,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
     },
     {
+      "event_summary": "Fed rate cut by...",
+      "event_summary_en": "Fed rate cut by...?",
+      "category": "economic",
+      "probability": 0.2195,
+      "deadline": "2026-10-20",
+      "data_confidence": "high",
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "科技"
+        ],
+        "assets": [
+          "美债(10Y)",
+          "美股(SPX)",
+          "黄金",
+          "美元指数"
+        ],
+        "channels": [
+          "降息节奏决定流动性拐点，直接影响估值中枢",
+          "降息不及预期则高杠杆资产承压"
+        ]
+      }
+    },
+    {
       "event_summary": "Presidential Election Winner 2028",
       "event_summary_en": "Presidential Election Winner 2028",
       "category": "political",
-      "probability": 0.1615,
+      "probability": 0.1675,
       "deadline": null,
       "data_confidence": "high",
       "importance": "low"
@@ -307,7 +307,7 @@
       "event_summary": "美国2026年底前陷入衰退",
       "event_summary_en": "US recession by end of 2026?",
       "category": "economic",
-      "probability": 0.145,
+      "probability": 0.13,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -335,7 +335,7 @@
       "event_summary": "2026 年内汉坦病毒大流行",
       "event_summary_en": "Hantavirus pandemic in 2026?",
       "category": "health_pandemic",
-      "probability": 0.0375,
+      "probability": 0.0405,
       "deadline": "2026-12-31",
       "data_confidence": "high",
       "importance": "high",
@@ -360,10 +360,36 @@
       "event_summary": "Another US government shutdown & House Winner 2026",
       "event_summary_en": "Another US government shutdown & House Winner 2026?",
       "category": "economic",
-      "probability": 0.8095,
+      "probability": 0.8115,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
+    },
+    {
+      "event_summary": "Fed rate hike by...",
+      "event_summary_en": "Fed rate hike by...?",
+      "category": "economic",
+      "probability": 0.4095,
+      "deadline": "2026-07-20",
+      "data_confidence": "medium",
+      "importance": "low",
+      "risk_impact": {
+        "industries": [
+          "金融",
+          "房地产",
+          "科技"
+        ],
+        "assets": [
+          "美债(10Y)",
+          "美股(SPX)",
+          "黄金",
+          "美元指数"
+        ],
+        "channels": [
+          "油价通胀冲击逆转降息预期，加息概率从6%升至24%",
+          "债市'叛变'——长端利率飙升冲击估值"
+        ]
+      }
     },
     {
       "event_summary": "any Category 4 hurricane make landfall in the US in before 2027",
@@ -378,7 +404,7 @@
       "event_summary": "New pandemic in 2026",
       "event_summary_en": "New pandemic in 2026?",
       "category": "health_pandemic",
-      "probability": 0.11,
+      "probability": 0.105,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low"
@@ -396,7 +422,7 @@
       "event_summary": "10.0 or above earthquake before 2027",
       "event_summary_en": "10.0 or above earthquake before 2027?",
       "category": "natural_disaster",
-      "probability": 0.0435,
+      "probability": 0.0445,
       "deadline": "2026-12-31",
       "data_confidence": "medium",
       "importance": "low",
